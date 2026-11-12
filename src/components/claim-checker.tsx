@@ -29,8 +29,9 @@ export function claimRequest(claim: LearningClaim) { return { location_id: claim
 export function useLearningClaims() {
   const [claims, setClaims] = useState<LearningClaim[]>([]);
   const [error, setError] = useState("");
-  useEffect(() => { let active = true; learningRequest<LearningClaim[]>("/claims").then(data => { if (active) setClaims(data); }).catch(e => { if (active) setError(e.message); }); return () => { active = false; }; }, []);
-  return { claims, error };
+  const [attempt,setAttempt]=useState(0);
+  useEffect(() => { let active = true; learningRequest<LearningClaim[]>("/claims").then(data => { if (active) setClaims(data); }).catch(e => { if (active) setError(e.message); }); return () => { active = false; }; }, [attempt]);
+  return { claims, error, retry:()=>{setError("");setAttempt(value=>value+1);} };
 }
 export function LearningChart({ result, guided = true }: { result: LearningResult; guided?: boolean }) {
   const reduced = useReducedMotion();

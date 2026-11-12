@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import ts from 'typescript';
-const compiled=ts.transpileModule(fs.readFileSync('src/app/api/assistant/route.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const backendCode=ts.transpileModule(fs.readFileSync('src/lib/backend-url.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const backendModule='data:text/javascript;base64,'+Buffer.from(backendCode).toString('base64');
+const compiled=ts.transpileModule(fs.readFileSync('src/app/api/assistant/route.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText.replace("'@/lib/backend-url'",JSON.stringify(backendModule));
 const route=await import('data:text/javascript;base64,'+Buffer.from(compiled).toString('base64'));
 const originalFetch=globalThis.fetch;const key=process.env.OPENAI_API_KEY;const model=process.env.OPENAI_MODEL;let checks=0;
 const request=body=>new Request('http://localhost:3001/api/assistant',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});

@@ -48,6 +48,10 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 npm run dev
 ```
 
+## Hosting on v0 / Vercel
+
+This is a Next.js **and Python** application. Importing the frontend alone does not start the scientific API. Student Lab missions and analysis require that API. Deploy the backend using the included `render.yaml`, then set server-side `BACKEND_URL` to its actual HTTPS origin in v0's Development, Preview and Production environments. Sync the latest GitHub code and redeploy. See the complete [deployment guide](docs/DEPLOYMENT.md) and run `python scripts/check_academy_deployment.py` against your real frontend URL to verify all four missions. The repository includes deployment configuration; an actual hosted API still needs to be created and connected in your hosting account.
+
 ## Observatory experience update
 
 The approved “From Orbit to Evidence” redesign is implemented locally. It includes the cinematic South Asia globe and genuine NASA ISS film, Bengal Delta chapter, source gallery, atlas background switch, fixed-domain point legends, chart-first Research workbench, readable slope intervals, mission-specific NASA imagery, an interactive Claim Court evidence board, and a contextual bilingual assistant with session question history and explicit reviewed summaries. See [implementation and validation](docs/EXPERIENCE_IMPLEMENTATION.md) and [new NASA asset credits](docs/OBSERVATORY_ASSETS.md).

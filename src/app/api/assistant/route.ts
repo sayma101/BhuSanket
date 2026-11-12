@@ -1,3 +1,4 @@
+import {evidenceBackendUrl} from '@/lib/backend-url';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 const configured=()=>Boolean(process.env.OPENAI_API_KEY&&process.env.OPENAI_MODEL);
@@ -7,7 +8,7 @@ export async function POST(request:Request){
  if(!configured())return Response.json({detail:'Ask BhuSanket is not connected. Set OPENAI_API_KEY and OPENAI_MODEL in .env.local, then restart Next.js. No generated answer is being substituted.'},{status:503});
  let body;try{const raw=await request.text();if(raw.length>6000)throw Error();body=JSON.parse(raw);}catch{return Response.json({detail:'Invalid request.'},{status:400});}
  if(!body||typeof body!=='object'||typeof body.question!=='string'||!body.question.trim()||body.question.length>1200)return Response.json({detail:'Enter a question of at most 1200 characters.'},{status:400});
- const backend=process.env.BACKEND_URL||'http://127.0.0.1:8000';let context;
+ let backend:string;try{backend=evidenceBackendUrl();}catch{return Response.json({detail:'The science backend is not connected to this deployment. The project host must configure BACKEND_URL.'},{status:503});}let context;
  try{
   if(body.analysis_id){if(!/^bhu-[a-zA-Z0-9-]{1,100}$/.test(body.analysis_id))return Response.json({detail:'Invalid analysis ID.'},{status:400});const response=await fetch(`${backend}/api/v1/export/${body.analysis_id}.json`,{cache:'no-store',signal:AbortSignal.timeout(10000)});if(!response.ok)return Response.json({detail:'The selected evidence could not be verified. Run the investigation again.'},{status:409});const result=await response.json();if(result.analysis_id!==body.analysis_id)return Response.json({detail:'Evidence identity mismatch.'},{status:409});context={analysis_id:result.analysis_id,dataset:result.dataset,variable:result.variable,location:result.location,period:result.period,aggregation:result.aggregation,trend:result.trend,quality:result.quality,verdict:result.verdict,passport:result.passport,provenance:result.provenance};}
   else{const response=await fetch(`${backend}/api/v1/datasets`,{signal:AbortSignal.timeout(10000)});if(!response.ok)throw Error();context={catalogue:await response.json(),note:'No current analysis. Explain concepts only; do not imply a result.'};}

@@ -1,0 +1,40 @@
+{
+  "base_url": "http://127.0.0.1:3002",
+  "mission_count": 4,
+  "missions": [
+    {
+      "mission": "dhaka-summer",
+      "analysis_id": "bhu-d9bf4b77825f56cd",
+      "mode": "CACHED",
+      "periods": 34,
+      "backend_verdict": "NOT SUPPORTED ON THIS RECORD",
+      "passport_pdf_json": "passed"
+    },
+    {
+      "mission": "rajshahi-rain",
+      "analysis_id": "bhu-160d31a7122d0151",
+      "mode": "CACHED",
+      "periods": 34,
+      "backend_verdict": "NOT SUPPORTED ON THIS RECORD",
+      "passport_pdf_json": "passed"
+    },
+    {
+      "mission": "khulna-monsoon",
+      "analysis_id": "bhu-566f9ae37e2fb443",
+      "mode": "CACHED",
+      "periods": 34,
+      "backend_verdict": "SUPPORTED",
+      "passport_pdf_json": "passed"
+    },
+    {
+      "mission": "sylhet-rain",
+      "analysis_id": "bhu-dd47d9e3613f276f",
+      "mode": "CACHED",
+      "periods": 34,
+      "backend_verdict": "SUPPORTED",
+      "passport_pdf_json": "passed"
+    }
+  ],
+  "browser_qa": "Not performed by this API script",
+  "remote_deployment_claimed": false
+}

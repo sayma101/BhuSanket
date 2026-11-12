@@ -1,7 +1,6 @@
 import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
-  async rewrites() {
-    return [{ source: '/api/v1/:path*', destination: `${process.env.BACKEND_URL || 'http://127.0.0.1:8000'}/api/v1/:path*` }];
-  },
+  // Science requests use the runtime route handler, so hosted environment changes
+  // are not frozen into a build-time localhost rewrite.
 };
 export default nextConfig;

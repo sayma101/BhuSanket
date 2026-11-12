@@ -1,0 +1,34 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+const compile=file=>ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const moduleUrl=code=>'data:text/javascript;base64,'+Buffer.from(code).toString('base64');
+const helperUrl=moduleUrl(compile('src/lib/backend-url.ts'));
+const {evidenceBackendUrl}=await import(helperUrl);
+const route=await import(moduleUrl(compile('src/app/api/v1/[...path]/route.ts').replace("'@/lib/backend-url'",JSON.stringify(helperUrl))));
+const originalFetch=globalThis.fetch,backend=process.env.BACKEND_URL,hosted=process.env.VERCEL;
+let checks=0;const check=(label,fn)=>{fn();checks++;console.log('PASS',label);};
+const context=path=>({params:Promise.resolve({path})});
+const request=(path,body)=>new Request('https://frontend.example/api/v1/'+path,{method:body?'POST':'GET',...(body?{headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{})});
+try{
+ check('Local two-server setup retains its default',()=>assert.equal(evidenceBackendUrl({}),'http://127.0.0.1:8000'));
+ check('Hosted deployment cannot silently use missing/loopback backend',()=>{assert.throws(()=>evidenceBackendUrl({VERCEL:'1'}));assert.throws(()=>evidenceBackendUrl({VERCEL:'1',BACKEND_URL:'http://127.0.0.1:8000'}));});
+ check('Backend config rejects credentials and invalid protocols',()=>{assert.throws(()=>evidenceBackendUrl({BACKEND_URL:'file:///tmp/test'}));assert.throws(()=>evidenceBackendUrl({BACKEND_URL:'https://user:secret@example.com'}));});
+ delete process.env.BACKEND_URL;process.env.VERCEL='1';
+ const missing=await route.GET(request('claims'),context(['claims']));check('Missing deployment configuration gives actionable JSON',()=>assert.equal(missing.status,503));
+ process.env.BACKEND_URL='https://backend.example/';let forwarded;
+ globalThis.fetch=async(url,options)=>{forwarded={url,options};return Response.json([{id:'test-mission'}]);};
+ const claims=await route.GET(request('claims'),context(['claims']));check('Mission catalogue forwards to configured backend at request time',()=>{assert.equal(claims.status,200);assert.equal(forwarded.url,'https://backend.example/api/v1/claims');assert.equal(forwarded.options.cache,'no-store');});
+ const payload={location_id:'dhaka',variable:'T2M',start_year:1991,end_year:2024};
+ await route.POST(request('trend',payload),context(['trend']));check('Actual analysis request is forwarded unchanged',()=>{assert.equal(forwarded.options.method,'POST');assert.deepEqual(JSON.parse(forwarded.options.body),payload);});
+ globalThis.fetch=async()=>new Response('%PDF-test',{headers:{'Content-Type':'application/pdf','Content-Disposition':'attachment; filename="evidence.pdf"'}});
+ const pdf=await route.GET(request('export/bhu-test.pdf'),context(['export','bhu-test.pdf']));check('Binary exports retain their type and download header',()=>{assert.equal(pdf.headers.get('content-type'),'application/pdf');assert.match(pdf.headers.get('content-disposition'),/evidence.pdf/);});
+ assert.equal(await pdf.text(),'%PDF-test');
+ globalThis.fetch=async()=>Response.json({detail:'Invalid scientific selection'},{status:422});
+ const invalid=await route.POST(request('trend',{}),context(['trend']));check('Backend validation status/detail are preserved',()=>assert.equal(invalid.status,422));assert.equal((await invalid.json()).detail,'Invalid scientific selection');
+ globalThis.fetch=async()=>{throw Error('unreachable');};
+ const offline=await route.GET(request('claims'),context(['claims']));check('Unavailable service is explicit and retryable without fabricated data',()=>{assert.equal(offline.status,503);assert.equal(offline.headers.get('retry-after'),'15');});assert.equal((await offline.json()).code,'BACKEND_UNAVAILABLE');
+ process.env.BACKEND_URL='https://frontend.example';const loop=await route.GET(request('claims'),context(['claims']));check('Frontend self-proxy loop is rejected',()=>assert.equal(loop.status,503));
+ process.env.BACKEND_URL='https://backend.example';const traversal=await route.GET(request('claims'),context(['..']));check('Path traversal is rejected',()=>assert.equal(traversal.status,400));
+ console.log(`${checks} deployment/proxy checks passed; no hosted deployment claimed.`);
+}finally{globalThis.fetch=originalFetch;for(const [key,value]of [['BACKEND_URL',backend],['VERCEL',hosted]]){if(value===undefined)delete process.env[key];else process.env[key]=value;}}
