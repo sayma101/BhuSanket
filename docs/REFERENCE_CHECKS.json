@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "route": "/research",
+      "production_markup_and_styles": true
+    },
+    {
+      "route": "/student-lab",
+      "production_markup_and_styles": true
+    },
+    {
+      "route": "/claim-court",
+      "production_markup_and_styles": true
+    }
+  ],
+  "production_preview": "http://127.0.0.1:3002",
+  "typecheck": "passed",
+  "eslint": "passed",
+  "build": "passed",
+  "backend_tests": 26,
+  "http_checks": 21,
+  "assistant_mock_checks": 7,
+  "visual_review": [
+    "Desktop Research",
+    "Desktop Student mission series and hypothesis board",
+    "Desktop Court and computed statistical exhibit",
+    "390px Court",
+    "390px Student mission series",
+    "390px Research setup and evidence order"
+  ],
+  "manual_limit": "Complete student scoring and every Court verdict state were not replayed manually."
+}

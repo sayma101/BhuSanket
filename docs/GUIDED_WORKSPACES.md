@@ -1,0 +1,11 @@
+﻿# Guided workspace UX changes
+
+Research now has a three-part investigation journey, Simple Mode and Research Mode, explicit one-click analysis, and a prominent finding derived from the returned record. Simple Mode retains chart, slope, p-value, interval, coverage, comparison and export access. Research Mode opens detailed methods and the full statistical card. Existing sliders, full-record comparison, divergence, mission trail, impact lens and Data Passport remain. Explore retains its existing automatic-analysis behavior. Research selection changes clear assistant context, invalidate outstanding requests and label previous results until Run analysis verifies the new selection. Previous charts retain their actual analysed window.
+
+Claim Court now explains each supported claim's measurement, point, aggregation and period in plain language and shows a four-part journey. Existing actual evidence relationships and backend scoring remain. The completed verdict includes limitations and a downloadable JSON investigation report with the original claim, personal prediction/confidence, submitted verdict, backend score, original analysis and inspected contextual evidence. No verdict or statistical number is invented.
+
+Ask BhuSanket now supports question-prefilling from chart/exhibit actions, explicit chart and term actions, and a clearer unavailable-provider message. It does not automatically send a question when opening. Existing English/Bangla answers, verified evidence attachments, original source links, Data Passport downloads and labelled reviewed summaries remain. Provider credentials and scientific contracts are unchanged. No live AI provider call was made during validation.
+
+The Earth Science Academy remains unchanged in this iteration. No backend source, NASA measurement data, scientific algorithms or dependencies were changed.
+
+Validation: TypeScript, ESLint, production build, Academy scoring/content tests, assistant boundary checks with a mock provider, and 26 scientific/API tests passed. Native-browser screenshots inspected Research entry at 390 px and Claim Court journey at desktop width. These observations do not constitute a full manual end-to-end audit of every tool or exported download.

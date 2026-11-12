@@ -1,0 +1,12 @@
+{
+  "title": "Monsoons: Wet, Dry, Repeat \u2014 full visualization without narration",
+  "source_page": "https://svs.gsfc.nasa.gov/12254/",
+  "original_video": "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/4397_Monsoon_w_Tour_prores.webm",
+  "credit": "NASA/Goddard Space Flight Center; visualization: Greg Shirah and Kel Elkins",
+  "released": "2016-06-23",
+  "local_video": "public\\images\\academy-monsoon-2016.mp4",
+  "purpose": "Regional educational visualization using satellite data and models; not the Khulna POWER analysis",
+  "edit": "Entire silent visualization re-encoded, no narration claimed; bilingual BhuSanket descriptive guide supplied",
+  "bytes": 36255685,
+  "sha256": "f32d5c8d31600e5265eab2bd5734830aa277c50f447cd0e0c805f2cc525ab0d0"
+}

@@ -1,0 +1,74 @@
+{
+  "location": {
+    "id": "sylhet",
+    "label": "Sylhet",
+    "lat": 24.8949,
+    "lon": 91.8687,
+    "type": "point"
+  },
+  "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.8687&latitude=24.8949&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+  "retrieved_at": "2026-11-11T15:50:02.719891+00:00",
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.3",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "UTC",
+    "start": "19910101",
+    "end": "20241231"
+  },
+  "parameters": {
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "T2M_MAX": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Maximum"
+    },
+    "PRECTOTCORR": {
+      "units": "mm/day",
+      "longname": "Precipitation Corrected"
+    },
+    "RH2M": {
+      "units": "%",
+      "longname": "Relative Humidity at 2 Meters"
+    },
+    "ALLSKY_SFC_SW_DWN": {
+      "units": "MJ/m^2/day",
+      "longname": "All Sky Surface Shortwave Downward Irradiance"
+    }
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      91.869,
+      24.895,
+      103.47
+    ]
+  },
+  "qc": {
+    "fill_value": -999.0,
+    "excluded_values": {
+      "T2M": 0,
+      "T2M_MAX": 0,
+      "PRECTOTCORR": 0,
+      "RH2M": 0,
+      "ALLSKY_SFC_SW_DWN": 0
+    }
+  },
+  "source_type": "Analysis-ready gridded model/reanalysis meteorology; satellite-derived solar irradiance",
+  "time_standard": "UTC",
+  "source_sha256": "3da1050e14a5c950a896da566ed292e651596805546b41626ed138ca4a4be7a3",
+  "processed_sha256": "5deece6fae5f04dc88b0fa587ec5c5c5fcbe33a5e420d500d415005a51425d2f",
+  "raw_snapshot": "data/raw/snapshots/power-sylhet-3da1050e14a5c950a896da566ed292e651596805546b41626ed138ca4a4be7a3.json",
+  "processed_snapshot": "data/processed/snapshots/power-sylhet-5deece6fae5f04dc88b0fa587ec5c5c5fcbe33a5e420d500d415005a51425d2f.parquet"
+}

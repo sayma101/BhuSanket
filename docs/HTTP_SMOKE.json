@@ -1,0 +1,91 @@
+{
+  "base_url": "http://127.0.0.1:3002",
+  "passed": 21,
+  "checks": [
+    {
+      "check": "Page / returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /explore returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /research returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /student-lab returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /claim-court returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /claims returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Page /methods returns 200 with one main landmark",
+      "passed": true
+    },
+    {
+      "check": "Local NASA imagery",
+      "passed": true
+    },
+    {
+      "check": "Local font",
+      "passed": true
+    },
+    {
+      "check": "64 district boundaries",
+      "passed": true
+    },
+    {
+      "check": "Health through frontend proxy",
+      "passed": true
+    },
+    {
+      "check": "Real cached NASA case",
+      "passed": true
+    },
+    {
+      "check": "34 annual seasonal periods",
+      "passed": true
+    },
+    {
+      "check": "Passport statistical parity",
+      "passed": true
+    },
+    {
+      "check": "Window recalculation",
+      "passed": true
+    },
+    {
+      "check": "Full-record parity",
+      "passed": true
+    },
+    {
+      "check": "Insufficient evidence state",
+      "passed": true
+    },
+    {
+      "check": "Comparison with FDR",
+      "passed": true
+    },
+    {
+      "check": "Court shared result and original scoring",
+      "passed": true
+    },
+    {
+      "check": "Explicit synthetic fixture label",
+      "passed": true
+    },
+    {
+      "check": "Counter passport",
+      "passed": true
+    }
+  ],
+  "browser_visual_qa": "Not performed by this HTTP script; see separately recorded browser reviews."
+}

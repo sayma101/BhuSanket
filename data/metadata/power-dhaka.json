@@ -1,0 +1,74 @@
+{
+  "location": {
+    "id": "dhaka",
+    "label": "Dhaka",
+    "lat": 23.8103,
+    "lon": 90.4125,
+    "type": "point"
+  },
+  "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+  "retrieved_at": "2026-11-11T15:45:55.395221+00:00",
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.3",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "UTC",
+    "start": "19910101",
+    "end": "20241231"
+  },
+  "parameters": {
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "T2M_MAX": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Maximum"
+    },
+    "PRECTOTCORR": {
+      "units": "mm/day",
+      "longname": "Precipitation Corrected"
+    },
+    "RH2M": {
+      "units": "%",
+      "longname": "Relative Humidity at 2 Meters"
+    },
+    "ALLSKY_SFC_SW_DWN": {
+      "units": "MJ/m^2/day",
+      "longname": "All Sky Surface Shortwave Downward Irradiance"
+    }
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      90.412,
+      23.81,
+      10.06
+    ]
+  },
+  "qc": {
+    "fill_value": -999.0,
+    "excluded_values": {
+      "T2M": 0,
+      "T2M_MAX": 0,
+      "PRECTOTCORR": 0,
+      "RH2M": 0,
+      "ALLSKY_SFC_SW_DWN": 0
+    }
+  },
+  "source_type": "Analysis-ready gridded model/reanalysis meteorology; satellite-derived solar irradiance",
+  "time_standard": "UTC",
+  "source_sha256": "6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12",
+  "processed_sha256": "89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3",
+  "raw_snapshot": "data/raw/snapshots/power-dhaka-6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12.json",
+  "processed_snapshot": "data/processed/snapshots/power-dhaka-89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3.parquet"
+}

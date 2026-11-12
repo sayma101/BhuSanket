@@ -1,0 +1,208 @@
+{
+  "checked_at": "2026-11-12T10:23:02.663Z",
+  "base": "http://127.0.0.1:3002",
+  "missions": [
+    {
+      "mission_id": "dhaka-summer",
+      "title": "Heat in the Delta",
+      "objective": {
+        "en": "Tell weather from a long-term pattern and read the same season across years.",
+        "bn": "এক দিনের আবহাওয়া ও দীর্ঘ সময়ের ধরন আলাদা করো; বিভিন্ন বছরের একই ঋতু পড়তে শেখো।"
+      },
+      "media_title": {
+        "en": "Heat: from the ground to the air",
+        "bn": "তাপ: ভূমি থেকে বাতাসে"
+      },
+      "media_type": "BhuSanket authored animation; not a NASA video",
+      "local_video": null,
+      "delivery": null,
+      "source": "https://science.nasa.gov/earth/earth-observatory/global-maps/land-surface-temperature-anomaly/",
+      "image": {
+        "src": "/images/dhaka-landsat-2022.jpg",
+        "alt": "Landsat view of Dhaka and surrounding rivers",
+        "caption": {
+          "en": "Dhaka / Landsat 8 OLI / 20 March 2022. This image shows landscape, not air temperature.",
+          "bn": "ঢাকা / Landsat 8 OLI / ২০ মার্চ ২০২২। এটি ভূদৃশ্যের ছবি, বাতাসের তাপমাত্রার মাপ নয়।"
+        },
+        "credit": "NASA Earth Observatory / Lauren Dauphin / USGS Landsat",
+        "source": "https://science.nasa.gov/earth/earth-observatory/rising-flood-risks-in-bangladesh-150274/"
+      },
+      "explanation_sections": 4,
+      "transcript": "Bilingual descriptive guide; NASA films are silent, not a narration transcript",
+      "watch_questions": 3,
+      "concept_image_questions": 4,
+      "actual_chart_questions": 1,
+      "question_set": "dhaka-summer-v2",
+      "analysis_id": "bhu-d9bf4b77825f56cd",
+      "request": {
+        "location_id": "dhaka",
+        "variable": "T2M",
+        "aggregation": "summer",
+        "start_year": 1991,
+        "end_year": 2024,
+        "mode": "cached",
+        "autocorrelation": "auto"
+      },
+      "actual_dataset": {
+        "short_name": "POWER_DAILY",
+        "version": "v2.10.3",
+        "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+      },
+      "scientific_engine_changed": false
+    },
+    {
+      "mission_id": "rajshahi-rain",
+      "title": "Is Rainfall Changing?",
+      "objective": {
+        "en": "Read rainfall totals in millimetres and compare complete years fairly.",
+        "bn": "মিলিমিটারে বৃষ্টির মোট পরিমাণ পড়ো এবং পূর্ণ বছরের সঠিক তুলনা করো।"
+      },
+      "media_title": {
+        "en": "The Water Cycle",
+        "bn": "জলচক্র"
+      },
+      "media_type": "NASA film",
+      "local_video": "/images/academy-water-cycle-2009.mp4",
+      "delivery": {
+        "status": 206,
+        "range": "bytes 0-1023/4458601"
+      },
+      "source": "https://svs.gsfc.nasa.gov/10501/",
+      "image": {
+        "src": "/images/ganges-delta-2000.jpg",
+        "alt": "Historical Terra MODIS image of the Bengal delta",
+        "caption": {
+          "en": "Bengal delta / 28 December 2000. Regional context; not a local image of Rajshahi.",
+          "bn": "বঙ্গীয় বদ্বীপ / ২৮ ডিসেম্বর ২০০০। আঞ্চলিক প্রেক্ষাপট; রাজশাহীর স্থানীয় ছবি নয়।"
+        },
+        "credit": "Jacques Descloitres / MODIS Land Team / NASA Earth Observatory",
+        "source": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/"
+      },
+      "explanation_sections": 4,
+      "transcript": "Bilingual descriptive guide; NASA films are silent, not a narration transcript",
+      "watch_questions": 3,
+      "concept_image_questions": 4,
+      "actual_chart_questions": 1,
+      "question_set": "rajshahi-rain-v2",
+      "analysis_id": "bhu-160d31a7122d0151",
+      "request": {
+        "location_id": "rajshahi",
+        "variable": "PRECTOTCORR",
+        "aggregation": "annual",
+        "start_year": 1991,
+        "end_year": 2024,
+        "mode": "cached",
+        "autocorrelation": "auto"
+      },
+      "actual_dataset": {
+        "short_name": "POWER_DAILY",
+        "version": "v2.10.3",
+        "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+      },
+      "scientific_engine_changed": false
+    },
+    {
+      "mission_id": "khulna-monsoon",
+      "title": "Follow the Monsoon",
+      "objective": {
+        "en": "Compare a defined June–September rainfall season and separate rain from river or tidal water.",
+        "bn": "নির্ধারিত জুন–সেপ্টেম্বরের বৃষ্টির তুলনা করো; বৃষ্টি, নদী ও জোয়ারের পানি আলাদা ভাবো।"
+      },
+      "media_title": {
+        "en": "Life of the Monsoon — visualization only",
+        "bn": "মৌসুমি বায়ুর জীবনচক্র — শুধু visualization"
+      },
+      "media_type": "NASA film",
+      "local_video": "/images/academy-monsoon-2016.mp4",
+      "delivery": {
+        "status": 206,
+        "range": "bytes 0-1023/36255685"
+      },
+      "source": "https://gpm.nasa.gov/science/monsoons-wet-dry-repeat",
+      "image": {
+        "src": "/images/sundarbans-landsat-2000.jpg",
+        "alt": "Landsat composite of Sundarbans mangroves and tidal channels",
+        "caption": {
+          "en": "Sundarbans / Landsat 7 / 1999–2000 composite. Historical landscape context.",
+          "bn": "সুন্দরবন / Landsat 7 / ১৯৯৯–২০০০ যৌথ ছবি। পুরনো ভূদৃশ্যের প্রেক্ষাপট।"
+        },
+        "credit": "Jesse Allen / NASA Earth Observatory",
+        "source": "https://science.nasa.gov/earth/earth-observatory/sundarbans-bangladesh-7028/"
+      },
+      "explanation_sections": 4,
+      "transcript": "Bilingual descriptive guide; NASA films are silent, not a narration transcript",
+      "watch_questions": 3,
+      "concept_image_questions": 4,
+      "actual_chart_questions": 1,
+      "question_set": "khulna-monsoon-v2",
+      "analysis_id": "bhu-566f9ae37e2fb443",
+      "request": {
+        "location_id": "khulna",
+        "variable": "PRECTOTCORR",
+        "aggregation": "monsoon",
+        "start_year": 1991,
+        "end_year": 2024,
+        "mode": "cached",
+        "autocorrelation": "auto"
+      },
+      "actual_dataset": {
+        "short_name": "POWER_DAILY",
+        "version": "v2.10.3",
+        "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+      },
+      "scientific_engine_changed": false
+    },
+    {
+      "mission_id": "sylhet-rain",
+      "title": "Rain in the Northeast",
+      "objective": {
+        "en": "Distinguish image context from measured rainfall and make a careful long-term claim.",
+        "bn": "ছবির প্রেক্ষাপট ও মাপা বৃষ্টি আলাদা করো; দীর্ঘ সময়ের দাবি সাবধানে গড়ো।"
+      },
+      "media_title": {
+        "en": "Northeast rain: read the image, test the record",
+        "bn": "উত্তর-পূর্বের বৃষ্টি: ছবি পড়ো, তথ্য পরীক্ষা করো"
+      },
+      "media_type": "BhuSanket authored animation; not a NASA video",
+      "local_video": null,
+      "delivery": null,
+      "source": "https://science.nasa.gov/earth/earth-observatory/floods-in-bangladesh-18490/",
+      "image": {
+        "src": "/images/sylhet-modis-2007.jpg",
+        "alt": "Paired false-colour MODIS views of northeastern Bangladesh in May and June 2007",
+        "caption": {
+          "en": "Sylhet region / Terra & Aqua MODIS / May–June 2007. Paired false-colour figure; not a current flood map.",
+          "bn": "সিলেট অঞ্চল / Terra ও Aqua MODIS / মে–জুন ২০০৭। দুটি false-colour ছবি; বর্তমান বন্যার মানচিত্র নয়।"
+        },
+        "credit": "MODIS Rapid Response Team / NASA GSFC",
+        "source": "https://science.nasa.gov/earth/earth-observatory/floods-in-bangladesh-18490/",
+        "contain": true
+      },
+      "explanation_sections": 4,
+      "transcript": "Bilingual descriptive guide; NASA films are silent, not a narration transcript",
+      "watch_questions": 3,
+      "concept_image_questions": 4,
+      "actual_chart_questions": 1,
+      "question_set": "sylhet-rain-v2",
+      "analysis_id": "bhu-dd47d9e3613f276f",
+      "request": {
+        "location_id": "sylhet",
+        "variable": "PRECTOTCORR",
+        "aggregation": "annual",
+        "start_year": 1991,
+        "end_year": 2024,
+        "mode": "cached",
+        "autocorrelation": "auto"
+      },
+      "actual_dataset": {
+        "short_name": "POWER_DAILY",
+        "version": "v2.10.3",
+        "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+      },
+      "scientific_engine_changed": false
+    }
+  ],
+  "unique_video_paths": 2,
+  "duplicate_video_paths": 0,
+  "original_problem": "The Water Cycle was shared by Rajshahi, Khulna and Sylhet; all four missions used the same five questions. Heat already had an illustrated fallback. Written lessons and images were distinct but lacked explicit misconception and data bridges."
+}

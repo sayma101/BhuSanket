@@ -1,0 +1,300 @@
+{
+  "purpose": "Historical satellite context only; not a measurement layer",
+  "layer": "BlueMarble_ShadedRelief_Bathymetry",
+  "date": "2004 composite (not a single-date observation)",
+  "projection": "EPSG:3857",
+  "tile_matrix_set": "GoogleMapsCompatible_Level8",
+  "credit": "NASA Earth Observatory / NASA GIBS / Blue Marble, shaded relief and bathymetry",
+  "source": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+  "bounds": {
+    "west": 85,
+    "south": 18,
+    "east": 96,
+    "north": 30
+  },
+  "tiles": [
+    {
+      "key": "4/6/11",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/11.jpeg",
+      "bytes": 23390,
+      "sha256": "42ad2e31ada74d17f30414f0c1135648b13f6dc0982525b3e55148973734699b"
+    },
+    {
+      "key": "4/6/12",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/12.jpeg",
+      "bytes": 21600,
+      "sha256": "97d8625f83369b3195438c9e9526bb111e20927b68d13e5488c828760425f9cb"
+    },
+    {
+      "key": "4/7/11",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/11.jpeg",
+      "bytes": 9260,
+      "sha256": "abf844e56cd070b4369d2c80f267556b93eab6926ad5f516c8e52c4d5fbf9e8b"
+    },
+    {
+      "key": "4/7/12",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/12.jpeg",
+      "bytes": 12268,
+      "sha256": "0408eff37d5e440078329a6ca1b6aee7b5e0c6351f4f0d72f888105b3476b97e"
+    },
+    {
+      "key": "5/13/23",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/23.jpeg",
+      "bytes": 23381,
+      "sha256": "1ad121b86d5e0253f9aee347e564e13bef4479083f3483cfb43e8686dd420d6c"
+    },
+    {
+      "key": "5/13/24",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/24.jpeg",
+      "bytes": 23280,
+      "sha256": "b246cde559382a97c689a87a432888555c0cfa90118c27ff73695af241d5a33d"
+    },
+    {
+      "key": "5/14/23",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/23.jpeg",
+      "bytes": 9796,
+      "sha256": "b33d33e60754878d676b7d04a891499ae538aabee8d20d50dd81ee76b9a2ae7d"
+    },
+    {
+      "key": "5/14/24",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/24.jpeg",
+      "bytes": 11569,
+      "sha256": "0cac33daa81128992f53d0206f8d44d16337fc1a18f12c5faec6e533b109ea07"
+    },
+    {
+      "key": "6/26/47",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/47.jpeg",
+      "bytes": 26014,
+      "sha256": "0f4b90c1bc3029f78ac18d6deb9fa2f7b94220f60be8f06210af8548075444a3"
+    },
+    {
+      "key": "6/26/48",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/48.jpeg",
+      "bytes": 27530,
+      "sha256": "365a7cc2481289bff5e621ac8a5d25e0f09783bf0e6702d2d6ebbcc02230ea74"
+    },
+    {
+      "key": "6/26/49",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/49.jpeg",
+      "bytes": 26523,
+      "sha256": "1f5135cd205b0fb3f88f1808afa906a353a61bcb5e79f8e510b2d4054159e066"
+    },
+    {
+      "key": "6/27/47",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/47.jpeg",
+      "bytes": 16605,
+      "sha256": "cf0ea5b379300dc1069f4bf1a11b5c2c927be120aa0f4fa326c38c189f8bf9b1"
+    },
+    {
+      "key": "6/27/48",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/48.jpeg",
+      "bytes": 15653,
+      "sha256": "7a90663c7dd2d4d53192190d63d1b5785a6a7c959d4d252d3c2389fdcf1c2b5b"
+    },
+    {
+      "key": "6/27/49",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/49.jpeg",
+      "bytes": 16285,
+      "sha256": "12167fe9e7f743472bf43cfd6c12e6821f0a09287ebc5b979f801bb449ea49c9"
+    },
+    {
+      "key": "6/28/47",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/47.jpeg",
+      "bytes": 7627,
+      "sha256": "e0e7adce1b7dc372c7e7a7ace6ef1e24b695945c025895f4894234b03cdb4342"
+    },
+    {
+      "key": "6/28/48",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/48.jpeg",
+      "bytes": 8759,
+      "sha256": "5b90b47ad3156d9ed73bdffc4a4c4443ed74a1c0ed595b4878d19238e21f7cec"
+    },
+    {
+      "key": "6/28/49",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/49.jpeg",
+      "bytes": 14983,
+      "sha256": "5740b493410711d55298fc497e6962a68fee75691db5fa8ef23f1450917e79d1"
+    },
+    {
+      "key": "7/52/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/94.jpeg",
+      "bytes": 22021,
+      "sha256": "f9c33fa0aa419cef1273006c293213d26f69adfa395cd212556d050238d0657f"
+    },
+    {
+      "key": "7/52/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/95.jpeg",
+      "bytes": 22430,
+      "sha256": "4380c3ec23e1af68b7468482dedc5c0a75f3a0bd4225c939a143b8987222554c"
+    },
+    {
+      "key": "7/52/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/96.jpeg",
+      "bytes": 22785,
+      "sha256": "e8aa165b9035951d5221346e255545d150f459df3dc91fdcddd908ecd074787b"
+    },
+    {
+      "key": "7/52/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/97.jpeg",
+      "bytes": 28977,
+      "sha256": "6c283e1bee274babdcc0e0af475156db63c763166cf95711d64bc21bb1bc6d9a"
+    },
+    {
+      "key": "7/52/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/98.jpeg",
+      "bytes": 25731,
+      "sha256": "fca04527709c0ba6d6193fcf791892f66a226333133e0554d1f962469d7a3bd6"
+    },
+    {
+      "key": "7/53/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/94.jpeg",
+      "bytes": 24026,
+      "sha256": "01e0e3e582dd515bba9fed61fe648c78eefebd151ad61608959a3ec9cd0ac553"
+    },
+    {
+      "key": "7/53/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/95.jpeg",
+      "bytes": 24284,
+      "sha256": "2968c8c0a07e5f14e038f1c721db0d3b0d38c993ab31935c8091f38f1af6a4db"
+    },
+    {
+      "key": "7/53/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/96.jpeg",
+      "bytes": 24922,
+      "sha256": "ddd9da60788741e2f9bfa3592fca61b1b7d5323cd1a61e6075aa590202418d19"
+    },
+    {
+      "key": "7/53/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/97.jpeg",
+      "bytes": 22514,
+      "sha256": "e99cc7ae8be379c91b345450bbe8a616a672699c0e8d4f04e196aba398210e03"
+    },
+    {
+      "key": "7/53/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/98.jpeg",
+      "bytes": 26268,
+      "sha256": "d9ba5b8e22488eea6a71dadbea944d1aa11d729bc033d3b0e7f644f3f2010cb9"
+    },
+    {
+      "key": "7/54/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/94.jpeg",
+      "bytes": 15447,
+      "sha256": "1d8d5be1b393e86cd17abbf892348e586e3ee2ab31092d608df0dc8b9533342b"
+    },
+    {
+      "key": "7/54/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/95.jpeg",
+      "bytes": 14686,
+      "sha256": "0307d7d50674e9df739210ec779bf11773cc67d7a01cfd8f31dcbbbec1850aeb"
+    },
+    {
+      "key": "7/54/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/96.jpeg",
+      "bytes": 14488,
+      "sha256": "d6a7396415c90e6eb9cc4ed477f062122c1ea7926439a666670a08bb97133fb4"
+    },
+    {
+      "key": "7/54/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/97.jpeg",
+      "bytes": 14680,
+      "sha256": "256b28dab4eb086891c467d162fedd6e6cc54897e011ceb52359eacf58b6d1f0"
+    },
+    {
+      "key": "7/54/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/98.jpeg",
+      "bytes": 13543,
+      "sha256": "63f5b58c22ec3c2585d056d8248f184ed033c4c0b8c60796e7399811cc89b456"
+    },
+    {
+      "key": "7/55/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/94.jpeg",
+      "bytes": 14648,
+      "sha256": "3552959b5de4ee81ca2f89d4b4237c0ebd523a0a701c9c1b1e7d7aafe994311f"
+    },
+    {
+      "key": "7/55/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/95.jpeg",
+      "bytes": 15237,
+      "sha256": "3476d7e8a777f820948766d8b4b54130c36f81c65108fb411caa4da8e67b4882"
+    },
+    {
+      "key": "7/55/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/96.jpeg",
+      "bytes": 13503,
+      "sha256": "55df35564ab518021f091b4845c655bcc15b77c857790dfc89a6081d7e3479f6"
+    },
+    {
+      "key": "7/55/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/97.jpeg",
+      "bytes": 14959,
+      "sha256": "1a3e21116e44aac84c9d13a4f6798158cf28dde84112cd04be4931ff3dd89d04"
+    },
+    {
+      "key": "7/55/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/98.jpeg",
+      "bytes": 13814,
+      "sha256": "a2c7bc908c42d1c272b22fcc6a24908f2a3938d9868cad3a434fc9726a042489"
+    },
+    {
+      "key": "7/56/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/94.jpeg",
+      "bytes": 14047,
+      "sha256": "85f2f71587db8a1836b077f2025c6a027c5b9cf41143ef6e25ed393dc329fb87"
+    },
+    {
+      "key": "7/56/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/95.jpeg",
+      "bytes": 6662,
+      "sha256": "3a7c1ac9f2c6e3c412d42c0354529aa77392aae6f7280466b7f8e116821fd755"
+    },
+    {
+      "key": "7/56/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/96.jpeg",
+      "bytes": 5973,
+      "sha256": "0d4b67f6ec4d3822731d312d9b1af5930a0629e14965e1f419e98cb8826c5c90"
+    },
+    {
+      "key": "7/56/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/97.jpeg",
+      "bytes": 14046,
+      "sha256": "46cb1b20660a69fe60a75e511deaa3faa1a9e75bbcc0c30d8ca57424ac3299e8"
+    },
+    {
+      "key": "7/56/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/98.jpeg",
+      "bytes": 14246,
+      "sha256": "d4e8e83a2d604be692d4acda1377092910546972391d08193ec63b8e7f017f7a"
+    },
+    {
+      "key": "7/57/94",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/94.jpeg",
+      "bytes": 3291,
+      "sha256": "184d915aa83586300d808943f110df83a27e68ff2451f99706cbc3659f417985"
+    },
+    {
+      "key": "7/57/95",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/95.jpeg",
+      "bytes": 1935,
+      "sha256": "8ea06becceb14ae3da03f4b75d7ec198e2720bfb6f9d1e9b99899781faf639ea"
+    },
+    {
+      "key": "7/57/96",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/96.jpeg",
+      "bytes": 1880,
+      "sha256": "3d7fbdd966e8eb2131524fafa7e1b32f7b6e181135a5e78ae68c762393201abb"
+    },
+    {
+      "key": "7/57/97",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/97.jpeg",
+      "bytes": 9004,
+      "sha256": "cc5b7d96b09bd014da21c2d6d39da681b33d7c536a2eaad0923145476d2d046e"
+    },
+    {
+      "key": "7/57/98",
+      "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/98.jpeg",
+      "bytes": 13459,
+      "sha256": "3f86c45d46afecd18fad6c7a928a403334df8bcb776f02bfd30300d77b93d2ac"
+    }
+  ],
+  "failures": []
+}

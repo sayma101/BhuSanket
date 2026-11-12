@@ -1,0 +1,12 @@
+{
+  "passed": 5,
+  "checks": [
+    "Verified en summary parity",
+    "Verified bn summary parity",
+    "PDF export: valid header and content type",
+    "CSV export: full prepared period",
+    "AI provider unavailable state is explicit"
+  ],
+  "browser_visual_qa": "Not performed: browser access host unavailable",
+  "live_ai_provider": "Not configured; no live call made"
+}

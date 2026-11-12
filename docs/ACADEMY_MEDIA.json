@@ -1,0 +1,13 @@
+{
+  "title": "The Water Cycle",
+  "source_page": "https://svs.gsfc.nasa.gov/10501/",
+  "original_video": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.webmhd.webm",
+  "original_poster": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.00713_print.jpg",
+  "released": "2009-10-09",
+  "credit": "NASA/Goddard Space Flight Center",
+  "local_video": "public/images/academy-water-cycle-2009.mp4",
+  "edit": "Silent classroom encoding; full visual sequence retained, no narration claimed. BhuSanket provides a separate bilingual descriptive reading guide.",
+  "purpose": "Educational conceptual animation, not the mission measurement record",
+  "bytes": 4458601,
+  "sha256": "becdc9b060c8ff6595fece66f0165cf33264c95a1bb61d649c383ba697a3c28b"
+}

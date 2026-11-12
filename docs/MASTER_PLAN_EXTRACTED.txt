@@ -1,0 +1,1497 @@
+PAGE 1
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+01
+NASA SPACE APPS CHALLENGE 2026 / SYLHET TEAM
+BHUSANKET
+Earth Systems Discovery & Evidence Lab
+Read Earth’s signals. Trace every change.
+NASA DATA
+OBSERVE  /  TEST  /  UNDERSTAND
+FROM A QUESTION
+TO TRACEABLE EVIDENCE
+MASTER PRODUCT, UX & BUILD STRATEGY
+A complete blueprint for a distinctive, student-friendly and
+research-useful software prototype built for “Be an Earth System Trend
+Detective!”
+THE PRODUCT PROMISE
+Anyone can start with a real question about Earth, investigate it with NASA data, see a scientifically defensible trend result,
+and understand how strong the evidence is — in Bangla or English.
+Team size
+4–6 members
+Selected challenge
+Be an Earth System Trend Detective!
+First geography
+Bangladesh-wide pilot
+Product scope
+Bangladesh-first, globally reusable
+Working brand name. Final naming, domain and trademark availability are not yet verified.
+
+
+PAGE 2
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+02
+01 / THE DECISION
+One product. One shared scientific engine.
+Three ways to use it.
+This plan consolidates the earlier TrendSleuth and ClimaClue concepts, the mentor build-guide direction shared by
+the team, the selected NASA challenge and the Bangladesh Participants Guide. The goal is not to build a generic
+climate dashboard or a collection of disconnected demos.
+BhuSanket is a question-first investigation platform. A user chooses a place and asks whether a measurable
+Earth-system variable is changing. The platform retrieves a compatible NASA dataset, creates a time series,
+performs a reproducible statistical test and explains the result with its uncertainty and source history.
+The central user journey
+ASK a real
+ question
+LOCATE a place
+TRACE NASA data
+TEST the trend
+UNDERSTAND the
+ verdict
+The product’s five defining principles
+• Question-first: begin with “Is rainfall changing here?” rather than a technical parameter catalogue.
+• Evidence-first: every chart and verdict is tied to a named NASA product, variable, units, dates and processing
+steps.
+• Honest uncertainty: “no significant trend” and “not enough evidence” are valid outcomes, not failures.
+• Learning by doing: students and public users learn to test claims rather than simply consume charts.
+• Bangladesh-first, not Bangladesh-only: start with a national case library; keep the data workflow
+location-independent.
+THE X-FACTOR
+Claim Court turns the same scientific engine into a short evidence-investigation game. The Analysis-Window Slider lets
+users see whether a claim depends on a cherry-picked time period. A regional comparison reveals that one variable can
+trend differently in different places.
+What success looks like
+A first-time student can complete one real investigation without help; a researcher can reproduce the result from
+its Data Passport; and a judge can understand the product’s value in under ten seconds and see the working
+evidence trail in the live demo.
+Important: this strategy improves the quality of the entry but cannot guarantee a local award, global nomination or Global Award.
+
+
+PAGE 3
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+03
+02 / CHALLENGE FIT
+Map the product directly to the NASA
+challenge and score sheet.
+The selected challenge asks teams to identify Earth-science variables, acquire regional data, visualize sufficiently
+long time series, quantify change and test statistical significance. BhuSanket is designed around these exact
+requirements.
+Challenge requirement
+BhuSanket response
+Proof visible to a judge
+Identify variables of interest
+Question-to-variable catalogue: temperature,
+precipitation, vegetation, soil moisture and selected
+atmospheric variables.
+Question cards map to a clearly defined
+variable, unit and source.
+Acquire regional data
+NASA adapters with location selection; point series first,
+gridded area aggregation when validated.
+Data Passport names product, version,
+location, period and retrieval mode.
+Visualize a long time series
+Interactive chart with full record, missing-data marks,
+units, trend line and selected analysis window.
+A real NASA-derived series is visible and
+downloadable.
+Quantify and test the trend
+Mann–Kendall significance, Theil–Sen slope and
+confidence interval with quality checks.
+Direction, change per decade, p-value, CI
+and caution status.
+Make the result
+understandable
+Plain-language verdict, Bangla/English explanations,
+Student Lab and Claim Court.
+A first-time user can interpret the result
+without knowing the test names.
+Judging score sheet — from the Bangladesh Participants Guide
+ Criterion
+Points
+What our prototype must demonstrate
+Impact
+1–20
+Who benefits, how far the solution can reach, and a credible way to measure usefulness.
+Creativity
+1–20
+A fresh interaction and execution: claim investigation, window sensitivity and regional
+contrast.
+Validity
+1–20
+Real data, tested statistics, honest limitations, technical feasibility and usability.
+Relevance
+1–20
+NASA data is essential to the product, not a logo or decorative map layer.
+Presentation
+1–20
+A clear beginning, middle and end; a memorable live demonstration and polished
+visuals.
+Teamwork
+1–5
+Visible member roles, commits, issues, decisions and genuine collaboration.
+User experience
+1–5
+A beginner can use it without significant training.
+NASA data usage
+1–5
+NASA and, where appropriate, partner/third-party sources are clearly shown and
+credited.
+Challenge / repo / page
+0–3
+Correct challenge category, public repository and complete submitted project page.
+SCORING STRATEGY
+The guide gives 20 points each to Impact, Creativity, Validity, Relevance and Presentation; smaller points cover teamwork,
+user experience, NASA data usage and submission completeness. Build evidence for each criterion. Do not assume that a
+beautiful UI compensates for weak science.
+Source basis: user-provided Space Apps Challenge Participants Guide, judging section, pp. 13–17. The guide lists a maximum of 118
+points before any stated participation bonus; confirm all current rules with the Local Lead.
+
+
+PAGE 4
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+04
+03 / PRODUCT ARCHITECTURE
+Three workspaces — one shared engine.
+The platform should feel powerful without looking complicated. The user sees three clear paths. All paths use the
+same data, computation and evidence layer so results stay consistent.
+Workspace
+Who it serves
+Primary job
+What it contains
+Explore Earth
+Public, journalists, curious
+citizens
+Answer a real-life question about a
+selected place.
+Question-first map, variable cards,
+time series, simple verdict, comparison
+and evidence trail.
+Student Lab
+School and university
+learners, teachers
+Learn to investigate environmental
+evidence.
+Guided missions, hypothesis prompt,
+chart-reading lessons, Claim Court,
+glossary, reflection and classroom
+cases.
+Research Workspace
+Researchers, postgraduate
+students, advanced users
+Run reproducible trend
+investigations.
+Custom variable, region, time period,
+aggregation, dataset, quality filters,
+statistics and exports.
+The navigation should stay short
+ Top-level navigation
+Purpose
+Explore
+Default entry point for place- and question-led investigations.
+Student Lab
+Guided learning and missions.
+Claim Court
+The memorable evidence game; reachable from Explore and Student Lab.
+Research
+Advanced controls and export.
+Data & Methods
+NASA product catalogue, statistical method notes, limitations and provenance.
+Avoid separate, disconnected dashboards. A student should be able to open a case in Explore, switch to Student
+Lab to learn the method, and open the same case in Research to inspect the full metadata.
+PROGRESSIVE DISCLOSURE
+Show the question, chart and plain-language verdict first. Put p-values, test assumptions, aggregation choices and quality
+details behind clearly labelled “Evidence & methods” controls. Never force a beginner to learn Mann–Kendall before they
+can start.
+
+
+PAGE 5
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+05
+04 / VISUAL IDENTITY & UX
+Make it memorable — not a generic AI
+dashboard.
+The design direction is a modern scientific field notebook mixed with a calm mission-control instrument panel.
+Real maps, real chart geometry and evidence labels should create the visual identity. Avoid a template-heavy AI
+look.
+BHUSANKET   /   EARTH EVIDENCE LAB
+EXPLORE   STUDENT LAB   RESEARCH
+SELECT A PLACE
+ANNUAL TEMPERATURE  /  NASA POWER
+VERDICT
+INCREASING
+Slope / decade
+95% CI  +  p-value
+TRACE THE EVIDENCE
+NASA product  >  variable  >  processing  >  statistical test
+Visual system
+ Design token
+Recommended value
+Use
+Deep ink
+#132238 / #0B1728
+Navigation, dark workspace, strong contrast.
+Signal teal
+#168C88
+Primary actions, selected states, evidence paths.
+Warm paper
+#F6F5F0
+Reading surfaces, case notes, learning content.
+Evidence amber
+#D59A39
+Caution labels, uncertainty, important evidence markers.
+Alert red
+#B9574E
+Data-quality warnings only; never use as decoration.
+Distinctive visual motifs
+• Evidence-case labels: numbered case IDs, compact source tags and “case closed” stamps.
+• Contour-line / orbital mark: a subtle brand motif connecting Earth mapping and satellite observation.
+• Mission-to-evidence trail: a visual path from satellite/product to variable, processing, test and verdict.
+• Real data as visual material: maps, time-series traces, uncertainty bands and missing-data markers — not
+random stock space imagery.
+• Purposeful motion: slider recomputes results, map selection updates the chart, and the verdict stamp appears
+only after analysis completes.
+Interaction rules
+• One obvious primary action per screen.
+• Use plain labels such as “Choose a place” and “Test this claim”; keep advanced settings in a drawer.
+• Do not rely on colour alone: every verdict has a word, icon and explanatory text.
+• Use readable chart labels, keyboard-friendly controls, mobile-responsive layout and accessible contrast.
+
+
+PAGE 6
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+06
+• Avoid excessive gradients, glowing cards, decorative animations, crowded metric tiles and generic chatbot
+bubbles.
+THE 10-SECOND TEST
+Show the home screen to someone who has never heard the pitch. Within ten seconds they should say: “This tool checks
+how an Earth variable changes over time using NASA data.” If they cannot, simplify the page.
+Typography: use one clean sans-serif family (e.g., Inter, Manrope or Source Sans) with two weights. Keep all-caps for short labels
+only.
+
+
+PAGE 7
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+07
+05 / SCREEN-BY-SCREEN BLUEPRINT
+The first visit should feel obvious and inviting.
+The homepage is not a data dump. It is an invitation to investigate. A first-time user should start with a question,
+choose a place, and reach a meaningful result in a few clear steps.
+Home screen
+• Hero: “Earth is always changing. Are you seeing the real signal?”
+• One-sentence explanation: “Explore environmental changes using real NASA Earth-science data.”
+• Question tiles: Getting hotter? Rainfall changing? Vegetation changing? Water changing?
+• Primary action: “Start an investigation”. Secondary action: “Try a sample case”.
+• Three workspace cards: Explore Earth, Student Lab, Research Workspace.
+• Featured case: one verified Bangladesh investigation with source and period visible.
+• Trust strip: NASA data, transparent methods, Bangla/English, no fabricated results.
+Explore flow
+Choose question
+Select location
+Choose period
+Review data
+ source
+Run
+investigation
+Screen
+Required components
+Key interaction
+1. Explore landing
+Question cards, location search, Bangladesh map and global
+map toggle.
+Tap a question or select a point/district.
+2. Location picker
+Search, map, district selector, coordinate option and location
+context.
+Select point or district; app explains
+whether the value is a point/grid estimate
+or area average.
+3. Investigation setup
+Variable, dataset recommendation, start/end dates,
+annual/seasonal aggregation.
+Beginner sees recommended defaults;
+Research can open advanced settings.
+4. Evidence
+workspace
+Map, time-series chart, trend line, selected time window,
+source chip and comparison button.
+Hover/tap a year for exact value; drag the
+analysis-window slider.
+5. Verdict
+Trend direction, magnitude, significance, CI, quality state and
+“What does this mean?”
+Open the Evidence & methods drawer or
+compare another region.
+Important first-time behaviour
+The app should preselect a sensible variable and time period when a user asks a simple question. It should not ask
+the user to understand product codes, grid projections or statistical tests before the first result. Advanced choices
+remain available but optional.
+
+
+PAGE 8
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+08
+06 / CORE INVESTIGATION EXPERIENCE
+The evidence workspace is the heart of the
+product.
+The chart, map and verdict must tell one consistent story. The same prepared series must feed the chart,
+statistical calculations, comparison and export.
+Evidence workspace layout
+ Area
+Content
+Top context
+Question, selected place, selected period, dataset chip and units.
+Map panel
+Selected location highlighted; neighbouring region available for comparison; boundary and grid context
+explained.
+Chart panel
+Observed annual/seasonal values, missing periods, Theil–Sen line and selected-window overlay.
+Verdict panel
+Increasing / decreasing / no significant trend / not enough evidence / window-sensitive.
+Evidence drawer
+Dataset ID, product version, variable, source URL, retrieval date, aggregation, QC, missingness and
+method.
+Actions
+Compare another place, change analysis window, download case report, open Student Lab.
+Verdict card — mandatory fields
+ Field
+Example format (illustrative only)
+Direction
+Increasing / decreasing / no significant trend detected
+Magnitude
+Theil–Sen slope: +X °C per decade
+Statistical evidence
+Mann–Kendall p-value; 95% confidence interval
+Coverage
+Number of valid years / total period; missing percentage
+Reliability state
+Evidence sufficient / caution / insufficient
+Interpretation
+One short sentence in plain English or Bangla
+Limitations
+Grid scale, source type, seasonal choice, autocorrelation or data gaps.
+TWO DIFFERENT “NO” STATES
+“No significant trend detected” means the test did not find sufficient evidence of a monotonic trend in the selected record.
+“Not enough evidence” means coverage, record length, data quality or unresolved assumptions prevent a defensible
+verdict. These must never be merged into one vague status.
+Do not say that a place is “safe”, “unsafe”, “doomed”, “flood-prone next year” or “caused by climate change”
+based on a trend test alone. Trend detection is not forecasting or causal attribution.
+
+
+PAGE 9
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+09
+07 / STUDENT LAB
+Turn Earth science into a guided investigation.
+Students should not feel they are opening a research instrument panel. They should feel they are solving a small
+scientific mystery with real data.
+A guided mission has six steps
+Mission story
+Make a
+hypothesis
+Explore NASA
+ chart
+Inspect evidence
+Choose verdict
+Reflect & learn
+Student feature
+How it works
+Learning outcome
+Mission cards
+Short real-world prompts such as “Is the monsoon changing
+in this region?”
+Connect science to place and lived
+experience.
+Hypothesis prompt
+Student predicts increasing, decreasing or uncertain before
+seeing the verdict.
+Understand that science tests
+expectations.
+Chart-reading coach
+Small tips for axis, units, period, missing values and trend
+line.
+Read a graph rather than just look at it.
+Plain-language glossary
+Trend, slope, p-value, confidence interval, seasonality and
+grid cell in Bangla/English.
+Reduce technical barriers.
+Evidence reflection
+Student writes why they selected a verdict and what
+evidence changed their mind.
+Practice reasoning and scientific humility.
+Teacher pack
+Five prepared case worksheets and discussion questions.
+Make the product usable in a classroom.
+Student experience levels
+ Level
+Case design
+Unlock condition
+Rookie
+Clear trend, clean chart, one variable and one place.
+Correctly identify direction and basic
+meaning.
+Detective
+Noisy data, seasonal pattern or missing years.
+Inspect evidence and explain uncertainty.
+Chief Detective
+Window-sensitive claim, opposite regional patterns or
+data-quality trap.
+Use multiple evidence tools and justify a
+cautious verdict.
+Student Lab should include a pre/post chart-reading quiz. Do not claim educational impact until actual users
+complete it and results are recorded.
+
+
+PAGE 10
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+10
+08 / SIGNATURE EXPERIENCE
+Claim Court — the feature judges should
+remember.
+Claim Court is not a separate toy. It is a playable version of the same scientific investigation engine used by
+Explore and Research. Every chart and score is generated from the actual selected NASA data.
+The round
+Read the claim
+Make a
+prediction
+Spend 3 evidence
+ tokens
+Inspect real
+ data
+Stamp a verdict
+Evidence tool
+What it reveals
+Full record
+The complete available time series, not just the short interval quoted in a claim.
+Season check
+Like-for-like seasonal totals or a validated seasonal treatment.
+Trend test
+Slope, p-value, 95% confidence interval and quality warnings.
+Neighbour check
+The same variable in a second location to test whether the pattern is regional.
+Verdict choices
+ Stamp
+Meaning
+SUPPORTED
+The full-record analysis supports the claimed direction under the defined variable, location
+and period.
+WINDOW-DEPENDENT
+A selected sub-period tells a materially different story from the full record.
+NOT SUPPORTED ON THIS RECORD
+The full record does not support the claimed direction.
+NOT ENOUGH EVIDENCE
+The record is too short, gappy, low quality or blocked by unresolved statistical
+assumptions.
+Scoring rules
+Suggested game scoring: +3 for a correct final verdict; +1 for each unspent evidence token; at least one tool must
+be used; −2 for confidently stamping a misleading claim as SUPPORTED. Add a confidence slider: a confident
+wrong answer should cost more than an appropriately cautious answer. Keep the score explanation visible.
+Pilot cases
+• Dhaka summer temperature claim — test a defined summer air-temperature metric and full record.
+• Rajshahi annual rainfall claim — define “drier” explicitly as a change in annual rainfall total; do not imply drought
+without a separate definition.
+• Khulna monsoon rainfall claim — compare like-for-like monsoon totals.
+• Add Sylhet/Sunamganj as a case only after verifying data availability and choosing a defensible variable.
+CASE SELECTION RULE
+These are candidate questions, not pre-announced findings. Run the analysis first, then choose cases that provide a
+balanced mix of supported, window-dependent, unsupported and insufficient-evidence outcomes. Never write the verdict in
+advance.
+
+
+PAGE 11
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+11
+09 / RESEARCH WORKSPACE
+Give researchers control without
+overwhelming everyone else.
+Research Workspace is the advanced path, not the default landing page. It should make analysis reproducible and
+transparent rather than adding complexity to the public experience.
+Control
+Expected behaviour
+Variable catalogue
+Searchable variables grouped by land, atmosphere, water and vegetation; each includes unit,
+source and meaning.
+Dataset picker
+Only show products compatible with the variable, period, region and selected temporal
+aggregation.
+Geography
+Point, grid cell or polygon selection; show the actual spatial support and valid-pixel coverage.
+Time range
+Display the actual available dates; warn about short records and gaps.
+Aggregation
+Annual, calendar month, like-for-like season or scientifically appropriate seasonal method.
+Quality controls
+Allow inspection of QC flags, fill values, missingness and excluded observations.
+Statistical settings
+Mann–Kendall variant, autocorrelation handling, confidence level and multiple-testing adjustment
+where applicable.
+Comparison
+Compare the same variable and compatible product across locations; do not compare unlike
+measurements.
+Export
+CSV time series, JSON result, chart image and a reproducibility report / PDF.
+Research output package
+• Raw or source-linked data reference and the processed time series.
+• A Data Passport with collection version, parameter, units, period and spatial context.
+• Aggregation and quality-control decisions.
+• Statistical test, slope, confidence interval, p-value and assumptions.
+• Code / app version and retrieval timestamp.
+• A short interpretation that distinguishes result from hypothesis or causal explanation.
+REPRODUCIBILITY TEST
+A researcher should be able to take the exported Data Passport and processed series, repeat the same method and recover
+the same numerical result within the documented tolerance.
+
+
+PAGE 12
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+12
+10 / SIGNATURE FEATURES
+Six memorable experiences, delivered in a
+controlled order.
+The product can have a rich identity without having dozens of disconnected features. The first two signature
+moments must be polished; the remaining ones strengthen the product when the core is stable.
+Feature
+User-visible experience
+Build priority
+Why it matters
+1. Analysis-Window
+Slider
+Drag start/end years; the app recomputes the
+selected-period trend and keeps the full-record
+result beside it.
+P1 — first WOW
+Makes cherry-picking and
+time-window sensitivity
+visible in seconds.
+2. Trend Divergence
+Detector
+Same variable, two places; shows
+increasing/decreasing/no-significant-trend side by
+side.
+P1 — first WOW
+Directly demonstrates that
+the same Earth process can
+produce different regional
+signals.
+3. Climate Claim Checker
+Choose a preset claim; app maps it to place,
+variable, season and period, then tests it.
+P1
+Practical public and
+journalism use; avoids an
+unreliable free-text AI
+verdict.
+4. Claim Court
+Three evidence tokens, evidence tools, prediction,
+confidence and verdict stamp.
+P1 — signature
+Turns statistics into a short
+learning game using real
+data.
+5. NASA
+Mission-to-Evidence Trail
+Visual path from satellite / model product to
+variable, processing, test and verdict.
+P1/P2
+Shows judges exactly how
+NASA data powers the
+solution.
+6. Earth Impact Lens
+Carefully worded context about why a trend may
+matter for agriculture, water, education or planning.
+P2
+Connects scientific results to
+human relevance without
+claiming causation.
+Optional extensions
+• Hot-days counter: count days above a user-defined, clearly stated temperature threshold per year; validate daily
+data and threshold choice before release.
+• Shareable Case Card: export one-page evidence summary with chart, verdict, source and caveats.
+• Daily Case: one verified case per day after the core product is stable.
+• AI variable helper: suggests candidate variables from a user question but asks the user to confirm; it does not
+choose the statistical answer.
+Do not build in the first release: forecasting, causal attribution, a general-purpose climate chatbot, a large social
+network, complex multi-agent orchestration or every NASA dataset.
+
+
+PAGE 13
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+13
+11 / NASA DATA STRATEGY
+Start with a small, defensible data portfolio.
+The mentor guide and team notes identify NASA POWER, MODIS/VIIRS, GPM IMERG and GRACE as useful data
+directions. The wider catalogue below adds other NASA Earth-science products. Every product must pass a
+feasibility and quality check before it is enabled in the interface.
+Tier 0 — first working pipeline
+ Dataset / product
+What it can contribute
+Use in BhuSanket
+Caution
+NASA POWER Daily /
+Monthly
+Meteorological time series: T2M,
+T2M_MAX, PRECTOTCORR and
+selected solar / humidity
+parameters.
+First pipeline for temperature and
+precipitation questions; point series
+and cached daily/monthly data.
+Analysis-ready gridded /
+model-derived data. Show
+product parameter, units,
+time standard and spatial
+support; do not label it a
+raw satellite measurement.
+Tier 1 — first satellite-based extensions
+ Dataset / product
+Variable
+Use
+Resolution / notes
+GPM IMERG V07B
+Precipitation rate /
+accumulation
+Rainfall and monsoon trend; regional
+grid and comparison.
+About 0.1° / 10 km; 30-minute source
+data; daily/monthly aggregation
+possible; retrospective Final Run is
+preferable for research comparisons.
+Terra MODIS
+MOD11A2.061
+Day/night land-surface
+temperature
+Surface heating patterns and
+day/night contrast.
+8-day composite, 1 km; use QC layers
+and scale factor; LST is not 2-m air
+temperature.
+Terra MODIS
+MOD13Q1.061
+NDVI / EVI vegetation
+indices
+Vegetation greenness trends.
+16-day, 250 m product family; apply
+QA and scale factor; check the current
+collection specification before coding.
+VIIRS land products
+LST / vegetation / fire,
+depending on selected
+product
+Higher-frequency or complementary
+satellite view.
+Select an exact product/version first;
+verify temporal coverage, QA and
+comparability with MODIS.
+DATA TYPE MUST BE VISIBLE
+POWER and MERRA-2 are model/reanalysis-based data products; IMERG is a multi-satellite precipitation estimate; MODIS
+and VIIRS products are satellite-derived observations or retrievals. The interface must identify the source type accurately.
+Recommended initial sequence: POWER temperature + precipitation first; then one GPM IMERG rainfall case; then
+one MODIS LST or NDVI case. Do not promise that all three will be live until the ingestion and quality-control
+pipelines pass.
+
+
+PAGE 14
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+14
+12 / EXPANDED NASA CATALOGUE
+Add more NASA missions only when the
+question justifies them.
+These datasets make the product expandable beyond temperature and rainfall. They should appear as a Research
+Workspace catalogue with clear “available”, “planned” or “not yet validated” status.
+Dataset / mission
+Possible variables
+Potential investigation
+Key limitation /
+implementation note
+SMAP
+Surface and root-zone soil
+moisture
+Soil moisture change and
+land-surface water availability.
+Daily products exist at different
+resolutions; select one collection
+and QC scheme. Record is shorter
+than POWER.
+GRACE / GRACE-FO
+Terrestrial water storage
+anomalies
+Large-basin or regional-scale water
+storage trends.
+Monthly and coarse spatial
+support; not a local well-level
+groundwater measurement.
+Basin-scale interpretation is safer.
+MERRA-2
+Atmospheric temperature,
+humidity, wind, aerosols and
+other reanalysis fields
+Long-term atmospheric conditions
+and selected Earth-system variables.
+Reanalysis, not a direct
+single-satellite sensor product; grid
+is coarse relative to a city or
+district.
+GLDAS
+Soil moisture,
+evapotranspiration, runoff,
+surface temperature and
+water storage variables
+Land-surface water and energy
+balance investigations.
+Model output; verify product
+version, land-surface model,
+forcing and temporal frequency.
+AIRS / CLIMCAPS
+Atmospheric temperature and
+water-vapour profiles; trace
+gases
+Atmospheric structure and moisture
+changes.
+Vertical profile / retrieval data
+need careful pressure-level and QC
+handling; not equivalent to
+near-surface temperature.
+OMI / Aura
+Ozone, NO2, SO2,
+aerosol-related products
+Atmospheric composition and
+air-quality-related trend studies.
+Column or swath measurements;
+choose a specific gridded product
+and handle coverage / quality
+flags.
+Optional contextual / validation sources
+Where access, licensing and quality metadata allow, BhuSanket may add Bangladesh Meteorological Department
+station data, Bangladesh Water Development Board hydrological records or other trusted agency observations as
+independent context or validation. These sources must be clearly labelled as non-NASA and must not replace the
+NASA data at the centre of the challenge response.
+Dataset onboarding checklist
+• Exact collection short name and version confirmed.
+• Variable / band, units, scale factor, fill value and QA fields understood.
+• Temporal coverage and resolution checked for the requested period.
+• Spatial resolution and grid support displayed accurately.
+• Data access method, credentials and redistribution terms checked.
+• One small-area sample file successfully opened and plotted.
+• Missingness and valid-pixel coverage computed.
+• A repeatable adapter and provenance record added before the UI exposes the dataset.
+
+
+PAGE 15
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+15
+13 / GEOGRAPHIC STRATEGY
+Bangladesh is our first case library — not our
+boundary.
+The user competes from Sylhet, but the software should not be locked to Sylhet or to one region. Bangladesh-wide
+discovery gives the project local relevance; a location-independent data adapter supports global reuse.
+Candidate Bangladesh demonstration cases
+ Location
+Candidate question
+Possible variable / source
+Selection rule
+Dhaka
+Are summer temperatures
+changing?
+POWER T2M / T2M_MAX; later MODIS
+LST for surface temperature.
+Define season and distinguish
+air temperature from
+land-surface temperature.
+Rajshahi
+Is annual rainfall changing?
+POWER precipitation; later GPM
+IMERG.
+Define “drier” as a measured
+rainfall metric; do not equate it
+automatically with drought.
+Khulna
+Is monsoon rainfall changing?
+POWER precipitation / GPM IMERG
+seasonal accumulation.
+Use like-for-like monsoon
+totals and disclose
+missingness.
+Sylhet / Sunamganj
+How are rainfall patterns
+changing?
+POWER and GPM IMERG; selected
+seasonal or annual metrics.
+Use verified data and avoid
+implying a forecast of flood or
+flash-flood risk.
+Point versus district average — a critical rule
+• POWER point request: a coordinate or representative point returns a point/grid estimate. Do not label it “the
+district average”.
+• Gridded products: for a district polygon, aggregate valid pixels inside the boundary using a documented method;
+report the number/percentage of valid pixels and area weighting where appropriate.
+• Global case: add one non-Bangladesh location only after verifying the same product, units, period and analysis
+path. A map that looks global is not proof that every location is supported.
+Bangladesh-first, global-ready data architecture
+Bangladesh case
+ library
+Location-
+independent
+ adapters
+Compatible NASA
+ products
+Reusable trend
+ engine
+Global
+investigations
+PILOT RULE
+Use Dhaka, Rajshahi, Khulna and Sylhet/Sunamganj as candidate demonstration locations. Calculate the trends first; feature
+only results that pass data and statistical checks. The locations are pilot choices, not pre-claimed scientific findings.
+
+
+PAGE 16
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+16
+14 / SCIENTIFIC ENGINE
+Numbers must be defensible — and
+repeatable.
+The statistical engine is deterministic Python code. It receives a prepared time series and returns a structured
+result. An AI model may explain that result, but it must never calculate or invent the statistics.
+RAW DATA
+QUALITY CHECK
+AGGREGATE
+MANN–KENDALL
+THEIL–SEN + CI
+VERDICT
+Stage
+Implementation rule
+1. Ingest
+Preserve source file / API response, product version, retrieval timestamp, units and original metadata.
+2. Clean
+Parse time, apply scale factors and fill values, inspect quality flags, remove invalid observations and record
+gaps. Never silently interpolate.
+3. Aggregate
+Temperature: annual mean or mean of daily maxima, explicitly defined. Rainfall: annual or monsoon total.
+Use like-for-like seasons.
+4. Trend test
+Mann–Kendall for monotonic trend; use a seasonal method or defensible seasonal aggregation when
+seasonality matters.
+5. Slope
+Theil–Sen slope; report change per year or decade in original units and a 95% confidence interval.
+6. Dependence
+Inspect serial autocorrelation. If material, apply a validated correction (e.g., Hamed–Rao) or withhold the
+significance verdict.
+7. Multiple testing
+When scanning many districts / variables, control false discoveries (e.g., Benjamini–Hochberg FDR) and label
+adjusted results.
+8. Validate
+Unit-test rising, falling, flat, seasonal, tied, missing and autocorrelated synthetic series; compare outputs
+with a trusted implementation.
+Result states
+ State
+Meaning shown to user
+Significant increase / decrease
+Evidence supports the direction; show slope, p-value and CI.
+No significant trend detected
+The test did not find sufficient evidence of a monotonic trend. This does not prove that
+nothing changed.
+Not enough evidence
+Coverage, record length, data quality or unresolved assumptions prevent a reliable
+verdict.
+Window-sensitive
+The selected interval and full record lead to materially different conclusions.
+STATISTICAL SAFETY
+Statistical significance is not the same as practical importance. A small change can be significant; a large-looking change
+can be uncertain. Show magnitude and uncertainty together. Do not claim causation or forecast future conditions from a
+trend test.
+
+
+PAGE 17
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+17
+15 / TRUST, AI AND PROVENANCE
+Every result needs a traceable NASA Data
+Passport.
+A user or judge should be able to answer: where did this number come from, how was it processed, and what can
+it legitimately tell us?
+Data Passport — required fields
+ Group
+Fields
+Identity
+Analysis ID; dataset short name; collection / version; NASA DAAC or API; source URL.
+Measurement
+Variable / band / parameter; unit; scale factor; source type (satellite retrieval, multi-satellite estimate,
+model or reanalysis).
+Space & time
+Point coordinates or polygon ID; grid / spatial resolution; temporal resolution; start/end dates; time
+standard.
+Processing
+Quality flags used; fill values removed; aggregation rule; seasonal definition; missing count / percentage;
+valid-pixel coverage.
+Statistics
+Test variant; slope method; slope per decade; p-value; confidence interval; autocorrelation decision;
+multiple-test correction.
+Reproducibility
+Retrieval timestamp; cached/live status; software / code version; assumptions; limitations.
+AI boundary
+• AI may translate a verified result, explain slope / p-value / confidence interval in simple Bangla or English, and
+suggest a candidate variable for a user question.
+• AI must receive a locked result object. It may not change numerical fields, invent observations, choose the
+statistical verdict or claim causation.
+• The UI must distinguish generated explanation from computed evidence.
+• Log the AI tool, model, prompt, input result and output for the project’s documentation and disclosure.
+Suggested result object
+ {
+"analysis_id": "case-001",
+"dataset": {"short_name": "POWER_DAILY", "version": "recorded-version"},
+"variable": {"id": "T2M", "unit": "degC"},
+"location": {"type": "point", "label": "Dhaka", "lat": "...", "lon": "..."},
+"period": {"start": "YYYY-MM-DD", "end": "YYYY-MM-DD"},
+"aggregation": "annual_mean",
+"quality": {"valid_observations": 0, "missing_percent": 0.0},
+"trend": {"direction": "computed", "slope_per_decade": 0.0,
+"p_value": 1.0, "ci_95": [0.0, 0.0]},
+"verdict": "computed_state",
+"provenance": {"source_url": "...", "retrieved_at": "...",
+"cache_mode": "offline"}
+}
+
+
+PAGE 18
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+18
+16 / TECHNICAL ARCHITECTURE
+Keep the stack simple, modular and
+offline-first.
+The mentor build-guide direction is preserved: pre-cache the data, keep the statistics engine deterministic, serve
+results through a small API and make the demo survive network failure.
+System flow
+NASA APIs /
+ DAACs
+Data adapters
+Parquet / Zarr /
+ NetCDF cache
+Scientific
+ engine
+FastAPI
+Next.js web app
+Layer
+Recommended stack / responsibility
+Frontend
+Next.js + React + TypeScript; Tailwind CSS; MapLibre or Leaflet; ECharts / Recharts / Plotly for charts.
+Backend
+Python FastAPI; Pandas, NumPy, SciPy; tested Mann–Kendall implementation and Theil–Sen estimator.
+Geospatial
+xarray, rasterio, GeoPandas when needed. Start with point time series; add raster/polygon aggregation
+after the core works.
+Storage
+Parquet for cached time series and results; Zarr / NetCDF for gridded arrays; JSON for Data Passport
+metadata.
+AI layer
+Optional narration / translation service. Receives a verified result object only.
+Deployment
+Public web demo plus offline mode backed by prepared datasets and deterministic fixtures.
+Core modules
+• data/ — NASA adapters, API clients, local cache readers and metadata normalizers.
+• compute/trend.py — aggregation, Mann–Kendall, Theil–Sen, confidence intervals and quality flags.
+• claims/ — preset claims, case definitions and verdict rules.
+• api/ — FastAPI routes and stable response schemas.
+• explain/ — optional AI narration / translation, isolated from calculations.
+• tests/ — statistical, data-quality, API and offline-mode tests.
+Suggested API surface
+ Endpoint
+Purpose
+GET /variables
+Return supported variables, units, compatible datasets and definitions.
+GET /locations
+Return supported places / polygons and spatial metadata.
+GET /claims
+Return verified preset claim definitions and case metadata.
+POST /trend
+Run a single trend investigation.
+POST /compare
+Compare the same variable across compatible locations.
+GET /data-passport/{analysis_id}
+Return full provenance and reproducibility details.
+POST /explain
+Optional narration; accepts only a verified result object.
+Version the API response schema. Do not let the frontend calculate significance. Do not allow the AI layer to edit
+numerical fields.
+
+
+PAGE 19
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+19
+17 / DATA ENGINEERING & OFFLINE RELIABILITY
+Prepare data before the demo; never depend
+on venue internet.
+Large Earth-observation files can be slow, credential-gated or difficult to process live. The app should show a
+live/cached status honestly and use the same result schema in both modes.
+Acquisition sequence
+Discover product
+Verify metadata
+Download sample
+Decode & QA
+Aggregate series
+Cache & passport
+Practical implementation
+• Create a free NASA Earthdata account for products that require authentication; verify credentials and access
+before building the adapter.
+• Use NASA POWER first for a low-friction data pipeline. Verify exact parameter names, community, units, time
+standard and response schema.
+• Use Earthdata Search / CMR and product documentation to identify exact GPM, MODIS, SMAP, GRACE, AIRS and
+OMI collections.
+• Download only a small sample first. Open it with xarray / h5py / rasterio as appropriate; inspect variable names,
+dimensions, scale factors, fill values and quality flags.
+• Cache cleaned and aggregated demonstration series as Parquet; keep raw product references and source
+metadata.
+• For gridded raster products, store source tiles / subsets as NetCDF or Zarr when appropriate; avoid loading a
+whole global product into memory.
+• Prepare offline fixtures that use the exact same API response schema as the live computation path.
+• Show a visible badge: LIVE DATA, CACHED NASA DATA or DEMO FIXTURE. Never imply a fixture is a live query.
+OFFLINE-FIRST DEMO RULE
+A judge must be able to run the prepared cases without internet. The chart, statistics, verdict and Data Passport must all
+derive from the same cached time series. Keep one local recorded demo as a fallback, but show the working app first.
+Mentor-guide alignment
+The shared build-kit screenshots proposed pre-event acquisition, batch/streaming, agentic design, MCP servers
+and skill files. For this challenge, batch ingestion and local caching are the reliable foundation. Agentic or MCP
+orchestration is optional; do not add it unless it solves a concrete user task and can be demonstrated without
+weakening the deterministic science pipeline.
+
+
+PAGE 20
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+20
+18 / HUMAN IMPACT
+Make the usefulness measurable, not just
+emotional.
+BhuSanket should help people learn and investigate, but it must not overstate the real-world consequences of a
+trend. Its strongest immediate impact is environmental data literacy and faster access to reproducible regional
+evidence.
+Audience
+Practical value
+How we prove usefulness
+Students
+Learn to read a time series, distinguish trend direction
+from significance and investigate a local question in
+Bangla or English.
+Short pre/post chart-reading quiz; record actual
+score change and task completion time.
+Teachers
+Use guided missions, case cards and printable
+worksheets in class.
+Teacher reviews one case; record feedback and
+whether instructions are understandable.
+Journalists / public
+Check whether a climate statement is supported by a
+selected NASA record before sharing it.
+Track claims tested and whether users revise their
+first judgement after seeing evidence.
+Researchers
+Get a reproducible starting point with source, period,
+units, aggregation and statistics.
+Ask a researcher to reproduce one result from the
+Data Passport.
+Community groups /
+planners
+Use regional evidence as a starting point for further
+assessment.
+Expert review; clearly state that trend detection
+alone is not a policy instruction.
+Pilot evaluation plan
+• Recruit 5–8 university students, including people who have not studied climate statistics.
+• Give a short pre-test on chart reading, trend direction, p-value meaning and data limitations.
+• Ask each participant to complete one investigation without help; record time, confusion points and assistance
+required.
+• Give a comparable post-test and report the actual sample size and measured change. Do not invent an impact
+percentage.
+• Ask one teacher, domain researcher or local expert to review a Bangladesh case and its interpretation.
+Global impact pathway
+Bangladesh is the first case library. The same variable → compatible NASA product → regional time series → trend
+test → evidence verdict workflow can be reused in other countries. Add a non-Bangladesh case only after its data
+path is verified. Over time, the product can support climate literacy, research reproducibility and responsible
+public communication across regions.
+
+
+PAGE 21
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+21
+19 / TEAM EXECUTION
+Give every member ownership — not just a
+name on the project page.
+For a 4–6 person team, divide the work by deliverable. The product/technical lead owns integration and scope.
+Each member should have visible work in the repository and a clear speaking role.
+Role
+Ownership
+1. Product & technical lead
+Scope, architecture, integration, API contracts, technical decisions and final demo flow. Strong
+fit for the CSE / AI-ML-skilled member.
+2. NASA data engineer
+POWER parameters, NASA product discovery, acquisition, cache, metadata and dataset
+adapters.
+3. Science / statistics lead
+Aggregation rules, Mann–Kendall, Theil–Sen, CI, autocorrelation, FDR and scientific review.
+4. Frontend / interaction lead
+Map, question flow, chart, slider, verdict card, responsive layout and micro-interactions.
+5. UX / education / content lead
+Plain-language explanations, Bangla glossary, student missions, Claim Court cases and user
+tests.
+6. QA / video / submission lead
+End-to-end tests, public links, documentation, demo recording, video subtitles and NASA
+project page.
+Combining roles
+ Team size
+Practical arrangement
+4
+Product + science; data + backend; frontend + UX; QA + video + documentation.
+5
+Separate product/science from data/backend; frontend; UX/education; QA/video/submission.
+6
+Use all six roles above; appoint one integration owner and hold a daily merge/checkpoint.
+Working agreements
+• Public GitHub repository from the beginning; meaningful commits and short README updates.
+• Use issues for tasks, pull requests for integration and a short decision log.
+• Agree on a single API result schema before frontend/backend work diverges.
+• Keep a daily 10-minute demo: each person shows one working contribution.
+• No one builds a separate feature without agreeing how it connects to the shared result engine.
+
+
+PAGE 22
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+22
+20 / BUILD ROADMAP
+The 48-hour event is the integration and
+presentation window — not the start of the
+project.
+The team can prepare the data, scientific engine, user experience and case content in advance. During the local
+hackathon, protect time for integration, usability, recording and submission.
+When
+Main work
+Exit condition
+10 Nov — lock & verify
+Freeze scope; public repo; confirm POWER parameters; request real
+data for 3–4 pilot locations; cache first series; agree units and time
+standard.
+A real NASA response is stored
+with metadata; one plot can be
+generated.
+11 Nov — science core
+Implement aggregation, Mann–Kendall, Theil–Sen and CI; add
+data-quality flags; test synthetic rising/falling/flat/missing series;
+compare with trusted library.
+Statistics pass tests and match
+trusted implementation within
+tolerance.
+12 Nov — product slice
+Build Home → Explore → Result; integrate map, chart, verdict and
+Data Passport; add window slider; prepare offline cases; run
+first-time-user test.
+One real investigation works
+end-to-end. Freeze core scope.
+13 Nov — Bangladesh
+event day 1
+Polish Claim Court; integrate all modules; rehearse 240-second local
+pitch; record working demo; name NASA datasets out loud; submit
+local judging video according to Local Lead schedule.
+Stable local demo and video
+uploaded.
+14 Nov — Bangladesh
+event day 2
+Final QA; 30-second global video by the guide’s stated noon cut-off;
+complete NASA project page, public repo, AI disclosure, NASA data
+list and references; submit early.
+Public links work; project page is
+complete; final video and
+documentation are accessible.
+Daily working rhythm
+ Start of day
+Midday
+Evening
+End of day
+Agree one milestone and
+owner.
+Integrate and test across the
+API boundary.
+Run a judge-style demo and
+collect feedback.
+Commit, back up data and
+record unresolved issues.
+FEATURE FREEZE
+By the evening of 12 November, the core investigation must work. After that, prioritise reliability, accessibility,
+documentation and presentation. If a feature is unstable, remove it from the live demo instead of showing a broken
+interaction.
+Schedule note: the user-provided Participants Guide has an inconsistency for the Video 2 date in one table. Its run-of-show places the
+240-second local judging video at 6:30 PM on 13 November. Confirm the final deadline with the Sylhet Local Lead.
+
+
+PAGE 23
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+23
+21 / QUALITY GATES & RISK REGISTER
+A polished product is a product that does not
+lie or break.
+Judges will test whether the prototype works, whether the numbers are defensible and whether a first-time user
+can understand it. Use release gates rather than relying on last-minute visual checks.
+Risk
+Mitigation / release gate
+NASA API slow or unavailable
+Pre-download and cache; retain local fixtures with the same schema; label LIVE / CACHED /
+FIXTURE honestly.
+Parameter or product mismatch
+Verify exact variable, units, version, time standard, scale factor and QA before coding the
+screen.
+Seasonality creates a false story
+Use annual or like-for-like seasonal series; document aggregation; use a seasonal method
+where appropriate.
+Autocorrelation inflates significance
+Test serial dependence; apply validated correction or withhold significance verdict.
+District value misrepresented
+Label point/grid values as point/grid; use polygon aggregation only with valid pixels and
+coverage.
+Too many features
+Protect P0; add only the slider, one comparison and Claim Court after the end-to-end flow is
+stable.
+AI invents a statistic
+AI receives locked result JSON; numerical fields are rendered from backend, never generated
+by model.
+Impact claims exaggerated
+Report measured user-test outcomes only; separate plausible applications from proven
+outcomes.
+Demo / public link fails
+Test app, repo and videos in a private browser window; keep local recorded fallback.
+Video compliance issue
+English subtitles; name every member; credit third-party / generated assets; no identifiable
+under-18 faces, names or voices.
+Release checklist — every box must pass
+• One real NASA dataset is loaded and its product, variable, units, period and source are visible.
+• Chart, slope, p-value and confidence interval are generated from the same series.
+• Missing-data and weak-evidence cases are not forced into an increase/decrease verdict.
+• Analysis-window slider recomputes the result and compares it with the full record.
+• At least one second location can be compared using the same variable and compatible method.
+• Claim Court uses the same engine as Explore.
+• The app works offline for prepared demo cases.
+• A first-time student can finish one investigation without help.
+• The Data Passport allows a reviewer to trace and reproduce the result.
+
+
+PAGE 24
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+24
+22 / PITCH, VIDEOS & SUBMISSION
+Make the project easy to understand and easy
+to judge.
+The Bangladesh Participants Guide says teams make two 240-second videos and one 30-second global video. The
+local judging video must show the working solution and state NASA data usage aloud. The global video must show
+the problem, solution, demo and NASA data usage.
+240-second local judging video — suggested beat sheet
+ Time
+What to say / show
+0:00–0:30 — Hook
+Open with: “Can a chart make a climate claim look true when the full record tells a different story?” Show
+the BhuSanket home screen.
+0:30–1:00 — Problem
+Raw Earth data is powerful, but people struggle to find variables, understand trends and judge
+significance.
+1:00–1:40 — NASA
+evidence
+Select a Bangladesh place and question. Name the NASA dataset and variable aloud. Show the actual
+source and period.
+1:40–2:30 — Live product
+Run the trend; show slope, p-value, confidence interval and quality status. Move the Analysis-Window
+Slider; compare another region.
+2:30–3:15 — X-factor
+Play one Claim Court round. Let the judge see that the game uses the same scientific engine.
+3:15–4:00 — Impact &
+close
+Show Student Lab and Research Workspace. State the real user-test result, limitations and global reuse
+pathway.
+30-second global video — visual beat sheet
+ Time
+Visual / narration
+0–5 sec
+Team name + BhuSanket identity.
+5–11 sec
+Problem: environmental trends and claims are difficult to interpret from raw data.
+11–22 sec
+Show the working app: NASA product → chart → slider → evidence verdict. Name the NASA dataset.
+22–30 sec
+Impact: students, researchers and the public can investigate a place and understand the evidence. End
+on brand.
+NASA project page — required content
+• High-Level Summary: project name, what was built, who it helps, how it works; include the 240-second video and
+public GitHub link.
+• Project Demo: 30-second video (or the guide’s accepted seven-slide alternative).
+• Final Project: GitHub, design, documentation and demo materials.
+• Project Details: why / what / how; community involvement; tools and technologies.
+• Use of AI: name every AI tool; explain prompts, reasoning and data it worked on.
+• NASA data sources: list every NASA / partner dataset and exactly what was used.
+• References: datasets, papers, libraries, images, fonts, templates and other assets.
+PUBLIC ACCESS CHECK
+Every repository, video and documentation link must open without login or permission request. Test from a private /
+incognito browser window. An unsubmitted NASA project page is not judged.
+
+
+PAGE 25
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+25
+23 / FINAL BUILD CONTRACT
+What we commit to deliver — and what we
+deliberately leave out.
+This is the scope contract for the team. A small, complete and trustworthy product is stronger than a wide product
+full of unfinished buttons.
+Must be complete for the competition
+• One real NASA-powered investigation works end-to-end.
+• A clear question-first entry and Bangladesh-wide location selection work.
+• Time-series chart shows units, dates, gaps and trend line.
+• Mann–Kendall, Theil–Sen slope and 95% CI are computed by tested code.
+• Verdict distinguishes significant trend, no significant trend, insufficient evidence and window sensitivity.
+• Data Passport traces the source and processing.
+• English and Bangla explanation are available.
+• Analysis-Window Slider works on a real case.
+• At least one two-location comparison works.
+• One Claim Court round uses the same engine.
+• Public repository, working demo, videos and NASA project page are complete.
+Strong if time permits
+• One GPM IMERG or MODIS product integrated and quality-checked.
+• Student mission pack with a short pre/post quiz.
+• Shareable Case Card / reproducibility PDF.
+• One verified non-Bangladesh case to demonstrate global reuse.
+• Earth Impact Lens with carefully qualified context.
+Explicitly out of scope for this build
+• Climate forecasting or disaster early warning.
+• Causal attribution or policy recommendations based only on a trend test.
+• A general-purpose chatbot that generates environmental conclusions.
+• Every NASA dataset, every district polygon and every variable in the first release.
+• Complex multi-agent orchestration, MCP servers or user-account/social features unless a concrete tested need
+emerges.
+FINAL PRODUCT STATEMENT
+BhuSanket turns NASA Earth-science data into an accessible investigation experience. It helps people discover what is
+changing, where it is changing, how large the change is and whether the evidence is statistically strong — while teaching
+them not to confuse a striking chart with a reliable conclusion.
+
+
+PAGE 26
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+26
+24 / BRAND, REFERENCES & WORKING ASSUMPTIONS
+Keep the identity human, credible and easy to
+remember.
+BhuSanket is the recommended working name because it connects a local linguistic identity with the product’s
+core idea: reading signals from Earth. Do a domain and trademark check before final lock.
+Name option
+Meaning / positioning
+Recommendation
+BhuSanket
+Earth signals; concise, locally rooted and internationally
+pronounceable.
+Recommended working brand.
+BhuSutra
+Patterns and connections across Earth systems.
+Strong research-oriented
+alternative.
+DharaKhoj
+Discovering changes in the Earth / natural systems.
+More playful and
+student-friendly.
+BhuChinho
+Traces or signs of Earth’s changes.
+Distinctive but slightly less
+direct.
+Niriksho
+Observation / investigation-inspired name.
+Short, brandable alternative;
+meaning should be explained.
+Tagline options
+Read Earth’s signals. Trace every change. | Test the claim. Trace the NASA evidence. | Discover the trend.
+Understand the evidence.
+Source references
+[1] NASA Space Apps Challenge 2026 — “Be an Earth System Trend Detective!”
+https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/
+[2] NASA POWER Daily API documentation
+https://power.larc.nasa.gov/docs/services/api/temporal/daily/
+[3] NASA POWER temporal API overview
+https://power.larc.nasa.gov/docs/services/api/temporal/
+[4] NASA POWER data processing methodology
+https://power.larc.nasa.gov/docs/methodology/data/processing/
+[5] NASA GPM IMERG data directory (V07B)
+https://gpm.nasa.gov/data/directory
+[6] NASA GPM data FAQ / IMERG resolution
+https://gpm.nasa.gov/data/faq
+[7] NASA LAADS DAAC — MOD11A2.061
+https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A2
+[8] LP DAAC / USGS MODIS vegetation-index product documentation
+https://lpdaac.usgs.gov/products/mod13q1v061/
+[9] NASA GRACE Tellus data portal
+https://grace.jpl.nasa.gov/
+[10] NASA GMAO — MERRA-2 system characteristics
+https://gmao.gsfc.nasa.gov/gmao-products/merra-2/system-characteristics_merra-2/
+[11] NASA GLDAS data portal
+https://ldas.gsfc.nasa.gov/gldas/dataset
+[12] NASA AIRS mission and data products
+https://airs.jpl.nasa.gov/
+[13] NASA Earthdata / GES DISC OMI collection search
+https://search.earthdata.nasa.gov/search?q=OMTO3_003
+[14] Hamed, K. H. & Rao, A. R. (1998). A modified Mann–Kendall trend test for autocorrelated data. Journal of Hydrology, 204(1–4), 
+182–196. DOI: 10.1016/S0022-1694(97)00125-X
+https://doi.org/10.1016/S0022-1694(97)00125-X
+[15] Sen, P. K. (1968). Estimates of the regression coefficient based on Kendall’s tau. Journal of the American Statistical Association, 
+63(324), 1379–1389.
+https://doi.org/10.2307/2285891
+[16] NASA Space Apps Challenge 2026 Bangladesh Participants Guide — user-provided PDF; especially pp. 9–17 for videos,
+submission, judging and awards.
+
+
+PAGE 27
+BHUSANKET  /  MASTER PRODUCT & BUILD PLAN
+NASA SPACE APPS CHALLENGE 2026
+TEAM WORKING DOCUMENT  •  PROPOSED BUILD, NOT REPORTED FINDINGS
+27
+ASSUMPTIONS TO RECHECK BEFORE RELEASE
+Dataset versions, variable names, parameter availability, temporal coverage, units, spatial support, quality flags, access
+permissions and download routes can change. Confirm them against current NASA documentation during implementation.
+Proposed case questions are not scientific findings. This document is a product and build strategy, not a completed analysis.
+Prepared as a working master plan for the team. The team should update the implementation status, actual dataset versions,
+user-test results, public links and final video schedule as the prototype develops.

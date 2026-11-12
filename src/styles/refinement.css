@@ -1,0 +1,190 @@
+/* One art-direction pass over the existing product; data and controls remain intact. */
+.hero{background:#0b1728;min-height:760px}.hero:after{display:none}.hero-grid{z-index:1;opacity:.35;pointer-events:none}.cinematic-earth{position:absolute;inset:0;overflow:hidden;z-index:0;background:#142a30}.delta-image{position:absolute;inset:-9% 0 -15%;will-change:transform}.delta-image img{object-fit:cover;object-position:50% 85%;filter:saturate(.8) contrast(1.08)}.delta-shade{position:absolute;inset:0;background:linear-gradient(90deg,#0b1728f5 0%,#0b1728d9 29%,#0b172849 65%,#0b172835),linear-gradient(0deg,#0b1728 0%,transparent 32%,#0b172849 100%)}.delta-trajectories{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#e3d8b47a;stroke-width:1}.delta-trajectories ellipse{stroke:#b6d6cc40;stroke-dasharray:3 9}.trajectory-flow{stroke:#dfb66c;stroke-width:2;stroke-dasharray:70 900;animation:signal-travel 10s linear infinite}.delta-trajectories circle:last-of-type{fill:#e7bc6d;stroke:none}.delta-target{animation:target-breathe 5s ease-in-out infinite;transform-origin:992px 463px}.satellite-track{stroke:#f6f5f0;stroke-width:2}.delta-caption{position:absolute;left:67%;top:52%;display:flex;align-items:center;gap:18px;color:#fff;font-size:11px;letter-spacing:2px;text-shadow:0 2px 12px #000}.delta-caption small{display:block;font-size:6px;letter-spacing:1.4px;margin-top:8px}.delta-image-note{position:absolute;top:65px;right:4.5%;writing-mode:vertical-rl;font-size:7px;letter-spacing:2px;color:#e0e2d3}.hero-coordinate{color:#e2d8ba}.hero-content{padding-top:95px}.hero h1{font-size:clamp(66px,7.4vw,112px);letter-spacing:-5px;line-height:1.04;font-weight:600;text-shadow:0 4px 45px #08162455}.hero em{color:#d9bd84}.hero-description{color:#d0d9d6}.hero-content>.eyebrow{color:#d2e3db}.hero-note{color:#b1c7c4}.hero-data{background:#f6f5f0f2;color:#132238;border:0;border-top:3px solid #d59a39;width:295px;right:7%;bottom:120px;box-shadow:0 16px 65px #07131b45;backdrop-filter:blur(10px)}.hero-data>.eyebrow{color:#168c88}.hero-data-title,.hero-data-number span,.hero-data-bottom{color:#53696a}.hero-data>a{border-color:#13223825;color:#132238}.hero-data-number{font-size:52px}.hero-bottom{color:#c4ceca}.hero-bottom a{color:#f6f5f0}.hero-actions .primary{background:#f6f5f0;color:#132238}.hero-actions .primary:hover{background:#dfdfd1}.hero-actions .text-link{color:#e8e9df}.hero-content>*{animation:cinema-enter .9s ease-out both}.hero-content>h1{animation-delay:.1s}.hero-content>.hero-description{animation-delay:.2s}.hero-content>.hero-actions{animation-delay:.3s}.question-section{background:#f6f5f0;color:#132238;max-width:none}.question-section .section-heading>p,.question-row p{color:#62777a}.question-list,.question-row{border-color:#13223826}.question-row>svg:not(.question-arrow){color:#168c88}.question-row:hover{background:#168c880a}.question-category,.question-number{color:#587577}.workspaces-section{background:#e8eae3}.workspace-card{background:#f6f5f0;border:0;box-shadow:0 10px 35px #13223808}.workspace-card.explore-card{background:linear-gradient(#0b172820,#0b1728ec),url('/images/ganges-delta-2000.jpg') center 72%/cover;color:#f6f5f0}.explore-card p{color:#c6d7d3}.explore-card .workspace-enter{border-color:#ffffff40}.explore-card .workspace-visual{opacity:.15}.student-card{border-top:3px solid #168c88}.research-card{border-top:3px solid #d59a39}.court-teaser{background:radial-gradient(ellipse at 15% 50%,#34504466,transparent 55%),#132238}.court-seal{background:#d59a3909;box-shadow:0 20px 65px #0002}.home-trail>div{border-left:1px solid #79948b44;padding-left:18px}.home-trail>div:after{content:'';position:absolute;top:0;left:0;width:35%;height:2px;background:#d59a39;animation:trail-stream 5s linear infinite}.home-trail>div:nth-child(2n):after{animation-delay:.8s}.home-trail>div:nth-child(3n):after{animation-delay:1.6s}
+.evidence-workspace .workspace-heading{padding:35px;border-left:3px solid #d59a39;background:linear-gradient(90deg,#132238fa,#132238ad),url('/images/ganges-delta-2000.jpg') center 65%/cover}.evidence-workspace .workspace-heading h1{font-size:clamp(34px,3.7vw,58px)}.evidence-workspace .map-panel{box-shadow:0 20px 65px #0003;border:1px solid #699b8b66;position:relative}.evidence-workspace .earth-map{min-height:450px;background:radial-gradient(ellipse,#254f50,#0c2431)}.evidence-workspace .map-panel-top{background:#f6f5f0;color:#132238}.evidence-workspace .map-panel-top button{color:#132238;border-color:#13223840}.evidence-workspace .location-chips button{transition:background .2s,transform .2s}.evidence-workspace .location-chips button.active{box-shadow:inset 0 -2px #d59a39;transform:translateY(-2px)}.evidence-workspace .question-strip button.active{background:#168c8825;box-shadow:inset 0 -2px #168c88}.evidence-workspace .analysis-window{border-left:3px solid #d59a39;padding-left:25px}.evidence-workspace .verdict-summary{border-top:3px solid #168c88;background:#142d36;padding:24px}.evidence-workspace .verdict-number{color:#ead1a0}.evidence-workspace .data-passport{background:#f6f5f0;color:#132238;padding:34px;position:relative;border-top:4px solid #168c88;box-shadow:0 16px 45px #0002}.data-passport .eyebrow{color:#168c88}.data-passport .passport-summary dt,.data-passport .passport-note{color:#596f71}.data-passport .passport-summary dd{color:#132238}.data-passport .passport-summary>div{border-color:#13223825}.data-passport .export-actions button{color:#132238;border-color:#13223840;background:#e7ebe5}.data-passport .source-link{color:#168c88}.data-passport pre{background:#132238;color:#f6f5f0}.data-passport details{border-color:#13223825}.evidence-workspace .trail-node{position:relative;overflow:hidden}.evidence-workspace .trail-node:after{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,transparent,#d59a39,transparent);animation:trail-stream 4s linear infinite;animation-delay:inherit}.research-workspace{background:#e8eae3;color:#132238;--ew-border:#13223830}.research-workspace .workspace-heading{color:#f6f5f0}.research-workspace .investigation-controls{background:#132238;color:#f6f5f0;padding:22px;align-self:start;border:0}.research-workspace .question-strip button{color:#526b6c}.research-workspace .question-strip button.active{color:#132238;background:#168c8810}.research-workspace .analysis-window,.research-workspace .comparison-section,.research-workspace .impact-lens,.research-workspace .mission-trail{background:#f6f5f0;padding:27px;color:#132238}.research-workspace h2,.research-workspace .analysis-window h2{color:inherit}.research-workspace .quality-details,.research-workspace .result-interpretation{background:#132238;color:#f6f5f0;padding:25px}.research-workspace .dataset-catalogue{background:#132238;color:#f6f5f0;padding:30px}.research-workspace .workspace-footer{color:#526b6c}.research-workspace .trail-node strong{color:#132238}.research-workspace .trail-node small{color:#587174}.research-workspace .verdict-summary{color:#f6f5f0}.trend-reveal .recharts-line-curve{stroke-dasharray:1800;animation:fit-draw 1.3s ease-out both}.uncertainty-reveal{animation:band-enter .9s ease-out both}.evidence-workspace .leaflet-interactive{transition:fill-opacity .25s,stroke-width .25s}.evidence-workspace .leaflet-interactive:hover{fill-opacity:.6;stroke-width:2}.evidence-workspace .leaflet-tooltip{box-shadow:0 8px 20px #0003}
+.learning-page:not(.court-page) .learning-intro{padding:38px;border-left:3px solid #168c88;background:linear-gradient(90deg,#f6f5f0,#f6f5f0a6),url('/images/ganges-delta-2000.jpg') right 55%/cover}.lab-mission-card{overflow:hidden;box-shadow:0 12px 30px #1322380a;transition:transform .25s,box-shadow .25s}.lab-mission-card:before{content:'';display:block;height:115px;margin:-28px -28px 24px;background:linear-gradient(0deg,#13223844,transparent),url('/images/ganges-delta-2000.jpg') center 77%/cover}.lab-mission-card:nth-child(2):before{background-position:30% 50%}.lab-mission-card:nth-child(3):before{background-position:70% 90%}.lab-mission-card:hover{box-shadow:0 18px 35px #13223819}.lab-levels{gap:14px;border:0!important}.lab-levels>div{background:#e3e7df;border:0!important;padding:24px!important;border-radius:2px}.lab-levels>div.unlocked{background:#168c8813;box-shadow:inset 0 3px #168c88}.lab-stepper .current{box-shadow:inset 0 -3px #d59a39}.court-page{background:radial-gradient(ellipse at 80% 15%,#36514455,transparent 40%),#0b1728}.court-page .court-claim{background:#f6f5f0;color:#132238;border:0;border-top:3px solid #d59a39}.court-claim .claim-metadata span{color:#536a6b!important;border-color:#13223830!important}.court-claim .court-prediction{border-color:#13223825}.court-claim .learning-choice-row button{color:#132238;border-color:#13223835!important}.court-page .court-tool-grid>button{position:relative;background:#132238;padding:25px 20px;border:1px solid #b5985f55;transition:transform .2s,background .2s}.court-page .court-tool-grid>button>svg:first-child{box-sizing:content-box;padding:12px;border:1px solid #d59a3970;border-radius:50%;background:#d59a3910}.court-page .court-tool-grid>button.active{transform:translateY(-3px);background:#263a3c;box-shadow:0 12px 25px #0003}.court-page .court-exhibit{border-left:3px solid #d59a39;background:#132238}.court-page .court-verdict{background:#172b36;border-top:3px solid #d59a39;box-shadow:0 20px 50px #0003}.court-stamp{background:#66bab00a;box-shadow:inset 0 0 0 5px #0b1728}
+@keyframes cinema-enter{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}@keyframes signal-travel{to{stroke-dashoffset:-970}}@keyframes target-breathe{50%{opacity:.35;transform:scale(1.2)}}@keyframes trail-stream{from{transform:translateX(-100%);opacity:0}40%{opacity:1}to{transform:translateX(200%);opacity:0}}@keyframes fit-draw{from{stroke-dashoffset:1800}to{stroke-dashoffset:0}}@keyframes band-enter{from{opacity:0}to{opacity:1}}
+@media(max-width:760px){.hero{min-height:980px}.hero-content{padding-top:65px}.hero h1{font-size:66px;letter-spacing:-4px}.delta-image{inset:0 -65% 0 -20%}.delta-image img{object-position:65% 75%}.delta-shade{background:linear-gradient(180deg,#0b1728e8,#0b1728ad 45%,#0b172820 70%,#0b1728)}.delta-caption{left:43%;top:64%;font-size:8px}.delta-caption small{font-size:5px;max-width:170px}.delta-image-note{font-size:5px;top:200px;right:3%}.hero-data{left:7%;bottom:90px;width:240px;padding:17px}.hero-data-number{font-size:40px}.hero-bottom>span{max-width:145px}.evidence-workspace .workspace-heading{padding:24px 18px}.evidence-workspace .earth-map{min-height:390px}.research-workspace .investigation-controls{padding:20px}.evidence-workspace .data-passport{padding:23px 18px}.learning-page:not(.court-page) .learning-intro{padding:25px 20px}.lab-levels{gap:8px}.lab-levels>div{padding:18px 12px!important}.court-page .court-tool-grid>button{padding:18px 14px}.research-workspace .dataset-catalogue{padding:20px 14px}}
+@media(prefers-reduced-motion:reduce){.delta-image{will-change:auto;transform:none!important}.delta-trajectories *,.hero-content>*,.home-trail>div:after,.trail-node:after,.trend-reveal .recharts-line-curve,.uncertainty-reveal{animation:none!important;transition:none!important}.court-page .court-tool-grid>button.active{transform:none}}
+@media print{.cinematic-earth{display:none}.evidence-workspace .data-passport{box-shadow:none;color:#132238;background:white}}
+
+/* Field Atlas: editorial framing outside; high-contrast evidence inside. */
+:root{--atlas-seriffed:Georgia,"Times New Roman",serif}
+.site-header{position:sticky;top:0;height:78px;padding-inline:clamp(20px,5vw,88px);background:#0b1728eF;backdrop-filter:blur(16px);border-bottom-color:#c3d7de25;transition:background .25s,border-color .25s}
+.nav-links{gap:clamp(14px,2.1vw,32px)}
+.nav-links a{font-size:11px;letter-spacing:.015em}
+.nav-links a[aria-current]:after{bottom:-30px}
+.nav-action{border-color:#9bb8ae55;transition:background .2s,border-color .2s}
+.nav-action:hover{background:#168c8822;border-color:#76b9a8}
+.wordmark{letter-spacing:.12em}
+.hero{height:min(900px,calc(100svh - 78px));min-height:680px}
+.hero h1,.section-heading h2,.court-teaser h2,.closing-section h2{font-family:var(--atlas-seriffed);font-weight:400;letter-spacing:-.045em}
+.hero h1{font-size:clamp(68px,8vw,124px);line-height:.98;margin-top:35px}
+.hero-content{max-width:760px;padding-top:clamp(95px,12vh,145px)}
+.hero-description{font-size:15px;max-width:410px}
+.hero-data{width:310px;right:clamp(30px,8vw,130px);bottom:clamp(105px,15vh,170px);padding:24px 26px 19px}
+.hero-data-number{font-variant-numeric:tabular-nums}
+.section-shell{padding-block:clamp(82px,9vw,140px)}
+.section-heading{margin-bottom:clamp(36px,5vw,66px)}
+.question-section,.workspaces-section,.trail-section{position:relative}
+.question-section:before,.workspaces-section:before,.trail-section:before{content:"";position:absolute;top:0;left:7%;right:7%;height:1px;background:linear-gradient(90deg,transparent,#1322382a,transparent)}
+.workspaces-section:before,.trail-section:before{background:linear-gradient(90deg,transparent,#13223820,transparent)}
+.workspace-card{padding:clamp(25px,3vw,42px);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
+.workspace-card:hover{transform:translateY(-7px);box-shadow:0 24px 55px #13223816}
+.evidence-workspace{max-width:1720px;padding:clamp(34px,5vw,76px) clamp(20px,5.5vw,96px) 55px}
+.workspace-heading{margin-bottom:35px}
+.workspace-heading h1{font-family:var(--atlas-seriffed);font-size:clamp(42px,5.2vw,76px)!important;font-weight:400!important;letter-spacing:-.045em!important;line-height:1.04!important}
+.workspace-heading p{max-width:500px;line-height:1.85}
+.workspace-case-id strong{font-family:var(--atlas-seriffed);font-size:84px}
+.evidence-workspace:not(.research-workspace) .investigation-grid{grid-template-columns:minmax(230px,290px) minmax(0,1fr);gap:clamp(22px,3vw,44px)}
+.evidence-workspace:not(.research-workspace) .investigation-controls{padding-right:clamp(16px,2vw,30px)}
+.evidence-workspace:not(.research-workspace) .investigation-main{min-width:0}
+.evidence-workspace .question-strip{margin:0 0 16px;grid-template-columns:repeat(4,minmax(0,1fr));border-color:#809a9138}
+.evidence-workspace .question-strip button{padding:15px 12px;gap:8px;font-size:12px;line-height:1.5}
+.evidence-workspace .question-strip button:first-child{padding-left:12px}
+.evidence-workspace .question-strip button span{font-size:9px;color:#d9bd84}
+.evidence-workspace .question-strip button.active{background:#168c881b;box-shadow:inset 0 -2px #168c88}
+.evidence-workspace:not(.research-workspace) .map-panel{overflow:hidden;border-color:#85b3a56b;box-shadow:0 24px 75px #020d1780}
+.evidence-workspace:not(.research-workspace) .map-panel-top{padding:17px 22px}
+.evidence-workspace:not(.research-workspace) .earth-map-wrap{height:min(67vh,710px);min-height:520px}
+.evidence-workspace:not(.research-workspace) .earth-map{min-height:100%;background:radial-gradient(ellipse at 50% 48%,#285d59 0,#173c43 40%,#0b202e 100%)}
+.evidence-workspace .map-instruction{padding:9px 18px;background:#102631;color:#a6c2b6;font-size:8px;letter-spacing:.14em}
+.evidence-workspace .map-bottom-label{min-height:40px}
+.evidence-workspace .map-selected-signal{animation:atlas-marker-focus 2.4s ease-out infinite}
+.evidence-workspace .earth-map .leaflet-interactive{filter:drop-shadow(0 1px 5px #071521aa)}
+.evidence-workspace:not(.research-workspace) .environment-discovery{grid-template-columns:minmax(230px,33%) minmax(0,1fr);margin:22px 0 0;box-shadow:0 18px 48px #020d1729}
+.evidence-workspace:not(.research-workspace) .environment-visual{min-height:390px}
+.evidence-workspace:not(.research-workspace) .environment-story{padding:clamp(22px,3vw,38px)}
+.environment-topics button{transition:background .2s,color .2s,border-color .2s}
+.environment-topics button:hover{border-color:#168c88;color:#132238}
+.point-observations{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:10px;margin:17px 0}
+.point-observation{display:flex;flex-direction:column;justify-content:center;gap:6px;min-width:0;padding:16px;background:#132238;color:#f6f5f0;border-left:3px solid #d59a39}
+.point-observation>span,.point-observation-list button>span{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#b5cbc1}
+.point-observation>strong,.point-observation-list button>strong{font-variant-numeric:tabular-nums;font-size:20px;line-height:1.2;font-weight:500}
+.point-observation>small,.point-observation-list button>small{font-size:8px;line-height:1.6;color:#9eb3ad}
+.point-observation-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
+.point-observation-list button{display:flex;flex-direction:column;gap:3px;min-width:0;padding:9px;text-align:left;background:#e8ebe4;border:1px solid #13223812;color:#132238;transition:background .2s,border-color .2s,transform .2s}
+.point-observation-list button:hover,.point-observation-list button[aria-pressed=true]{background:#dce9df;border-color:#168c8870;transform:translateY(-1px)}
+.point-observation-list button>span{font-size:8px;color:#55736d}
+.point-observation-list button>strong{font-size:12px}
+.point-observation-list button>small{font-size:7px;color:#647875}
+.evidence-workspace:not(.research-workspace) .analysis-window{margin-top:24px;padding:26px 0}
+.evidence-workspace:not(.research-workspace) .analysis-window h2,.research-workspace .analysis-window h2{font-family:var(--atlas-seriffed);font-size:28px;letter-spacing:-.025em}
+.research-workspace{max-width:1720px;padding:clamp(34px,5vw,76px) clamp(20px,5.5vw,96px) 55px;background:#e7eae3}
+.evidence-workspace.research-workspace{background:#e7eae3;color:#132238}
+.research-workspace .workspace-heading{min-height:210px;padding:36px 40px;border-left-width:4px}
+.research-workspace .workspace-heading h1{font-size:clamp(45px,5.6vw,78px)!important}
+.research-workspace .workspace-case-id{align-self:flex-start;padding:12px 0}
+.research-workspace .investigation-grid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"questions" "controls" "analysis" "status" "result" "map" "context";gap:17px}
+.research-workspace .investigation-main{display:contents}
+.research-workspace .question-strip{grid-area:questions}
+.research-workspace .investigation-controls{grid-area:controls;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:start;padding:19px;background:#132238;color:#f6f5f0;border:0;box-shadow:0 12px 32px #13223814}
+.evidence-workspace.research-workspace .question-strip button{color:#526b6c}
+.evidence-workspace.research-workspace .question-strip button.active{color:#132238}
+.research-workspace .investigation-controls .panel-title{grid-column:span 2;margin:0}
+.research-workspace .investigation-controls>.control-note:first-of-type{grid-column:span 2;margin:0;align-self:center}
+.research-workspace .investigation-controls .search-field,.research-workspace .investigation-controls .location-chips{grid-column:span 2;margin:0}
+.research-workspace .investigation-controls .location-chips{align-self:center}
+.research-workspace .investigation-controls .coordinate-details,.research-workspace .investigation-controls .advanced-controls{grid-column:1/-1}
+.research-workspace .investigation-controls .controls-divider{display:none}
+.research-workspace .investigation-controls>.field-label{margin:0}
+.research-workspace .investigation-controls>.control-note:not(:first-of-type){grid-column:1/-1;margin:0}
+.research-workspace .investigate-button{grid-column:span 2;margin:0;min-height:44px}
+.research-workspace .analysis-window{grid-area:analysis;grid-template-columns:minmax(220px,.8fr) minmax(280px,1.2fr);margin:0;padding:21px 25px;background:#f6f5f0;color:#132238;border:1px solid #13223818;border-left:4px solid #d59a39}
+.research-workspace .analysis-window p{margin-bottom:0}
+.research-workspace .analysis-loading,.research-workspace>.investigation-grid>.analysis-loading{grid-area:status}
+.research-workspace .evidence-error{grid-area:status}
+.research-workspace .result-updating,.research-workspace .result-ready{grid-area:result;min-width:0}
+.research-workspace .map-panel{grid-area:map}
+.research-workspace .environment-discovery{grid-area:context;grid-template-columns:minmax(220px,25%) minmax(0,1fr);margin:0}
+.research-workspace .earth-map-wrap{height:400px}
+.research-workspace .earth-map{min-height:100%}
+.research-workspace .evidence-chart{padding:clamp(22px,3vw,42px);border-top:4px solid #168c88;box-shadow:0 18px 50px #13223812}
+.research-workspace .chart-heading h3{font-family:var(--atlas-seriffed);font-size:clamp(23px,2.5vw,34px)}
+.research-workspace .chart-canvas{height:clamp(330px,42vw,520px)}
+.research-workspace .verdict-pair{gap:16px}
+.research-workspace .verdict-summary{min-height:190px}
+.research-workspace .evidence-interpretation,.research-workspace .evidence-methods,.research-workspace .comparison-section,.research-workspace .mission-trail,.research-workspace .impact-lens,.research-workspace .data-passport{box-shadow:0 12px 35px #1322380c}
+.research-workspace .evidence-methods{background:#132238;color:#f6f5f0}
+.research-workspace .evidence-interpretation{border-left:4px solid #168c88}
+.research-workspace .comparison-section{border-top:1px solid #13223818}
+.research-workspace .mission-trail h2,.research-workspace .comparison-section h2,.research-workspace .impact-lens h2,.research-workspace .data-passport h2{font-family:var(--atlas-seriffed);font-size:clamp(25px,3vw,36px);font-weight:400}
+.research-workspace .map-panel,.research-workspace .environment-discovery{opacity:.96}
+.learning-page .learning-intro h1{font-family:var(--atlas-seriffed);font-weight:400;letter-spacing:-.05em}
+.student-page .learning-intro{min-height:280px;background-image:linear-gradient(90deg,#f6f5f0 0%,#f6f5f0ec 54%,#f6f5f06b 100%),url('/images/ganges-delta-2000.jpg');background-position:center,right 58%;background-size:auto,cover}
+.student-page .lab-mission-card{position:relative;min-height:390px;border:1px solid #13223818;background:#f9f8f2;box-shadow:0 15px 45px #1322380a}
+.student-page .lab-mission-card:before{height:155px;margin:-31px -31px 26px;background-image:linear-gradient(0deg,#132238a8,transparent 72%),url('/images/ganges-delta-2000.jpg')}
+.student-page .lab-mission-card:nth-child(2):before{background-position:30% 54%}
+.student-page .lab-mission-card:nth-child(3):before{background-position:70% 80%}
+.student-page .lab-active-mission{position:relative;padding-left:clamp(0px,3vw,42px);border-left:1px solid #168c8840}
+.student-page .lab-active-mission:before{content:"FIELD JOURNAL / MISSION IN PROGRESS";display:block;margin:0 0 15px;font-size:9px;letter-spacing:.16em;color:#168c88}
+.student-page .lab-active-mission .learning-section-heading h2{font-family:var(--atlas-seriffed);font-size:clamp(28px,4vw,48px);font-weight:400}
+.student-page .lab-stepper{position:relative;gap:0;border-top:0;border-bottom:1px solid #13223825;padding:10px 0 20px}
+.student-page .lab-stepper:before{content:"";position:absolute;top:22px;left:10px;right:10px;height:1px;background:#13223824}
+.student-page .lab-stepper li{position:relative;padding-top:0;padding-right:10px}
+.student-page .lab-stepper li>span{width:28px;height:28px;background:#f6f5f0}
+.student-page .lab-stepper li.current>span,.student-page .lab-stepper li.complete>span{background:#168c88}
+.student-page .lab-activity{position:relative;overflow:hidden;border:0;border-top:3px solid #168c88;background:#fff;box-shadow:0 20px 60px #13223810;animation:evidenceAppear .35s ease-out}
+.student-page .lab-activity:after{content:"";position:absolute;top:0;right:0;width:min(34%,300px);height:160px;background:linear-gradient(90deg,#fff0,#fff9),url('/images/ganges-delta-2000.jpg') center 62%/cover;opacity:.5;pointer-events:none;mask-image:linear-gradient(90deg,transparent,#000)}
+.student-page .lab-activity>*{position:relative;z-index:1}
+.student-page .lab-step-1 .lab-activity{border-top-color:#d59a39}
+.student-page .lab-step-2 .lab-activity{border-top-color:#168c88}
+.student-page .lab-step-3 .lab-activity{border-top-color:#6f7fa0}
+.court-page .learning-intro h1{font-family:var(--atlas-seriffed);font-weight:400}
+.court-page .court-claim{position:relative;overflow:hidden;border-top:3px solid #d59a39;background:linear-gradient(145deg,#ffffff08,#ffffff02)}
+.court-page .court-claim:after{content:"A";position:absolute;right:24px;top:30px;font-family:var(--atlas-seriffed);font-size:clamp(90px,13vw,180px);line-height:1;color:#d59a390b;pointer-events:none}
+.court-page .court-claim>*{position:relative;z-index:1}
+.court-page .court-tools-heading{padding-top:16px;border-top:1px solid #ffffff20}
+.court-page .court-tool-grid>button{position:relative;min-height:110px;background:#ffffff04}
+.court-page .court-tool-grid>button.active{background:linear-gradient(110deg,#d59a3915,transparent);box-shadow:inset 3px 0 #d59a39}
+.court-page .court-exhibit{border-top:2px solid #d59a39;background:linear-gradient(135deg,#ffffff08,#ffffff02)}
+.court-page .court-verdict{border-top:3px solid #d59a39;background:#101f31}
+.court-page .court-verdict-choices button{transition:transform .2s,border-color .2s,background .2s}
+.court-page .court-verdict-choices button:hover:not(:disabled){transform:translateX(4px);border-color:#d59a39}
+.court-page .court-stamp{transform-origin:center;border-width:4px}
+.court-page .court-score-explanation{animation:evidenceAppear .45s ease-out}
+.ask-launch{border-radius:2px;transition:transform .2s,box-shadow .2s}
+.ask-launch:hover{transform:translateY(-2px);box-shadow:0 18px 48px #06142155}
+@keyframes atlas-marker-focus{0%,100%{stroke-opacity:1;stroke-width:3}50%{stroke-opacity:.55;stroke-width:7}}
+@media(max-width:1100px){
+ .site-header{padding-inline:24px}.nav-links{gap:14px}.nav-links a{font-size:10px}
+ .research-workspace .investigation-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .research-workspace .investigation-controls .panel-title,.research-workspace .investigation-controls>.control-note:first-of-type{grid-column:1/-1}
+ .research-workspace .investigation-controls>.field-label{grid-column:span 1}
+}
+@media(max-width:760px){
+ .site-header{height:72px;padding-inline:18px}.nav-links a[aria-current]:after{bottom:4px}
+ .hero{height:auto;min-height:960px}.hero-content{padding-top:75px}.hero h1{font-size:clamp(58px,13vw,82px);letter-spacing:-.05em}
+ .hero-data{right:7%;bottom:105px;width:min(310px,86vw)}
+ .evidence-workspace:not(.research-workspace) .investigation-grid{grid-template-columns:1fr}
+ .evidence-workspace:not(.research-workspace) .investigation-controls{border-right:0;border-bottom:1px solid var(--ew-border);padding:0 0 20px}
+ .evidence-workspace .question-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .evidence-workspace:not(.research-workspace) .earth-map-wrap{height:58vh;min-height:420px}
+ .evidence-workspace:not(.research-workspace) .environment-discovery,.research-workspace .environment-discovery{grid-template-columns:1fr}
+ .evidence-workspace:not(.research-workspace) .environment-visual{min-height:220px}
+ .point-observations{grid-template-columns:1fr}
+ .research-workspace .investigation-controls{grid-template-columns:repeat(2,minmax(0,1fr));padding:15px}
+ .research-workspace .investigation-controls>.field-label{grid-column:span 1}
+ .research-workspace .analysis-window{grid-template-columns:1fr;padding:20px}
+ .research-workspace .chart-canvas{height:340px}
+ .research-workspace .earth-map-wrap{height:52vh;min-height:360px}
+ .student-page .learning-intro{padding:26px 20px}
+ .student-page .lab-active-mission{padding-left:16px}
+ .student-page .lab-stepper{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:14px}
+ .student-page .lab-stepper:before{display:none}
+ .student-page .lab-activity:after{width:42%;height:110px}
+}
+@media(max-width:520px){
+ .research-workspace .investigation-controls{grid-template-columns:1fr}
+ .research-workspace .investigation-controls>*{grid-column:1/-1!important}
+ .research-workspace .question-strip button{font-size:10px}
+ .research-workspace .verdict-pair{grid-template-columns:1fr}
+ .evidence-workspace .map-instruction{font-size:7px;line-height:1.7}
+ .student-page .lab-stepper{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){
+ .evidence-workspace .map-selected-signal{animation:none!important}
+ .workspace-card:hover,.point-observation-list button:hover,.court-page .court-verdict-choices button:hover:not(:disabled){transform:none}
+ .student-page .lab-activity,.court-page .court-score-explanation{animation:none!important}
+}
+
+.research-workspace .eyebrow{color:#16716e}.research-workspace .workspace-heading .eyebrow,.research-workspace .investigation-controls .eyebrow{color:#b4cec5}.map-selected-signal{animation:marker-signal 3s ease-in-out infinite}.research-workspace .mission-trail p,.research-workspace .impact-lens p,.research-workspace .analysis-window p{color:#52696b}@keyframes marker-signal{50%{stroke-opacity:.35;stroke-width:7}}@media(prefers-reduced-motion:reduce){.map-selected-signal{animation:none!important}}

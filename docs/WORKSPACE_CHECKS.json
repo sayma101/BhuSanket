@@ -1,0 +1,67 @@
+{
+  "changed_existing_files": [
+    "src\\components\\ask-bhusanket.tsx",
+    "src\\components\\claim-checker.tsx",
+    "src\\components\\claim-court.tsx",
+    "src\\components\\evidence-chart.tsx",
+    "src\\components\\evidence-workspace.tsx",
+    "src\\components\\home.tsx",
+    "src\\components\\student-lab.tsx",
+    "src\\app\\research\\page.tsx"
+  ],
+  "backend_source_unchanged": true,
+  "checks": [
+    {
+      "route": "/research",
+      "status": 200,
+      "workspace_markup_and_styles": true
+    },
+    {
+      "route": "/student-lab",
+      "status": 200,
+      "workspace_markup_and_styles": true
+    },
+    {
+      "route": "/claim-court",
+      "status": 200,
+      "workspace_markup_and_styles": true
+    },
+    {
+      "route": "/explore",
+      "status": 200,
+      "workspace_markup_and_styles": true
+    },
+    {
+      "assistant_configured": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "visual_qa": "Not completed for remaining four layouts: Computer Use stopped because the active URL could not be established reliably.",
+  "production_url": "http://127.0.0.1:3002",
+  "production_checks": [
+    {
+      "route": "/research",
+      "production_markup_and_styles": true
+    },
+    {
+      "route": "/student-lab",
+      "production_markup_and_styles": true
+    },
+    {
+      "route": "/claim-court",
+      "production_markup_and_styles": true
+    },
+    {
+      "route": "/explore",
+      "production_markup_and_styles": true
+    }
+  ],
+  "verification": {
+    "typecheck": "passed",
+    "eslint": "passed",
+    "production_build": "passed",
+    "backend_tests": 26,
+    "http_integration_checks": 21,
+    "assistant_mock_boundary_checks": 7
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "bhu-d9bf4b77825f56cd",
+  "dataset": {
+    "short_name": "POWER_DAILY",
+    "version": "v2.10.3",
+    "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+  },
+  "variable": {
+    "id": "T2M",
+    "label": "Air temperature at 2 m",
+    "unit": "°C"
+  },
+  "location": {
+    "id": "dhaka",
+    "label": "Dhaka",
+    "lat": 23.8103,
+    "lon": 90.4125,
+    "type": "point"
+  },
+  "aggregation": "summer",
+  "period": {
+    "start_year": 1991,
+    "end_year": 2024
+  },
+  "series": [
+    {
+      "year": 1991,
+      "value": 30.649130434782606,
+      "coverage": 1.0
+    },
+    {
+      "year": 1992,
+      "value": 30.028913043478266,
+      "coverage": 1.0
+    },
+    {
+      "year": 1993,
+      "value": 28.384239130434782,
+      "coverage": 1.0
+    },
+    {
+      "year": 1994,
+      "value": 30.019021739130434,
+      "coverage": 1.0
+    },
+    {
+      "year": 1995,
+      "value": 30.403695652173916,
+      "coverage": 1.0
+    },
+    {
+      "year": 1996,
+      "value": 30.01380434782608,
+      "coverage": 1.0
+    },
+    {
+      "year": 1997,
+      "value": 28.98739130434783,
+      "coverage": 1.0
+    },
+    {
+      "year": 1998,
+      "value": 27.847608695652173,
+      "coverage": 1.0
+    },
+    {
+      "year": 1999,
+      "value": 30.271521739130435,
+      "coverage": 1.0
+    },
+    {
+      "year": 2000,
+      "value": 27.919239130434786,
+      "coverage": 1.0
+    },
+    {
+      "year": 2001,
+      "value": 28.725108695652178,
+      "coverage": 1.0
+    },
+    {
+      "year": 2002,
+      "value": 28.77815217391305,
+      "coverage": 1.0
+    },
+    {
+      "year": 2003,
+      "value": 28.459891304347824,
+      "coverage": 1.0
+    },
+    {
+      "year": 2004,
+      "value": 29.141304347826093,
+      "coverage": 1.0
+    },
+    {
+      "year": 2005,
+      "value": 28.735326086956523,
+      "coverage": 1.0
+    },
+    {
+      "year": 2006,
+      "value": 28.9970652173913,
+      "coverage": 1.0
+    },
+    {
+      "year": 2007,
+      "value": 28.108478260869564,
+      "coverage": 1.0
+    },
+    {
+      "year": 2008,
+      "value": 29.265869565217393,
+      "coverage": 1.0
+    },
+    {
+      "year": 2009,
+      "value": 29.433152173913044,
+      "coverage": 1.0
+    },
+    {
+      "year": 2010,
+      "value": 29.62532608695652,
+      "coverage": 1.0
+    },
+    {
+      "year": 2011,
+      "value": 28.561086956521734,
+      "coverage": 1.0
+    },
+    {
+      "year": 2012,
+      "value": 28.885869565217398,
+      "coverage": 1.0
+    },
+    {
+      "year": 2013,
+      "value": 28.907717391304356,
+      "coverage": 1.0
+    },
+    {
+      "year": 2014,
+      "value": 29.99304347826087,
+      "coverage": 1.0
+    },
+    {
+      "year": 2015,
+      "value": 28.08739130434783,
+      "coverage": 1.0
+    },
+    {
+      "year": 2016,
+      "value": 29.273260869565217,
+      "coverage": 1.0
+    },
+    {
+      "year": 2017,
+      "value": 26.954891304347825,
+      "coverage": 1.0
+    },
+    {
+      "year": 2018,
+      "value": 27.231195652173913,
+      "coverage": 1.0
+    },
+    {
+      "year": 2019,
+      "value": 28.34141304347826,
+      "coverage": 1.0
+    },
+    {
+      "year": 2020,
+      "value": 27.398586956521736,
+      "coverage": 1.0
+    },
+    {
+      "year": 2021,
+      "value": 29.356086956521736,
+      "coverage": 1.0
+    },
+    {
+      "year": 2022,
+      "value": 28.70141304347827,
+      "coverage": 1.0
+    },
+    {
+      "year": 2023,
+      "value": 28.36467391304348,
+      "coverage": 1.0
+    },
+    {
+      "year": 2024,
+      "value": 28.702934782608697,
+      "coverage": 1.0
+    }
+  ],
+  "trend": {
+    "direction": "decreasing",
+    "slope_per_year": -0.04031832298136605,
+    "slope_per_decade": -0.4031832298136605,
+    "ci_95": [
+      -0.7163043478260747,
+      -0.03418972332016036
+    ],
+    "p_value": 0.020743917420146474,
+    "intercept": 29.497263198757764,
+    "test_variant": "Original Mann–Kendall with tie and continuity correction",
+    "autocorrelation": {
+      "lag1": -0.054812834224598934,
+      "decision": "No material detrended rank lag-1 dependence detected (screen, not proof of independence)"
+    }
+  },
+  "verdict": "Significant decrease",
+  "quality": {
+    "valid_observations": 34,
+    "total_observations": 34,
+    "missing_percent": 0.0,
+    "valid_pixel_coverage": null,
+    "warnings": [],
+    "valid_daily_observations": 3128,
+    "total_daily_observations": 3128,
+    "missing_daily_percent": 0.0,
+    "minimum_period_coverage": 0.9,
+    "excluded_periods": 0
+  },
+  "interpretation": {
+    "en": "The selected record supports a decreasing monotonic trend. This is evidence of change, not its cause or a forecast.",
+    "bn": "নির্বাচিত রেকর্ডে হ্রাসের প্রবণতার পরিসংখ্যানগত প্রমাণ আছে। এটি কারণ নির্ধারণ বা ভবিষ্যদ্বাণী নয়।"
+  },
+  "provenance": {
+    "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+    "retrieved_at": "2026-11-11T15:45:55.395221+00:00",
+    "mode": "CACHED",
+    "software_version": "0.1.0"
+  },
+  "passport": {
+    "schema_version": "1.0",
+    "analysis_id": "bhu-d9bf4b77825f56cd",
+    "identity": {
+      "dataset_name": "POWER_DAILY",
+      "version": "v2.10.3",
+      "version_scope": "POWER API version recorded from response; underlying source processing versions are not returned by this response",
+      "upstream_sources": [
+        "MERRA2",
+        "SRB",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "nasa_daac_api": "NASA Langley POWER API",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC"
+    },
+    "measurement": {
+      "variable": "Air temperature at 2 m",
+      "parameter_band": "T2M",
+      "units": "°C",
+      "source_units": "C",
+      "scale_factor": 1,
+      "source_type": "Gridded model/reanalysis-derived meteorology (POWER)"
+    },
+    "space_time": {
+      "location": {
+        "id": "dhaka",
+        "label": "Dhaka",
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.412,
+          23.81,
+          10.06
+        ]
+      },
+      "spatial_resolution": "Meteorology native MERRA-2 grid approximately 0.5° latitude × 0.625° longitude; solar grid approximately 1° × 1°; source-dependent",
+      "temporal_resolution": "daily source → one value per year for selected period",
+      "start_date": "1991-01-01",
+      "end_date": "2024-12-31",
+      "time_standard": "UTC",
+      "boundary_source": null,
+      "area_weighting": "not applicable; point/grid estimate"
+    },
+    "processing": {
+      "quality_flags": "POWER fill-value and physical-range inspection; source QC performed upstream; no satellite pixel QA supplied by point API",
+      "fill_values_removed": 0,
+      "fill_value_count_scope": "Complete cached source record, including physical-range exclusions",
+      "fill_value": -999.0,
+      "aggregation_rule": "arithmetic mean of valid daily values; >=90% period coverage",
+      "seasonal_definition": "March–May pre-monsoon summer",
+      "missing_data_percent": 0.0,
+      "valid_pixel_coverage": null,
+      "coverage_explanation": "Not supplied for POWER point requests; do not interpret as 100% raster-pixel coverage.",
+      "period_coverage_threshold": 0.9
+    },
+    "statistics": {
+      "test_variant": "Original Mann–Kendall with tie and continuity correction",
+      "slope_method": "SciPy Theil–Sen using actual calendar years",
+      "slope_per_year": -0.04031832298136605,
+      "slope_per_decade": -0.4031832298136605,
+      "p_value": 0.020743917420146474,
+      "confidence_interval_95_per_decade": [
+        -0.7163043478260747,
+        -0.03418972332016036
+      ],
+      "autocorrelation_decision": {
+        "lag1": -0.054812834224598934,
+        "decision": "No material detrended rank lag-1 dependence detected (screen, not proof of independence)"
+      },
+      "multiple_testing_adjustment": "None: single pre-specified investigation",
+      "alpha": 0.05
+    },
+    "reproducibility": {
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "retrieved_at": "2026-11-11T15:45:55.395221+00:00",
+      "mode": "CACHED",
+      "software_version": "0.1.0",
+      "compute_source_sha256": "da2dd79027703fec3088d03563584f3c1b22d5f9194278dabf9a453157361eac",
+      "source_sha256": "6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12",
+      "processed_sha256": "89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3",
+      "assumptions": [
+        "No missing values interpolated.",
+        "Point/grid estimate, never a district average.",
+        "At least 10 valid annual/seasonal periods and 80% aggregate coverage required.",
+        "Mann–Kendall tests a monotonic trend, not causation or a forecast.",
+        "Theil–Sen 95% CI is in units per decade and assumes independent errors.",
+        "Autocorrelation screen uses detrended rank lag-1 correlation and approximate 1.96/sqrt(n) threshold.",
+        "Higher-order dependence can remain undetected by the lag-1 screen.",
+        "No station validation or breakpoint/homogeneity assessment performed; this gridded-product trend is not proof of a trend in every local observation."
+      ],
+      "limitations": [],
+      "request": {
+        "location_id": "dhaka",
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2024,
+        "aggregation": "summer",
+        "month": 1,
+        "mode": "cached",
+        "lat": null,
+        "lon": null,
+        "autocorrelation": "auto"
+      },
+      "raw_data_reference": "data/raw/snapshots/power-dhaka-6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12.json",
+      "processed_data_reference": "data/processed/snapshots/power-dhaka-89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3.parquet"
+    }
+  },
+  "full_record": {
+    "period": {
+      "start_year": 1991,
+      "end_year": 2024
+    },
+    "trend": {
+      "direction": "decreasing",
+      "slope_per_year": -0.04031832298136605,
+      "slope_per_decade": -0.4031832298136605,
+      "ci_95": [
+        -0.7163043478260747,
+        -0.03418972332016036
+      ],
+      "p_value": 0.020743917420146474,
+      "intercept": 29.497263198757764,
+      "test_variant": "Original Mann–Kendall with tie and continuity correction",
+      "autocorrelation": {
+        "lag1": -0.054812834224598934,
+        "decision": "No material detrended rank lag-1 dependence detected (screen, not proof of independence)"
+      }
+    },
+    "quality": {
+      "valid_observations": 34,
+      "total_observations": 34,
+      "missing_percent": 0.0,
+      "valid_pixel_coverage": null,
+      "warnings": [],
+      "valid_daily_observations": 3128,
+      "total_daily_observations": 3128,
+      "missing_daily_percent": 0.0,
+      "minimum_period_coverage": 0.9,
+      "excluded_periods": 0
+    },
+    "verdict": "Significant decrease"
+  },
+  "window_sensitive": false
+}

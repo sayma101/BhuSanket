@@ -1,0 +1,11 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "asset": "public/images/claim-court-desk-v2.webp",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "bytes": 135576,
+  "purpose": "Decorative editorial illustration, explicitly not NASA imagery or measured data",
+  "prompt": "Use case: stylized-concept. Asset: wide cinematic website header background for BHUSANKET Claim Court, an environmental evidence investigation workspace. Create a premium editorial still life of a dark walnut desk: a refined wooden judge's gavel and its round block on the RIGHT side, a brass-rimmed magnifying glass over a few blank warm ivory archival paper sheets, a faint green botanical leaf sample at the far right edge. Deep burgundy and midnight navy shadows, warm amber rim lighting, realistic tactile wood and paper, calm sophisticated museum quality. Composition: very wide landscape banner, objects occupy rightmost 55 percent, LEFT 45 percent mostly empty dark burgundy negative space for HTML headline overlay. No people, no text, no labels, no logos, no charts, no measurements, no satellite maps. This is decorative editorial artwork, not NASA imagery. Full bleed opaque background. Save as a production image asset."
+}

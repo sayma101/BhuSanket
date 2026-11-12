@@ -1,0 +1,18 @@
+{
+  "production_url": "http://127.0.0.1:3002",
+  "hero_text": "Every change leaves a signal. Explore how rainfall, heat and water systems are changing across Bangladesh using real NASA Earth-science data. Explore Earth Start Learning",
+  "hero_cta_routes": [
+    "/explore",
+    "/student-lab"
+  ],
+  "south_asia_earth_present": true,
+  "earth_image_endpoint": "200 JPEG",
+  "navigation_adapter_checks": 18,
+  "http_smoke_checks": 21,
+  "backend_tests": 30,
+  "typecheck": "passed",
+  "lint": "passed",
+  "production_build": "passed",
+  "rendered_desktop_mobile_visual_qa": "Not performed: Computer Use could not verify browser URL",
+  "manual_browser_back_flows": "Not performed; deterministic production-hook tests passed"
+}

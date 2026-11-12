@@ -1,0 +1,38 @@
+﻿'use client';
+
+import Image from 'next/image';
+import {useJourney,useSessionState} from '@/lib/navigation';
+import { useEffect, useRef, useState } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
+import { ArrowLeft, ArrowRight, CheckCircle2, RotateCcw, XCircle } from 'lucide-react';
+import { ACADEMY_QUESTIONS, questionsForRecord, scoreAcademyQuiz, type QuizRecord } from '@/lib/academy-quiz';
+import {missionQuestions} from '@/lib/academy-mission-questions';
+import {LearningChart,type LearningResult} from '../claim-checker';
+import type { AcademyLanguage, AcademyLesson } from '@/lib/academy-content';
+
+function TeachingChart({ bn }: { bn: boolean }) {
+  return <figure className="academy-teaching-chart"><svg viewBox="0 0 560 165" role="img" aria-label={bn ? 'শুধু শেখার উদাহরণ: ছয় বছরে ২০, ২২, ২১, অনুপস্থিত, ২৪, ২৫ ডিগ্রি সেলসিয়াস' : 'Synthetic teaching example: 20, 22, 21, missing, 24, 25 degrees Celsius across six years'}><line x1="45" y1="125" x2="535" y2="125" stroke="currentColor" opacity=".3"/><line x1="45" y1="20" x2="45" y2="125" stroke="currentColor" opacity=".3"/><path d="M65 115L150 85L235 100M405 55L490 40" stroke="#168C83" strokeWidth="3" fill="none"/><text x="13" y="80" transform="rotate(-90 13 80)">°C</text><text x="65" y="150">{bn ? 'বছর ১' : 'Year 1'}</text><text x="280" y="145">{bn ? 'অনুপস্থিত' : 'Missing'}</text><text x="470" y="150">{bn ? 'বছর ৬' : 'Year 6'}</text>{[[65,115],[150,85],[235,100],[405,55],[490,40]].map(([x,y]) => <circle key={x} cx={x} cy={y} r="4" fill="#168C83"/>)}</svg><figcaption>{bn ? 'শুধু শেখার জন্য কৃত্রিম তথ্য; NASA-এর মাপ নয়।' : 'Synthetic teaching values only; not NASA observations.'}</figcaption></figure>;
+}
+export function QuizFeedback({ record, language, onRetry }: { record: QuizRecord; language: AcademyLanguage; onRetry?: () => void }) {
+  const bn = language === 'bn';
+  return <section className="academy-quiz-feedback"><header><CheckCircle2 size={28}/><div><h3>{bn ? 'তোমার উত্তর, তোমার শেখা' : 'Your answers. Your learning.'}</h3><p>{bn ? 'স্কোর' : 'Score'}: <strong>{record.score} / {record.answers.length}</strong></p></div>{onRetry && <button className="academy-quiet-button" onClick={onRetry}><RotateCcw size={15}/>{bn ? 'আবার চেষ্টা' : 'Try again'}</button>}</header>{questionsForRecord(record).slice(0,record.answers.length).map((question,index) => {const correct = record.answers[index] === question.correct;return <article key={question.id} className={correct ? 'correct' : 'incorrect'}><div>{correct ? <CheckCircle2 size={19}/> : <XCircle size={19}/>}<h4>{index+1}. {question.prompt[language]}</h4></div><p><strong>{bn ? 'তোমার উত্তর: ' : 'You chose: '}</strong>{question.options[record.answers[index]]?.[language] ?? (bn ? 'উত্তর নেই' : 'Not answered')}</p>{!correct && <p><strong>{bn ? 'সঠিক উত্তর: ' : 'Correct answer: '}</strong>{question.options[question.correct][language]}</p>}<p>{question.why[language]}</p></article>;})}</section>;
+}
+export function AcademyQuiz({ phase, lesson, language, record, onComplete, onRetry, result, sharedSkills=false }: { sharedSkills?:boolean; result?:LearningResult; phase:'pre'|'post'; lesson:AcademyLesson; language:AcademyLanguage; record?:QuizRecord|null; onComplete:(record:QuizRecord)=>void; onRetry?:()=>void }) {
+  const bn = language === 'bn';
+  const questions=sharedSkills?ACADEMY_QUESTIONS:missionQuestions(lesson.id,phase==='pre',result);
+  const reduced = useReducedMotion();
+  const [answers,setAnswers] = useSessionState<number[]>(`quiz:${lesson.id}:${phase}:${sharedSkills}:answers`,() => questions.map(() => -1));
+  const quizJourney=useJourney(`quiz:${lesson.id}:${phase}:${sharedSkills}`,{questionIndex:0}); const {questionIndex}=quizJourney.value;const setQuestionIndex=quizJourney.field('questionIndex');
+  const [startedAt,setStartedAt] = useState(() => Date.now());
+  const question = questions[questionIndex];
+  const questionPanel = useRef<HTMLFieldSetElement>(null);
+  useEffect(() => {questionPanel.current?.focus({preventScroll:true});},[questionIndex]);
+  function retry() {setAnswers(questions.map(() => -1));setQuestionIndex(0);setStartedAt(Date.now());onRetry?.();}
+  if (record) return <QuizFeedback record={record} language={language} onRetry={onRetry ? retry : undefined}/>;
+  return <section className="academy-quiz" aria-label={bn ? 'জ্ঞান যাচাই' : 'Knowledge check'}><header><span className="academy-kicker">{phase === 'pre' ? (bn ? 'দেখা থেকে শেখা যাচাই' : 'MEDIA COMPREHENSION CHECK') : (bn ? 'নিজেকে যাচাই' : 'TEST WHAT YOU KNOW')}</span><h2>{phase === 'pre' ? (bn ? 'তুমি কী দেখলে ও শিখলে?' : 'What did you watch and learn?') : (bn ? 'তথ্য তোমাকে কী শেখাল?' : 'What did the evidence teach you?')}</h2><p>{bn ? 'সব প্রশ্নের উত্তর জমা দেওয়ার পর ব্যাখ্যা দেখবে। কোনো পাস নম্বর নেই; আবার চেষ্টা করা যায়।' : 'Submit all answers to reveal the explanations. There is no pass mark; you can retry.'}</p></header><div className="academy-question-progress"><span role="status">{bn ? 'প্রশ্ন' : 'Question'} {questionIndex+1} / {questions.length}</span><div aria-hidden="true">{questions.map((q,index) => <i className={index === questionIndex ? 'current' : answers[index] >= 0 ? 'answered' : ''} key={q.id}/>)}</div></div><motion.div key={question.id} initial={reduced ? false : {opacity:0,y:5}} animate={{opacity:1,y:0}} transition={{duration:.2}}>
+    {question.visual === 'chart' && (result?<LearningChart result={result} guided={false}/>:<TeachingChart bn={bn}/>)}{question.visual === 'image' && <figure className={`academy-quiz-image ${lesson.image.contain ? 'contain' : ''}`}><div><Image src={lesson.image.src} alt={lesson.image.alt} fill sizes="(max-width:700px) 100vw, 700px"/></div><figcaption>{lesson.image.caption[language]}<small>{lesson.image.credit}</small></figcaption></figure>}
+    <fieldset ref={questionPanel} tabIndex={-1}><legend>{question.prompt[language]}</legend>{question.options.map((option,index) => <label key={option.en} className={answers[questionIndex] === index ? 'selected' : ''}><input type="radio" name={`${phase}-${question.id}`} value={index} checked={answers[questionIndex] === index} onChange={() => setAnswers(previous => previous.map((value,i) => i === questionIndex ? index : value))}/><span>{option[language]}</span></label>)}</fieldset>
+  </motion.div><footer><button className="academy-quiet-button" disabled={questionIndex === 0} onClick={() => quizJourney.navigate(v=>({questionIndex:v.questionIndex-1}),true)}><ArrowLeft size={16}/>{bn ? 'আগের প্রশ্ন' : 'Previous'}</button>{questionIndex < questions.length-1 ? <button className="academy-button" disabled={answers[questionIndex] < 0} onClick={() => setQuestionIndex(value => value+1)}>{bn ? 'পরের প্রশ্ন' : 'Next question'}<ArrowRight size={16}/></button> : <button className="academy-button" disabled={answers.some(value => value < 0)} onClick={() => onComplete({answers:[...answers],score:scoreAcademyQuiz(answers,questions),completed_at:new Date().toISOString(),elapsed_seconds:Math.round((Date.now()-startedAt)/1000),question_set:sharedSkills?'academy-v1':`${lesson.id}${phase==='pre'?'-watch':''}-v2`,questions})}>{bn ? 'উত্তর জমা দাও' : 'Submit answers'}<CheckCircle2 size={16}/></button>}</footer></section>;
+}
+
+export function SharedChartPractice({lesson,language}:{lesson:AcademyLesson;language:AcademyLanguage}){const [record,setRecord]=useState<QuizRecord|null>(null);return <details className="academy-starting-check"><summary>{language==='bn'?'ঐচ্ছিক: আগের চার্ট পড়ার অনুশীলন':'Optional: original chart-skills practice'}</summary><AcademyQuiz sharedSkills phase="post" lesson={lesson} language={language} record={record} onComplete={setRecord} onRetry={()=>setRecord(null)}/></details>;}

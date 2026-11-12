@@ -1,0 +1,1956 @@
+{
+  "checked_at": "2026-11-12T10:30:06.339917+00:00",
+  "total_urls": 157,
+  "summary": {
+    "reachable": 150,
+    "not_verified": 2,
+    "broken": 3,
+    "redirected": 2
+  },
+  "results": [
+    {
+      "url": "https://airs.jpl.nasa.gov/",
+      "final_url": "https://airs.jpl.nasa.gov/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.721436+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/december/world.topo.bathy.200412.3x5400x2700.jpg",
+      "final_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/december/world.topo.bathy.200412.3x5400x2700.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.423308+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/1000/1326/modis_ganges_lrg.jpg",
+      "final_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/1000/1326/modis_ganges_lrg.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.802942+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/150000/150274/dhaka_oli_202279_lrg.jpg",
+      "final_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/150000/150274/dhaka_oli_202279_lrg.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.924724+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/18000/18490/Bangladesh_AMO_2007171.jpg",
+      "final_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/18000/18490/Bangladesh_AMO_2007171.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.941727+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/7000/7028/sundarban_l7_2000331_lrg.jpg",
+      "final_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/7000/7028/sundarban_l7_2000331_lrg.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.926570+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://aura.gsfc.nasa.gov/omi.html",
+      "final_url": "https://science.nasa.gov/mission/aura/",
+      "http_status": 200,
+      "state": "redirected",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:53.371867+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary",
+      "final_url": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary",
+      "http_status": 206,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.743520+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/11.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/11.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.101992+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/12.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/12.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.146805+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/11.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/11.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.279456+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/12.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/12.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.362000+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/23.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/23.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.589224+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/24.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/24.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.590425+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/23.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/23.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.704121+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/24.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/24.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.732989+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.757988+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.898688+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.912941+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.920933+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:57.980213+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.032544+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.118104+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.206013+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.319301+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.322734+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.397565+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.435836+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.471251+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.601105+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.629932+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.657628+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.671331+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.749728+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.832667+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:58.911047+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.028547+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.053447+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.092055+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.124851+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.239223+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.318140+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.335783+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.367225+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.370056+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.455100+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.540258+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.670487+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.733725+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.767119+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.788926+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.822358+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:59.974483+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.031050+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.073114+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/11.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/11.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.073735+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/12.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/12.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.078754+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/11.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/11.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.171088+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/12.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/12.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.247120+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/23.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/23.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.351760+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/24.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/24.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.454492+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/23.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/23.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.472089+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/24.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/24.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.525911+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.527851+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.673264+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.755984+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.870841+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.913417+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:00.922008+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/47.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/47.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.020563+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/48.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/48.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.082218+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/49.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/49.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.109544+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.148652+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.230732+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.325482+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.372035+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.439431+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.491316+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.634435+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.654834+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.791196+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.793474+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.850799+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:01.954658+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.021575+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.095488+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.117791+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.174009+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.193840+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.348492+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.392946+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.502721+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.503040+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.548077+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.665949+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.698157+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.846057+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/94.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/94.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.955993+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/95.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/95.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.976251+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/96.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/96.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:02.993178+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/97.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/97.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:03.038705+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/98.jpeg",
+      "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/98.jpeg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:30:03.097886+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+      "final_url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.038724+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/directory",
+      "final_url": "https://gpm.nasa.gov/data/directory",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.743942+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg",
+      "final_url": "https://gpm.nasa.gov/data/imerg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.743082+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/monsoons-wet-dry-repeat",
+      "final_url": "https://gpm.nasa.gov/science/monsoons-wet-dry-repeat",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:55.247286+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://grace.jpl.nasa.gov/",
+      "final_url": "https://grace.jpl.nasa.gov/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.033942+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://gracefo.jpl.nasa.gov/data/",
+      "final_url": "https://gracefo.jpl.nasa.gov/data/",
+      "http_status": 404,
+      "state": "broken",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:51.255614+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A2",
+      "final_url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A2",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.744389+00:00",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas",
+      "final_url": "https://ldas.gsfc.nasa.gov/gldas",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.480026+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas/dataset",
+      "final_url": "https://ldas.gsfc.nasa.gov/gldas/dataset",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.648013+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas/gldas-get-data",
+      "final_url": "https://ldas.gsfc.nasa.gov/gldas/gldas-get-data",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.642125+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/products/mod13q1v061/",
+      "final_url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061",
+      "http_status": 200,
+      "state": "redirected",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.745169+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "final_url": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "http_status": 206,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.930557+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://nsidc.org/data/smap",
+      "final_url": "https://nsidc.org/data/smap",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:50.300709+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://power.larc.nasa.gov",
+      "final_url": "https://power.larc.nasa.gov",
+      "http_status": 206,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.742580+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point",
+      "http_status": 422,
+      "state": "not_verified",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.741847+00:00",
+      "error": "HTTP Error 422: "
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?",
+      "http_status": 422,
+      "state": "not_verified",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:55.402333+00:00",
+      "error": "HTTP Error 422: "
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=22.8456&longitude=89.5403&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=22.8456&longitude=89.5403&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.868884+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=23.8103&longitude=90.4125&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=23.8103&longitude=90.4125&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.559890+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.3745&longitude=88.6042&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.3745&longitude=88.6042&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.869976+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.8949&longitude=91.8687&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.8949&longitude=91.8687&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:04.055313+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=25.0658&longitude=91.395&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=25.0658&longitude=91.395&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.971716+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=27.7172&longitude=85.324&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=27.7172&longitude=85.324&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.817828+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=85.324&latitude=27.7172&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=85.324&latitude=27.7172&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.263307+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=88.6042&latitude=24.3745&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=88.6042&latitude=24.3745&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.311599+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=89.5403&latitude=22.8456&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=89.5403&latitude=22.8456&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.265452+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.248063+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.395&latitude=25.0658&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.395&latitude=25.0658&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.374280+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.8687&latitude=24.8949&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.8687&latitude=24.8949&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:30:03.438530+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+      "final_url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+      "http_status": 206,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.739552+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.600393+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/floods-in-bangladesh-18490/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/floods-in-bangladesh-18490/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.445630+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.109317+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/global-maps/land-surface-temperature-anomaly/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/global-maps/land-surface-temperature-anomaly/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.963787+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/rising-flood-risks-in-bangladesh-150274/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/rising-flood-risks-in-bangladesh-150274/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.162121+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/sundarbans-bangladesh-7028/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/sundarbans-bangladesh-7028/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.198182+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=CLIMCAPS",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=CLIMCAPS",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.808287+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=GRACE-FO",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=GRACE-FO",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.023272+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=MERRA-2",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=MERRA-2",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:52.365728+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=MOD11A2%20061",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=MOD11A2%20061",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.744813+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=MOD13Q1%20061",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=MOD13Q1%20061",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.745572+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=OMI",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=OMI",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:53.752782+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=VIIRS",
+      "final_url": "https://search.earthdata.nasa.gov/search?q=VIIRS",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.746572+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://smap.jpl.nasa.gov/",
+      "final_url": "https://smap.jpl.nasa.gov/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:51.115503+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/10501/",
+      "final_url": "https://svs.gsfc.nasa.gov/10501/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.745836+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/12254/",
+      "final_url": "https://svs.gsfc.nasa.gov/12254/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.801503+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/30771/",
+      "final_url": "https://svs.gsfc.nasa.gov/30771/",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.691346+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4129",
+      "final_url": "https://svs.gsfc.nasa.gov/4129",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:54.731994+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/",
+      "http_status": 404,
+      "state": "broken",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:56.323699+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/earthrise_720p30.mp4",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/earthrise_720p30.mp4",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.893804+00:00",
+      "content_type": "video/mp4"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.00713_print.jpg",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.00713_print.jpg",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:55.944481+00:00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.webmhd.webm",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.webmhd.webm",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:55.469836+00:00",
+      "content_type": "video/webm"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/",
+      "http_status": 404,
+      "state": "broken",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:56.170082+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/4397_Monsoon_w_Tour_prores.webm",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/4397_Monsoon_w_Tour_prores.webm",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.440611+00:00",
+      "content_type": "video/webm"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a030000/a030700/a030771/ISS_View_of_Planet_Earth_720p.mp4",
+      "final_url": "https://svs.gsfc.nasa.gov/vis/a030000/a030700/a030771/ISS_View_of_Planet_Earth_720p.mp4",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "HEAD",
+      "checked_at": "2026-11-12T10:29:56.991632+00:00",
+      "content_type": "video/mp4"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/viirs",
+      "final_url": "https://www.earthdata.nasa.gov/data/instruments/viirs",
+      "http_status": 200,
+      "state": "reachable",
+      "method": "GET",
+      "checked_at": "2026-11-12T10:29:49.746159+00:00",
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "duplicate_references": {
+    "https://nsidc.org/data/smap": [
+      "smap.documentation_url",
+      "smap.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/": [
+      "delta.documentation_url",
+      "delta.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/rising-flood-risks-in-bangladesh-150274/": [
+      "dhaka-image.documentation_url",
+      "dhaka-image.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/sundarbans-bangladesh-7028/": [
+      "sundarbans.documentation_url",
+      "sundarbans.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/floods-in-bangladesh-18490/": [
+      "sylhet-image.documentation_url",
+      "sylhet-image.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/": [
+      "blue-marble.documentation_url",
+      "blue-marble.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/30771/": [
+      "iss-film.documentation_url",
+      "iss-film.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/4129": [
+      "earthrise.documentation_url",
+      "earthrise.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/10501/": [
+      "water-cycle.documentation_url",
+      "water-cycle.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/12254/": [
+      "monsoon-film.documentation_url",
+      "monsoon-film.data_access_url"
+    ],
+    "https://nasa-gibs.github.io/gibs-api-docs/": [
+      "gibs.documentation_url",
+      "gibs.data_access_url"
+    ],
+    "https://science.nasa.gov/earth/earth-observatory/global-maps/land-surface-temperature-anomaly/": [
+      "heat-concept.documentation_url",
+      "heat-concept.data_access_url"
+    ],
+    "https://gpm.nasa.gov/science/monsoons-wet-dry-repeat": [
+      "monsoon-concept.documentation_url",
+      "monsoon-concept.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?": [
+      "asset-24.documentation_url",
+      "asset-24.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.webmhd.webm": [
+      "asset-25.documentation_url",
+      "asset-25.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a010000/a010500/a010501/water_cycle_appletv_1280x720.00713_print.jpg": [
+      "asset-26.documentation_url",
+      "asset-26.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/": [
+      "asset-27.documentation_url",
+      "asset-27.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/": [
+      "asset-28.documentation_url",
+      "asset-28.data_access_url"
+    ],
+    "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/december/world.topo.bathy.200412.3x5400x2700.jpg": [
+      "asset-29.documentation_url",
+      "asset-29.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a010000/a012200/a012254/4397_Monsoon_w_Tour_prores.webm": [
+      "asset-30.documentation_url",
+      "asset-30.data_access_url"
+    ],
+    "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/1000/1326/modis_ganges_lrg.jpg": [
+      "asset-31.documentation_url",
+      "asset-31.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/earthrise_720p30.mp4": [
+      "asset-32.documentation_url",
+      "asset-32.data_access_url"
+    ],
+    "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/150000/150274/dhaka_oli_202279_lrg.jpg": [
+      "asset-33.documentation_url",
+      "asset-33.data_access_url"
+    ],
+    "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/7000/7028/sundarban_l7_2000331_lrg.jpg": [
+      "asset-34.documentation_url",
+      "asset-34.data_access_url"
+    ],
+    "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/18000/18490/Bangladesh_AMO_2007171.jpg": [
+      "asset-35.documentation_url",
+      "asset-35.data_access_url"
+    ],
+    "https://svs.gsfc.nasa.gov/vis/a030000/a030700/a030771/ISS_View_of_Planet_Earth_720p.mp4": [
+      "asset-36.documentation_url",
+      "asset-36.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/11.jpeg": [
+      "asset-37.documentation_url",
+      "asset-37.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/6/12.jpeg": [
+      "asset-38.documentation_url",
+      "asset-38.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/11.jpeg": [
+      "asset-39.documentation_url",
+      "asset-39.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/4/7/12.jpeg": [
+      "asset-40.documentation_url",
+      "asset-40.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/23.jpeg": [
+      "asset-41.documentation_url",
+      "asset-41.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/13/24.jpeg": [
+      "asset-42.documentation_url",
+      "asset-42.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/23.jpeg": [
+      "asset-43.documentation_url",
+      "asset-43.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/5/14/24.jpeg": [
+      "asset-44.documentation_url",
+      "asset-44.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/47.jpeg": [
+      "asset-45.documentation_url",
+      "asset-45.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/48.jpeg": [
+      "asset-46.documentation_url",
+      "asset-46.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/26/49.jpeg": [
+      "asset-47.documentation_url",
+      "asset-47.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/47.jpeg": [
+      "asset-48.documentation_url",
+      "asset-48.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/48.jpeg": [
+      "asset-49.documentation_url",
+      "asset-49.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/27/49.jpeg": [
+      "asset-50.documentation_url",
+      "asset-50.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/47.jpeg": [
+      "asset-51.documentation_url",
+      "asset-51.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/48.jpeg": [
+      "asset-52.documentation_url",
+      "asset-52.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/6/28/49.jpeg": [
+      "asset-53.documentation_url",
+      "asset-53.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/94.jpeg": [
+      "asset-54.documentation_url",
+      "asset-54.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/95.jpeg": [
+      "asset-55.documentation_url",
+      "asset-55.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/96.jpeg": [
+      "asset-56.documentation_url",
+      "asset-56.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/97.jpeg": [
+      "asset-57.documentation_url",
+      "asset-57.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/52/98.jpeg": [
+      "asset-58.documentation_url",
+      "asset-58.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/94.jpeg": [
+      "asset-59.documentation_url",
+      "asset-59.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/95.jpeg": [
+      "asset-60.documentation_url",
+      "asset-60.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/96.jpeg": [
+      "asset-61.documentation_url",
+      "asset-61.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/97.jpeg": [
+      "asset-62.documentation_url",
+      "asset-62.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/53/98.jpeg": [
+      "asset-63.documentation_url",
+      "asset-63.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/94.jpeg": [
+      "asset-64.documentation_url",
+      "asset-64.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/95.jpeg": [
+      "asset-65.documentation_url",
+      "asset-65.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/96.jpeg": [
+      "asset-66.documentation_url",
+      "asset-66.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/97.jpeg": [
+      "asset-67.documentation_url",
+      "asset-67.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/54/98.jpeg": [
+      "asset-68.documentation_url",
+      "asset-68.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/94.jpeg": [
+      "asset-69.documentation_url",
+      "asset-69.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/95.jpeg": [
+      "asset-70.documentation_url",
+      "asset-70.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/96.jpeg": [
+      "asset-71.documentation_url",
+      "asset-71.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/97.jpeg": [
+      "asset-72.documentation_url",
+      "asset-72.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/55/98.jpeg": [
+      "asset-73.documentation_url",
+      "asset-73.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/94.jpeg": [
+      "asset-74.documentation_url",
+      "asset-74.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/95.jpeg": [
+      "asset-75.documentation_url",
+      "asset-75.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/96.jpeg": [
+      "asset-76.documentation_url",
+      "asset-76.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/97.jpeg": [
+      "asset-77.documentation_url",
+      "asset-77.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/56/98.jpeg": [
+      "asset-78.documentation_url",
+      "asset-78.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/94.jpeg": [
+      "asset-79.documentation_url",
+      "asset-79.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/95.jpeg": [
+      "asset-80.documentation_url",
+      "asset-80.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/96.jpeg": [
+      "asset-81.documentation_url",
+      "asset-81.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/97.jpeg": [
+      "asset-82.documentation_url",
+      "asset-82.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/7/57/98.jpeg": [
+      "asset-83.documentation_url",
+      "asset-83.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/11.jpeg": [
+      "asset-84.documentation_url",
+      "asset-84.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/6/12.jpeg": [
+      "asset-85.documentation_url",
+      "asset-85.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/11.jpeg": [
+      "asset-86.documentation_url",
+      "asset-86.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/4/7/12.jpeg": [
+      "asset-87.documentation_url",
+      "asset-87.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/23.jpeg": [
+      "asset-88.documentation_url",
+      "asset-88.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/13/24.jpeg": [
+      "asset-89.documentation_url",
+      "asset-89.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/23.jpeg": [
+      "asset-90.documentation_url",
+      "asset-90.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/5/14/24.jpeg": [
+      "asset-91.documentation_url",
+      "asset-91.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/47.jpeg": [
+      "asset-92.documentation_url",
+      "asset-92.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/48.jpeg": [
+      "asset-93.documentation_url",
+      "asset-93.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/26/49.jpeg": [
+      "asset-94.documentation_url",
+      "asset-94.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/47.jpeg": [
+      "asset-95.documentation_url",
+      "asset-95.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/48.jpeg": [
+      "asset-96.documentation_url",
+      "asset-96.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/27/49.jpeg": [
+      "asset-97.documentation_url",
+      "asset-97.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/47.jpeg": [
+      "asset-98.documentation_url",
+      "asset-98.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/48.jpeg": [
+      "asset-99.documentation_url",
+      "asset-99.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/6/28/49.jpeg": [
+      "asset-100.documentation_url",
+      "asset-100.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/94.jpeg": [
+      "asset-101.documentation_url",
+      "asset-101.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/95.jpeg": [
+      "asset-102.documentation_url",
+      "asset-102.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/96.jpeg": [
+      "asset-103.documentation_url",
+      "asset-103.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/97.jpeg": [
+      "asset-104.documentation_url",
+      "asset-104.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/52/98.jpeg": [
+      "asset-105.documentation_url",
+      "asset-105.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/94.jpeg": [
+      "asset-106.documentation_url",
+      "asset-106.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/95.jpeg": [
+      "asset-107.documentation_url",
+      "asset-107.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/96.jpeg": [
+      "asset-108.documentation_url",
+      "asset-108.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/97.jpeg": [
+      "asset-109.documentation_url",
+      "asset-109.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/53/98.jpeg": [
+      "asset-110.documentation_url",
+      "asset-110.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/94.jpeg": [
+      "asset-111.documentation_url",
+      "asset-111.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/95.jpeg": [
+      "asset-112.documentation_url",
+      "asset-112.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/96.jpeg": [
+      "asset-113.documentation_url",
+      "asset-113.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/97.jpeg": [
+      "asset-114.documentation_url",
+      "asset-114.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/54/98.jpeg": [
+      "asset-115.documentation_url",
+      "asset-115.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/94.jpeg": [
+      "asset-116.documentation_url",
+      "asset-116.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/95.jpeg": [
+      "asset-117.documentation_url",
+      "asset-117.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/96.jpeg": [
+      "asset-118.documentation_url",
+      "asset-118.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/97.jpeg": [
+      "asset-119.documentation_url",
+      "asset-119.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/55/98.jpeg": [
+      "asset-120.documentation_url",
+      "asset-120.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/94.jpeg": [
+      "asset-121.documentation_url",
+      "asset-121.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/95.jpeg": [
+      "asset-122.documentation_url",
+      "asset-122.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/96.jpeg": [
+      "asset-123.documentation_url",
+      "asset-123.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/97.jpeg": [
+      "asset-124.documentation_url",
+      "asset-124.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/56/98.jpeg": [
+      "asset-125.documentation_url",
+      "asset-125.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/94.jpeg": [
+      "asset-126.documentation_url",
+      "asset-126.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/95.jpeg": [
+      "asset-127.documentation_url",
+      "asset-127.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/96.jpeg": [
+      "asset-128.documentation_url",
+      "asset-128.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/97.jpeg": [
+      "asset-129.documentation_url",
+      "asset-129.data_access_url"
+    ],
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-01-15/GoogleMapsCompatible_Level9/7/57/98.jpeg": [
+      "asset-130.documentation_url",
+      "asset-130.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-131.documentation_url",
+      "asset-131.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=85.324&latitude=27.7172&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-132.documentation_url",
+      "asset-132.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=89.5403&latitude=22.8456&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-133.documentation_url",
+      "asset-133.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=88.6042&latitude=24.3745&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-134.documentation_url",
+      "asset-134.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.395&latitude=25.0658&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-135.documentation_url",
+      "asset-135.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=91.8687&latitude=24.8949&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-136.documentation_url",
+      "asset-136.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=23.8103&longitude=90.4125&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-137.documentation_url",
+      "asset-137.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=27.7172&longitude=85.324&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-138.documentation_url",
+      "asset-138.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=22.8456&longitude=89.5403&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-139.documentation_url",
+      "asset-139.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.3745&longitude=88.6042&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-140.documentation_url",
+      "asset-140.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=25.0658&longitude=91.395&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-141.documentation_url",
+      "asset-141.data_access_url"
+    ],
+    "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=24.8949&longitude=91.8687&start=19910101&end=20241231&format=JSON&time-standard=UTC": [
+      "asset-142.documentation_url",
+      "asset-142.data_access_url"
+    ]
+  },
+  "note": "Shared documentation/data-access URLs are intentional for media and discovery portals. Reachability is not scientific validation or data integration. Restricted/login states are not classified as broken."
+}

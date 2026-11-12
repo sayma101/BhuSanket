@@ -1,0 +1,24 @@
+/* The opening is editorial; source records and detailed evidence follow below it. */
+.observatory-home .signal-hero{height:calc(100svh - 80px);min-height:650px;max-height:980px;background:#040f17;display:flex;align-items:center}
+.signal-hero .cinematic-earth{background:radial-gradient(ellipse at 83% 44%,#103849 0%,#071822 46%,#040f17 76%)}
+.signal-hero .hero-content{width:59%;max-width:930px;padding:40px 0 60px 6.25%;pointer-events:auto}
+.signal-hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(66px,7.5vw,122px);line-height:1.03;letter-spacing:-.055em;margin:0 0 32px;text-wrap:balance}
+.signal-hero h1 em{color:#d4b276;letter-spacing:inherit}
+.signal-hero .hero-description{max-width:455px;color:#c3d1d2;font-size:clamp(16px,1.2vw,19px);line-height:1.8;margin:0 0 36px}
+.signal-hero .hero-actions{gap:14px;flex-wrap:wrap}
+.signal-hero .button{font-size:14px;min-height:56px;border-radius:7px;gap:24px;padding:16px 23px}
+.signal-hero .hero-secondary{background:#071923b3;color:#eff1e7;border-color:#b1d0cb55}
+.signal-hero .hero-secondary:hover{background:#18353c;border-color:#b1d0cb99}
+.signal-hero .globe-scene{width:min(79vw,1230px);height:min(79vw,1230px);top:50%;right:-20%;margin-top:max(-39.5vw,-615px);animation:hero-earth-arrive 1.6s ease-out both}
+.signal-hero .earth-globe{filter:saturate(.85) contrast(1.08)}
+.signal-hero .globe-atmosphere{box-shadow:0 0 32px 3px #c6f0fa38,0 0 100px 15px #318cbd25;animation:hero-atmosphere 10s ease-in-out infinite alternate}
+.signal-hero .globe-orbits,.signal-hero .globe-place,.signal-hero .globe-cross{display:none}
+.signal-hero .delta-shade{background:linear-gradient(90deg,#040f17 0%,#040f17ef 23%,#040f1780 45%,transparent 65%),linear-gradient(0deg,#040f17d9,transparent 24%);z-index:3}
+.hero-motion-toggle{position:absolute;right:28px;bottom:24px;width:40px;height:40px;border:1px solid #b1d0cb40;border-radius:50%;background:#071923a8;display:grid;place-items:center;color:#d6e0df;z-index:4}
+.workspace-back{display:inline-flex;align-items:center;gap:7px;border:1px solid #b1d0cb45;background:transparent;color:#e2e9e3;border-radius:7px;padding:8px 12px;font-size:12px;white-space:nowrap}
+@keyframes hero-atmosphere{to{box-shadow:0 0 44px 5px #c6f0fa45,0 0 120px 22px #318cbd30}}
+@keyframes hero-earth-arrive{from{opacity:0;translate:30px 20px}to{opacity:1;translate:0 0}}
+@media(max-width:1050px) and (min-width:801px){.signal-hero .hero-content{width:66%}.signal-hero h1{font-size:76px}.signal-hero .globe-scene{right:-30%;width:92vw;height:92vw;margin-top:-46vw}}
+@media(max-width:800px){.observatory-home .signal-hero{height:auto;min-height:850px;max-height:none;align-items:flex-start}.signal-hero .hero-content{width:100%;padding:64px 7% 360px;max-width:650px}.signal-hero h1{font-size:clamp(52px,10vw,78px);margin-bottom:24px}.signal-hero .hero-description{font-size:16px;max-width:440px;line-height:1.75;margin-bottom:28px}.signal-hero .hero-actions{flex-direction:row;align-items:center;gap:12px}.signal-hero .button{padding:15px 18px;gap:16px;font-size:13px;min-height:53px}.signal-hero .globe-scene{width:108vw;height:108vw;right:-25%;top:450px;margin-top:0;max-width:760px;max-height:760px}.signal-hero .delta-shade{background:linear-gradient(180deg,#040f17 0%,#040f17 39%,#040f1700 65%,#040f1799 100%)}.hero-motion-toggle{right:22px;bottom:20px}}
+@media(max-width:380px){.signal-hero h1{font-size:49px}.signal-hero .hero-content{padding-top:48px}.signal-hero .button{padding:14px;font-size:12px;gap:10px}.signal-hero .globe-scene{top:480px}}
+@media(prefers-reduced-motion:reduce){.signal-hero .globe-scene,.signal-hero .globe-atmosphere{animation:none}.hero-motion-toggle{display:none}}

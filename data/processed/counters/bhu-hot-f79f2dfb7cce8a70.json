@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "bhu-hot-f79f2dfb7cce8a70",
+  "location": {
+    "id": "dhaka",
+    "label": "Dhaka",
+    "lat": 23.8103,
+    "lon": 90.4125,
+    "type": "point"
+  },
+  "threshold_c": 35.0,
+  "definition": "Count of days whose daily maximum 2-m air temperature strictly exceeds the stated threshold; not an official heatwave definition. Incomplete calendar years withheld.",
+  "series": [
+    {
+      "year": 1991,
+      "days_above_threshold": 117,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1992,
+      "days_above_threshold": 121,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 1993,
+      "days_above_threshold": 46,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1994,
+      "days_above_threshold": 103,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1995,
+      "days_above_threshold": 83,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1996,
+      "days_above_threshold": 93,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 1997,
+      "days_above_threshold": 54,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1998,
+      "days_above_threshold": 29,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 1999,
+      "days_above_threshold": 72,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2000,
+      "days_above_threshold": 29,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2001,
+      "days_above_threshold": 43,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2002,
+      "days_above_threshold": 57,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2003,
+      "days_above_threshold": 52,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2004,
+      "days_above_threshold": 58,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2005,
+      "days_above_threshold": 49,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2006,
+      "days_above_threshold": 53,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2007,
+      "days_above_threshold": 39,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2008,
+      "days_above_threshold": 56,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2009,
+      "days_above_threshold": 63,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2010,
+      "days_above_threshold": 60,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2011,
+      "days_above_threshold": 42,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2012,
+      "days_above_threshold": 54,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2013,
+      "days_above_threshold": 47,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2014,
+      "days_above_threshold": 68,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2015,
+      "days_above_threshold": 34,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2016,
+      "days_above_threshold": 53,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2017,
+      "days_above_threshold": 0,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2018,
+      "days_above_threshold": 6,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2019,
+      "days_above_threshold": 43,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2020,
+      "days_above_threshold": 21,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    },
+    {
+      "year": 2021,
+      "days_above_threshold": 49,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2022,
+      "days_above_threshold": 46,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2023,
+      "days_above_threshold": 41,
+      "coverage": 1.0,
+      "valid_daily_observations": 365,
+      "expected_daily_observations": 365
+    },
+    {
+      "year": 2024,
+      "days_above_threshold": 40,
+      "coverage": 1.0,
+      "valid_daily_observations": 366,
+      "expected_daily_observations": 366
+    }
+  ],
+  "provenance": {
+    "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+    "retrieved_at": "2026-11-11T15:45:55.395221+00:00",
+    "mode": "CACHED",
+    "software_version": "0.1.0"
+  },
+  "passport": {
+    "schema_version": "1.0",
+    "analysis_id": "bhu-hot-f79f2dfb7cce8a70",
+    "identity": {
+      "dataset_name": "POWER_DAILY",
+      "version": "v2.10.3",
+      "version_scope": "POWER API response version; underlying processing versions not returned",
+      "nasa_daac_api": "NASA Langley POWER API",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC"
+    },
+    "measurement": {
+      "variable": "Daily maximum 2-m air temperature",
+      "parameter_band": "T2M_MAX",
+      "units": "degrees C",
+      "output_units": "days per year",
+      "scale_factor": 1,
+      "source_type": "Gridded model/reanalysis-derived meteorology",
+      "threshold_c": 35.0,
+      "comparison_operator": ">"
+    },
+    "space_time": {
+      "location": {
+        "id": "dhaka",
+        "label": "Dhaka",
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.412,
+          23.81,
+          10.06
+        ]
+      },
+      "spatial_resolution": "Native meteorology grid approximately 0.5 degrees latitude x 0.625 degrees longitude; point/grid estimate, not district average",
+      "temporal_resolution": "Daily source; annual count",
+      "start_date": "1991-01-01",
+      "end_date": "2024-12-31",
+      "time_standard": "UTC",
+      "boundary_source": null,
+      "area_weighting": "Not applicable; point/grid estimate"
+    },
+    "processing": {
+      "quality_flags": "POWER fill-value/physical-range cleaning; upstream source QC; no pixel QA supplied",
+      "fill_value": -999.0,
+      "fill_values_removed": 0,
+      "aggregation_rule": "Count of days whose daily maximum 2-m air temperature strictly exceeds the stated threshold; not an official heatwave definition. Incomplete calendar years withheld.",
+      "seasonal_definition": "January-December calendar year",
+      "completeness_threshold": 1.0,
+      "missing_data_percent": 0.0,
+      "valid_pixel_coverage": null,
+      "calendar_rule": "Reindex every year to all expected calendar dates, including leap days; omitted source dates count as missing"
+    },
+    "statistics": {
+      "test_variant": "Not performed; descriptive threshold count only",
+      "theil_sen_slope": null,
+      "slope_per_decade": null,
+      "p_value": null,
+      "confidence_interval_95": null,
+      "autocorrelation_decision": "Not assessed; no significance verdict",
+      "multiple_testing_adjustment": "Not applicable; no hypothesis tests performed"
+    },
+    "reproducibility": {
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CPRECTOTCORR%2CRH2M%2CALLSKY_SFC_SW_DWN&community=AG&longitude=90.4125&latitude=23.8103&start=19910101&end=20241231&format=JSON&time-standard=UTC",
+      "retrieved_at": "2026-11-11T15:45:55.395221+00:00",
+      "mode": "CACHED",
+      "software_version": "0.1.0",
+      "counter_source_sha256": "01cbdf20be01d17e2176d747ed9bd3eea7926e60b9a2b8ed454f6a7aa79f3a0a",
+      "source_sha256": "6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12",
+      "processed_sha256": "89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3",
+      "raw_data_reference": "data/raw/snapshots/power-dhaka-6e640a2fbba6f58b25139aee8bb309e8edf5c0d7781f1947dc3befa3760f5a12.json",
+      "processed_data_reference": "data/processed/snapshots/power-dhaka-89b125d02fa1497cd3a971b2fc5a84e018d7493ce913eaa70f30cf2f0388a1f3.parquet",
+      "request": {
+        "location_id": "dhaka",
+        "threshold_c": 35.0,
+        "mode": "cached"
+      },
+      "assumptions": [
+        "No interpolation or scaling of incomplete-year counts",
+        "Threshold is user-defined, not an official heatwave definition",
+        "No trend test, causal attribution, forecast or local-health conclusion is produced",
+        "Point/grid estimate is not a district average"
+      ],
+      "limitations": [
+        "No station validation or homogeneity assessment performed",
+        "Valid-pixel coverage is not supplied by POWER point API"
+      ]
+    }
+  }
+}
