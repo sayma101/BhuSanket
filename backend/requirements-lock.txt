@@ -20,6 +20,7 @@ pyarrow==19.0.1
 pydantic==2.14.3
 pydantic_core==2.50.4
 pymannkendall==1.4.3
+pypdf==7.0.1
 pytest==8.3.5
 python-dateutil==4.0.0
 pytz==2026.6

@@ -1,0 +1,718 @@
+{
+  "checked_at": "2026-11-12T15:33:18.427944+00:00",
+  "target": "CPython 3.13.0 / Linux x86_64",
+  "package_count": 34,
+  "missing_compatible_wheels": [],
+  "network_verification_incomplete": [],
+  "dependency_conflicts": [],
+  "results": [
+    {
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "annotated_types-0.8.0-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/annotated-types/0.8.0/json"
+    },
+    {
+      "package": "anyio",
+      "version": "4.16.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "anyio-4.16.0-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+        "idna>=2.8",
+        "typing_extensions>=4.16.0; python_version < \"3.15\"",
+        "trio>=0.32.0; extra == \"trio\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/anyio/4.16.0/json"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.10.23",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "certifi-2026.10.23-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/certifi/2026.10.23/json"
+    },
+    {
+      "package": "chardet",
+      "version": "7.7.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "chardet-7.7.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "chardet-7.7.0-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/chardet/7.7.0/json"
+    },
+    {
+      "package": "click",
+      "version": "8.5.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "click-8.5.1-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/click/8.5.1/json"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "colorama-0.4.6-py2.py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/colorama/0.4.6/json"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.115.6",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "fastapi-0.115.6-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "starlette<0.42.0,>=0.40.0",
+        "pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4",
+        "typing-extensions>=4.8.0",
+        "fastapi-cli[standard]>=0.0.5; extra == \"standard\"",
+        "httpx>=0.23.0; extra == \"standard\"",
+        "jinja2>=2.11.2; extra == \"standard\"",
+        "python-multipart>=0.0.7; extra == \"standard\"",
+        "email-validator>=2.0.0; extra == \"standard\"",
+        "uvicorn[standard]>=0.12.0; extra == \"standard\"",
+        "fastapi-cli[standard]>=0.0.5; extra == \"all\"",
+        "httpx>=0.23.0; extra == \"all\"",
+        "jinja2>=2.11.2; extra == \"all\"",
+        "python-multipart>=0.0.7; extra == \"all\"",
+        "itsdangerous>=1.1.0; extra == \"all\"",
+        "pyyaml>=5.3.1; extra == \"all\"",
+        "ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1; extra == \"all\"",
+        "orjson>=3.2.1; extra == \"all\"",
+        "email-validator>=2.0.0; extra == \"all\"",
+        "uvicorn[standard]>=0.12.0; extra == \"all\"",
+        "pydantic-settings>=2.0.0; extra == \"all\"",
+        "pydantic-extra-types>=2.0.0; extra == \"all\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/fastapi/0.115.6/json"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "h11-0.16.0-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/h11/0.16.0/json"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "httpcore-1.0.9-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "certifi",
+        "h11>=0.16",
+        "anyio<5.0,>=4.0; extra == \"asyncio\"",
+        "h2<5,>=3; extra == \"http2\"",
+        "socksio==1.*; extra == \"socks\"",
+        "trio<1.0,>=0.22.0; extra == \"trio\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/httpcore/1.0.9/json"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "httpx-0.28.1-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "anyio",
+        "certifi",
+        "httpcore==1.*",
+        "idna",
+        "brotli; platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+        "brotlicffi; platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+        "click==8.*; extra == \"cli\"",
+        "pygments==2.*; extra == \"cli\"",
+        "rich<14,>=10; extra == \"cli\"",
+        "h2<5,>=3; extra == \"http2\"",
+        "socksio==1.*; extra == \"socks\"",
+        "zstandard>=0.18.0; extra == \"zstd\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/httpx/0.28.1/json"
+    },
+    {
+      "package": "idna",
+      "version": "3.20",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "idna-3.20-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "ruff>=0.16.0; extra == \"all\"",
+        "mypy>=1.11.2; extra == \"all\"",
+        "ty>=0.0.37; extra == \"all\"",
+        "pytest>=8.3.2; extra == \"all\"",
+        "hypothesis>=6.141.1; extra == \"all\"",
+        "coverage>=7.10.0; extra == \"all\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/idna/3.20/json"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "iniconfig-2.3.1-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/iniconfig/2.3.1/json"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/numpy/2.5.4/json"
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "packaging-26.3-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/packaging/26.3/json"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pandas-2.2.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      ],
+      "requires_dist": [
+        "numpy>=1.22.4; python_version < \"3.11\"",
+        "numpy>=1.23.2; python_version == \"3.11\"",
+        "numpy>=1.26.0; python_version >= \"3.12\"",
+        "python-dateutil>=2.8.2",
+        "pytz>=2020.1",
+        "tzdata>=2022.7",
+        "hypothesis>=6.46.1; extra == \"test\"",
+        "pytest>=7.3.2; extra == \"test\"",
+        "pytest-xdist>=2.2.0; extra == \"test\"",
+        "pyarrow>=10.0.1; extra == \"pyarrow\"",
+        "bottleneck>=1.3.6; extra == \"performance\"",
+        "numba>=0.56.4; extra == \"performance\"",
+        "numexpr>=2.8.4; extra == \"performance\"",
+        "scipy>=1.10.0; extra == \"computation\"",
+        "xarray>=2022.12.0; extra == \"computation\"",
+        "fsspec>=2022.11.0; extra == \"fss\"",
+        "s3fs>=2022.11.0; extra == \"aws\"",
+        "gcsfs>=2022.11.0; extra == \"gcp\"",
+        "pandas-gbq>=0.19.0; extra == \"gcp\"",
+        "odfpy>=1.4.1; extra == \"excel\"",
+        "openpyxl>=3.1.0; extra == \"excel\"",
+        "python-calamine>=0.1.7; extra == \"excel\"",
+        "pyxlsb>=1.0.10; extra == \"excel\"",
+        "xlrd>=2.0.1; extra == \"excel\"",
+        "xlsxwriter>=3.0.5; extra == \"excel\"",
+        "pyarrow>=10.0.1; extra == \"parquet\"",
+        "pyarrow>=10.0.1; extra == \"feather\"",
+        "tables>=3.8.0; extra == \"hdf5\"",
+        "pyreadstat>=1.2.0; extra == \"spss\"",
+        "SQLAlchemy>=2.0.0; extra == \"postgresql\"",
+        "psycopg2>=2.9.6; extra == \"postgresql\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"postgresql\"",
+        "SQLAlchemy>=2.0.0; extra == \"mysql\"",
+        "pymysql>=1.0.2; extra == \"mysql\"",
+        "SQLAlchemy>=2.0.0; extra == \"sql-other\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"sql-other\"",
+        "adbc-driver-sqlite>=0.8.0; extra == \"sql-other\"",
+        "beautifulsoup4>=4.11.2; extra == \"html\"",
+        "html5lib>=1.1; extra == \"html\"",
+        "lxml>=4.9.2; extra == \"html\"",
+        "lxml>=4.9.2; extra == \"xml\"",
+        "matplotlib>=3.6.3; extra == \"plot\"",
+        "jinja2>=3.1.2; extra == \"output-formatting\"",
+        "tabulate>=0.9.0; extra == \"output-formatting\"",
+        "PyQt5>=5.15.9; extra == \"clipboard\"",
+        "qtpy>=2.3.0; extra == \"clipboard\"",
+        "zstandard>=0.19.0; extra == \"compression\"",
+        "dataframe-api-compat>=0.1.7; extra == \"consortium-standard\"",
+        "adbc-driver-postgresql>=0.8.0; extra == \"all\"",
+        "adbc-driver-sqlite>=0.8.0; extra == \"all\"",
+        "beautifulsoup4>=4.11.2; extra == \"all\"",
+        "bottleneck>=1.3.6; extra == \"all\"",
+        "dataframe-api-compat>=0.1.7; extra == \"all\"",
+        "fastparquet>=2022.12.0; extra == \"all\"",
+        "fsspec>=2022.11.0; extra == \"all\"",
+        "gcsfs>=2022.11.0; extra == \"all\"",
+        "html5lib>=1.1; extra == \"all\"",
+        "hypothesis>=6.46.1; extra == \"all\"",
+        "jinja2>=3.1.2; extra == \"all\"",
+        "lxml>=4.9.2; extra == \"all\"",
+        "matplotlib>=3.6.3; extra == \"all\"",
+        "numba>=0.56.4; extra == \"all\"",
+        "numexpr>=2.8.4; extra == \"all\"",
+        "odfpy>=1.4.1; extra == \"all\"",
+        "openpyxl>=3.1.0; extra == \"all\"",
+        "pandas-gbq>=0.19.0; extra == \"all\"",
+        "psycopg2>=2.9.6; extra == \"all\"",
+        "pyarrow>=10.0.1; extra == \"all\"",
+        "pymysql>=1.0.2; extra == \"all\"",
+        "PyQt5>=5.15.9; extra == \"all\"",
+        "pyreadstat>=1.2.0; extra == \"all\"",
+        "pytest>=7.3.2; extra == \"all\"",
+        "pytest-xdist>=2.2.0; extra == \"all\"",
+        "python-calamine>=0.1.7; extra == \"all\"",
+        "pyxlsb>=1.0.10; extra == \"all\"",
+        "qtpy>=2.3.0; extra == \"all\"",
+        "scipy>=1.10.0; extra == \"all\"",
+        "s3fs>=2022.11.0; extra == \"all\"",
+        "SQLAlchemy>=2.0.0; extra == \"all\"",
+        "tables>=3.8.0; extra == \"all\"",
+        "tabulate>=0.9.0; extra == \"all\"",
+        "xarray>=2022.12.0; extra == \"all\"",
+        "xlrd>=2.0.1; extra == \"all\"",
+        "xlsxwriter>=3.0.5; extra == \"all\"",
+        "zstandard>=0.19.0; extra == \"all\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pandas/2.2.3/json"
+    },
+    {
+      "package": "patsy",
+      "version": "1.0.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "patsy-1.0.3-py2.py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "numpy>=1.4",
+        "packaging",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "scipy; extra == \"test\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/patsy/1.0.3/json"
+    },
+    {
+      "package": "pillow",
+      "version": "13.0.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pillow-13.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+      ],
+      "requires_dist": [
+        "furo; extra == \"docs\"",
+        "olefile; extra == \"docs\"",
+        "sphinx>=8.2; extra == \"docs\"",
+        "sphinx-autobuild; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-inline-tabs; extra == \"docs\"",
+        "sphinxext-opengraph; extra == \"docs\"",
+        "olefile; extra == \"fpx\"",
+        "olefile; extra == \"mic\"",
+        "arro3-compute; extra == \"test-arrow\"",
+        "arro3-core; extra == \"test-arrow\"",
+        "nanoarrow; extra == \"test-arrow\"",
+        "pyarrow; extra == \"test-arrow\"",
+        "coverage>=7.4.2; extra == \"tests\"",
+        "defusedxml; extra == \"tests\"",
+        "markdown2; extra == \"tests\"",
+        "olefile; extra == \"tests\"",
+        "packaging; extra == \"tests\"",
+        "psutil; (sys_platform == \"linux\" or sys_platform == \"darwin\") and extra == \"tests\"",
+        "pytest; extra == \"tests\"",
+        "pytest-cov; extra == \"tests\"",
+        "pytest-timeout; extra == \"tests\"",
+        "pytest-xdist; extra == \"tests\"",
+        "setuptools; extra == \"tests\"",
+        "trove-classifiers>=2024.10.12; extra == \"tests\"",
+        "defusedxml; extra == \"xmp\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pillow/13.0.0/json"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.7.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pluggy-1.7.0-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/pluggy/1.7.0/json"
+    },
+    {
+      "package": "pyarrow",
+      "version": "19.0.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pyarrow-19.0.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pyarrow-19.0.1-cp313-cp313-manylinux_2_28_x86_64.whl"
+      ],
+      "requires_dist": [
+        "pytest; extra == \"test\"",
+        "hypothesis; extra == \"test\"",
+        "cffi; extra == \"test\"",
+        "pytz; extra == \"test\"",
+        "pandas; extra == \"test\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pyarrow/19.0.1/json"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.14.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pydantic-2.14.3-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "annotated-types>=0.6.0",
+        "pydantic-core==2.50.4",
+        "typing-extensions>=4.16.0",
+        "typing-inspection>=0.4.4",
+        "email-validator>=2.0.0; extra == \"email\"",
+        "tzdata; platform_system == \"Windows\" and extra == \"timezone\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pydantic/2.14.3/json"
+    },
+    {
+      "package": "pydantic_core",
+      "version": "2.50.4",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pydantic_core-2.50.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+      ],
+      "requires_dist": [
+        "typing-extensions>=4.16.0"
+      ],
+      "release_metadata": "https://pypi.org/pypi/pydantic_core/2.50.4/json"
+    },
+    {
+      "package": "pymannkendall",
+      "version": "1.4.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pymannkendall-1.4.3-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "numpy",
+        "scipy"
+      ],
+      "release_metadata": "https://pypi.org/pypi/pymannkendall/1.4.3/json"
+    },
+    {
+      "package": "pypdf",
+      "version": "7.0.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pypdf-7.0.1-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "typing_extensions>=4.0; python_version < \"3.11\"",
+        "brotli>=1.2.0; extra == \"brotli\"",
+        "cryptography>=43; extra == \"crypto\"",
+        "pycryptodome; extra == \"cryptodome\"",
+        "flit; extra == \"dev\"",
+        "pip-tools; extra == \"dev\"",
+        "pre-commit; extra == \"dev\"",
+        "pytest-cov; extra == \"dev\"",
+        "pytest-socket; extra == \"dev\"",
+        "pytest-timeout; extra == \"dev\"",
+        "pytest-xdist; extra == \"dev\"",
+        "wheel; extra == \"dev\"",
+        "myst-parser; extra == \"docs\"",
+        "sphinx; extra == \"docs\"",
+        "sphinx-rtd-theme; extra == \"docs\"",
+        "fonttools; extra == \"fonts\"",
+        "arabic-reshaper; extra == \"full\"",
+        "brotli>=1.2.0; extra == \"full\"",
+        "cryptography>=43; extra == \"full\"",
+        "fonttools; extra == \"full\"",
+        "pillow>=8.0.0; extra == \"full\"",
+        "python-bidi; extra == \"full\"",
+        "pillow>=8.0.0; extra == \"image\"",
+        "arabic-reshaper; extra == \"rtl-text\"",
+        "python-bidi; extra == \"rtl-text\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pypdf/7.0.1/json"
+    },
+    {
+      "package": "pytest",
+      "version": "8.3.5",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pytest-8.3.5-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "colorama; sys_platform == \"win32\"",
+        "exceptiongroup>=1.0.0rc8; python_version < \"3.11\"",
+        "iniconfig",
+        "packaging",
+        "pluggy<2,>=1.5",
+        "tomli>=1; python_version < \"3.11\"",
+        "argcomplete; extra == \"dev\"",
+        "attrs>=19.2; extra == \"dev\"",
+        "hypothesis>=3.56; extra == \"dev\"",
+        "mock; extra == \"dev\"",
+        "pygments>=2.7.2; extra == \"dev\"",
+        "requests; extra == \"dev\"",
+        "setuptools; extra == \"dev\"",
+        "xmlschema; extra == \"dev\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/pytest/8.3.5/json"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "4.0.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "python_dateutil-4.0.0-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "tzdata"
+      ],
+      "release_metadata": "https://pypi.org/pypi/python-dateutil/4.0.0/json"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.6",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "pytz-2026.6-py2.py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/pytz/2026.6/json"
+    },
+    {
+      "package": "reportlab",
+      "version": "4.3.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "reportlab-4.3.1-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "pillow>=9.0.0",
+        "chardet",
+        "rl_accel<1.1,>=0.9.0; extra == \"accel\"",
+        "rl_renderPM<4.1,>=4.0.3; extra == \"renderpm\"",
+        "rlPyCairo<1,>=0.2.0; extra == \"pycairo\"",
+        "freetype-py<2.4,>=2.3.0; extra == \"pycairo\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/reportlab/4.3.1/json"
+    },
+    {
+      "package": "scipy",
+      "version": "1.18.1",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+      ],
+      "requires_dist": [
+        "numpy<2.8,>=2.0.0",
+        "pytest>=8.0.0; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "pytest-xdist; extra == \"test\"",
+        "asv; extra == \"test\"",
+        "mpmath; extra == \"test\"",
+        "gmpy2; extra == \"test\"",
+        "threadpoolctl; extra == \"test\"",
+        "scikit-umfpack; extra == \"test\"",
+        "pooch; extra == \"test\"",
+        "hypothesis>=6.30; extra == \"test\"",
+        "array-api-strict>=2.3.1; extra == \"test\"",
+        "Cython; extra == \"test\"",
+        "meson; extra == \"test\"",
+        "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+        "scipy-doctest>=2.0.0; extra == \"test\"",
+        "sphinx<8.2.0,>=5.0.0; extra == \"doc\"",
+        "intersphinx_registry; extra == \"doc\"",
+        "pydata-sphinx-theme>=0.15.2; extra == \"doc\"",
+        "sphinx-copybutton; extra == \"doc\"",
+        "sphinx-design>=0.4.0; extra == \"doc\"",
+        "matplotlib>=3.5; extra == \"doc\"",
+        "numpydoc; extra == \"doc\"",
+        "jupytext; extra == \"doc\"",
+        "myst-nb>=1.2.0; extra == \"doc\"",
+        "pooch; extra == \"doc\"",
+        "jupyterlite-sphinx>=0.19.1; extra == \"doc\"",
+        "jupyterlite-pyodide-kernel; extra == \"doc\"",
+        "linkify-it-py; extra == \"doc\"",
+        "tabulate; extra == \"doc\"",
+        "click<8.3.0; extra == \"dev\"",
+        "spin; extra == \"dev\"",
+        "mypy==1.19.1; extra == \"dev\"",
+        "pyrefly==0.63.0; extra == \"dev\"",
+        "typing_extensions; extra == \"dev\"",
+        "types-psutil; extra == \"dev\"",
+        "pycodestyle; extra == \"dev\"",
+        "ruff>=0.12.0; extra == \"dev\"",
+        "cython-lint>=0.12.2; extra == \"dev\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/scipy/1.18.1/json"
+    },
+    {
+      "package": "starlette",
+      "version": "0.41.3",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "starlette-0.41.3-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "anyio<5,>=3.4.0",
+        "typing-extensions>=3.10.0; python_version < \"3.10\"",
+        "httpx>=0.22.0; extra == \"full\"",
+        "itsdangerous; extra == \"full\"",
+        "jinja2; extra == \"full\"",
+        "python-multipart>=0.0.7; extra == \"full\"",
+        "pyyaml; extra == \"full\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/starlette/0.41.3/json"
+    },
+    {
+      "package": "statsmodels",
+      "version": "0.14.4",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "statsmodels-0.14.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      ],
+      "requires_dist": [
+        "numpy<3,>=1.22.3",
+        "scipy!=1.9.2,>=1.8",
+        "pandas!=2.1.0,>=1.4",
+        "patsy>=0.5.6",
+        "packaging>=21.3",
+        "cython>=3.0.10; extra == \"build\"",
+        "cython>=3.0.10; extra == \"develop\"",
+        "cython<4,>=3.0.10; extra == \"develop\"",
+        "setuptools-scm[toml]~=8.0; extra == \"develop\"",
+        "matplotlib>=3; extra == \"develop\"",
+        "colorama; extra == \"develop\"",
+        "joblib; extra == \"develop\"",
+        "pytest<8,>=7.3.0; extra == \"develop\"",
+        "pytest-randomly; extra == \"develop\"",
+        "pytest-xdist; extra == \"develop\"",
+        "pytest-cov; extra == \"develop\"",
+        "flake8; extra == \"develop\"",
+        "isort; extra == \"develop\"",
+        "pywinpty; os_name == \"nt\" and extra == \"develop\"",
+        "sphinx; extra == \"docs\"",
+        "nbconvert; extra == \"docs\"",
+        "jupyter-client; extra == \"docs\"",
+        "ipykernel; extra == \"docs\"",
+        "matplotlib; extra == \"docs\"",
+        "nbformat; extra == \"docs\"",
+        "numpydoc; extra == \"docs\"",
+        "pandas-datareader; extra == \"docs\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/statsmodels/0.14.4/json"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.5",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "typing_inspection-0.4.5-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "typing-extensions>=4.15.0"
+      ],
+      "release_metadata": "https://pypi.org/pypi/typing-inspection/0.4.5/json"
+    },
+    {
+      "package": "typing_extensions",
+      "version": "4.16.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "typing_extensions-4.16.0-py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/typing_extensions/4.16.0/json"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.6",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "tzdata-2026.6-py2.py3-none-any.whl"
+      ],
+      "requires_dist": [],
+      "release_metadata": "https://pypi.org/pypi/tzdata/2026.6/json"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.34.0",
+      "python": "3.13.0",
+      "linux_x86_64_wheel_available": true,
+      "compatible_wheels": [
+        "uvicorn-0.34.0-py3-none-any.whl"
+      ],
+      "requires_dist": [
+        "click>=7.0",
+        "h11>=0.8",
+        "typing-extensions>=4.0; python_version < \"3.11\"",
+        "colorama>=0.4; sys_platform == \"win32\" and extra == \"standard\"",
+        "httptools>=0.6.3; extra == \"standard\"",
+        "python-dotenv>=0.13; extra == \"standard\"",
+        "pyyaml>=5.1; extra == \"standard\"",
+        "uvloop!=0.15.0,!=0.15.1,>=0.14.0; (sys_platform != \"win32\" and (sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\")) and extra == \"standard\"",
+        "watchfiles>=0.13; extra == \"standard\"",
+        "websockets>=10.4; extra == \"standard\""
+      ],
+      "release_metadata": "https://pypi.org/pypi/uvicorn/0.34.0/json"
+    }
+  ],
+  "scope": "PyPI wheel and declared-dependency metadata checks only; not an actual Linux install or remote deployment."
+}

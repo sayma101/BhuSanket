@@ -50,6 +50,8 @@ npm run dev
 
 ## Hosting on v0 / Vercel
 
+Start with the [deployment handoff](docs/DEPLOYMENT_HANDOFF.md) for the current prototype, backend settings and completed pre-push checks. A live backend/frontend deployment is the next step, not something this checkout claims is already complete.
+
 This is a Next.js **and Python** application. Importing the frontend alone does not start the scientific API. Student Lab missions and analysis require that API. Deploy the backend using the included `render.yaml`, then set server-side `BACKEND_URL` to its actual HTTPS origin in v0's Development, Preview and Production environments. Sync the latest GitHub code and redeploy. See the complete [deployment guide](docs/DEPLOYMENT.md) and run `python scripts/check_academy_deployment.py` against your real frontend URL to verify all four missions. The repository includes deployment configuration; an actual hosted API still needs to be created and connected in your hosting account.
 
 ## Observatory experience update
@@ -104,9 +106,13 @@ Scientific references: Hamed & Rao (1998), Sen (1968), SciPy, pyMannKendall and 
 OpenAI Codex assisted implementation, documentation and testing; no AI runtime calculates observations, statistics or scientific verdicts. No educational impact or user study results are invented. Independent Space Apps team project; NASA endorsement is not implied.
 
 
-## Ask BhuSanket configuration
+## Ask BhuSanket prototype
 
-The contextual assistant uses the server-side OpenAI Responses API. No API key or model was configured in this workspace during development. Free-form AI returns an explicit unavailable state. The separately labelled “Read verified summary” action uses the existing reviewed backend explanation, in English or Bangla, without a model call. In an ignored `.env.local` at the project root, set:
+The default companion is a working **prototype chatbot**: type a question or use suggested questions in English/Bangla. It answers reviewed questions about rainfall, temperature, NASA data, trends, p-values and the workspaces. **No AI API key or model setup is needed.** An open investigation can supply its actual saved finding; unknown questions are honestly identified. See [prototype questions and verification](docs/PROTOTYPE_CHAT.md).
+
+### Optional AI endpoint (not used by the prototype UI)
+
+The separately retained `/api/assistant` endpoint uses the server-side OpenAI Responses API. No API key or model was configured in this workspace during development. Free-form AI returns an explicit unavailable state. The separately labelled “Read verified summary” action uses the existing reviewed backend explanation, in English or Bangla, without a model call. In an ignored `.env.local` at the project root, set:
 
 ```dotenv
 OPENAI_API_KEY=your_real_key

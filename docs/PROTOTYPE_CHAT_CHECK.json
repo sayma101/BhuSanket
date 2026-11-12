@@ -1,0 +1,45 @@
+{
+  "base_url": "http://127.0.0.1:3002",
+  "prototype": true,
+  "ai_api_required": false,
+  "examples": [
+    {
+      "question": "Hello",
+      "topic": "greeting",
+      "answer": "Hello! I’m the BhuSanket prototype companion. Ask me about rainfall, temperature, NASA data, trends or p-values. Open an investigation if you want an explanation of its actual result."
+    },
+    {
+      "question": "What is rainfall?",
+      "topic": "rainfall",
+      "answer": "Rainfall is water falling from the atmosphere as rain, usually expressed in millimetres. In BhuSanket, NASA POWER daily precipitation is accumulated over a defined year or season, with missing-data coverage checked. A rainfall total alone does not establish flood risk."
+    },
+    {
+      "question": "Which NASA data do you use?",
+      "topic": "nasa",
+      "answer": "NASA POWER Daily supplies the numerical investigations currently implemented here. Its meteorology is model/reanalysis-derived, not a raw satellite photograph. NASA satellite images provide separately labelled historical context. Other listed dataset adapters are planned, not secretly substituted for POWER."
+    },
+    {
+      "question": "What is a p-value?",
+      "topic": "pvalue",
+      "answer": "A p-value describes how unusual the test statistic is under a no-trend model and the test assumptions. It is not the probability that a claim is true. Read it with the slope, confidence interval, data coverage and serial-dependence warnings."
+    },
+    {
+      "question": "বৃষ্টিপাত কী?",
+      "topic": "rainfall",
+      "answer": "বৃষ্টিপাত হলো বৃষ্টি হিসেবে বায়ুমণ্ডল থেকে পড়া পানি; সাধারণত মিলিমিটারে প্রকাশ করা হয়। BhuSanket-এ NASA POWER-এর দৈনিক বৃষ্টির তথ্য নির্দিষ্ট বছর বা ঋতু ধরে যোগ করা হয় এবং তথ্যের ঘাটতি দেখা হয়। শুধু বৃষ্টির মোট পরিমাণ বন্যার ঝুঁকি প্রমাণ করে না।"
+    },
+    {
+      "question": "তুমি কে?",
+      "topic": "about",
+      "answer": "BhuSanket হলো বাংলাদেশভিত্তিক Earth Systems Discovery & Evidence Lab। Explore Earth-এ স্থান অনুসন্ধান, Student Lab-এ মিশনের মাধ্যমে শেখা, Research-এ trend পরীক্ষা আর Claim Court-এ দাবি যাচাই করা যায়। আমি নির্দিষ্ট reviewed প্রশ্নের উত্তর দিই; generative AI নই।"
+    },
+    {
+      "question": "Tell me a pizza recipe",
+      "topic": "unknown",
+      "answer": "This prototype answers a reviewed set of Earth-science questions. Try “What is rainfall?”, “Which NASA data do you use?”, “What is a p-value?” or “Explain this chart”. I do not have a reviewed answer for that question yet."
+    }
+  ],
+  "actual_evidence_parity": "passed",
+  "analysis_id": "bhu-6e231962aaa0a6e3",
+  "browser_qa": "Not performed by this HTTP script"
+}

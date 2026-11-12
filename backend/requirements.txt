@@ -8,4 +8,5 @@ statsmodels>=0.14,<1
 httpx>=0.27,<1
 pyarrow>=18,<27
 reportlab>=4,<6
+pypdf>=7,<8
 pytest>=8,<10

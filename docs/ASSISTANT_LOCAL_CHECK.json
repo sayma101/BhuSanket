@@ -1,0 +1,62 @@
+{
+  "base_url": "http://127.0.0.1:3002",
+  "ai_configured": false,
+  "live_ai_call": false,
+  "analysis_id": "bhu-d9bf4b77825f56cd",
+  "verified_guides": [
+    {
+      "language": "en",
+      "topic": "summary",
+      "verified": true
+    },
+    {
+      "language": "en",
+      "topic": "chart",
+      "verified": true
+    },
+    {
+      "language": "en",
+      "topic": "uncertainty",
+      "verified": true
+    },
+    {
+      "language": "en",
+      "topic": "limits",
+      "verified": true
+    },
+    {
+      "language": "en",
+      "topic": "confidence-interval",
+      "verified": true
+    },
+    {
+      "language": "bn",
+      "topic": "summary",
+      "verified": true
+    },
+    {
+      "language": "bn",
+      "topic": "chart",
+      "verified": true
+    },
+    {
+      "language": "bn",
+      "topic": "uncertainty",
+      "verified": true
+    },
+    {
+      "language": "bn",
+      "topic": "limits",
+      "verified": true
+    },
+    {
+      "language": "bn",
+      "topic": "confidence-interval",
+      "verified": true
+    }
+  ],
+  "term_without_record": "passed",
+  "missing_context_recovery": "passed",
+  "unavailable_ai_honesty": "passed",
+  "browser_visual_qa": "Not performed by this API script"
+}

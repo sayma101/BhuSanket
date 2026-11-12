@@ -1,5 +1,7 @@
 # Deploy BhuSanket from GitHub to v0 / Vercel
 
+For the current key-free prototype, completed preflight checks and next-chat settings, start with [DEPLOYMENT_HANDOFF.md](DEPLOYMENT_HANDOFF.md).
+
 ## Why the Student Lab failed after import
 
 This repository has two runtimes: the Next.js interface and a Python/FastAPI scientific service. Student Lab loads its mission definitions from `/api/v1/claims`, then submits its original mission request to `/api/v1/trend`. Importing the Next.js project does not start `npm run lab`'s second Python process on a separate host. The previous rewrite defaulted to `127.0.0.1:8000`; this address only works when the Python server runs beside Next.js locally.

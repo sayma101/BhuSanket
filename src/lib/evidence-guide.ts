@@ -1,0 +1,17 @@
+import type {TrendResult} from './types';
+export const GUIDE_TOPICS=['summary','chart','uncertainty','limits','confidence-interval'] as const;
+export type GuideTopic=typeof GUIDE_TOPICS[number];
+/** Explicitly authored educational text, never presented as generated AI. */
+export function evidenceGuide(topic:GuideTopic,language:'en'|'bn',record?:TrendResult):string {
+  const bn=language==='bn';
+  if(topic==='confidence-interval')return bn
+    ?'আস্থা ব্যবধান পরীক্ষার শর্তের অধীনে ঢালের অনিশ্চয়তার পরিসর দেখায়। এটি ভবিষ্যৎ পূর্বাভাসের সীমা নয়, আর কোনো নির্দিষ্ট দাবি সত্য হওয়ার সম্ভাবনাও নয়।\nএই পদ্ধতির ৯৫% ব্যবধান দীর্ঘমেয়াদি পুনরাবৃত্তি-ভিত্তিক ধারণা। ধারাবাহিক তথ্যের পারস্পরিক নির্ভরতা থাকলে ব্যবধানের কার্যকারিতা বদলাতে পারে; তাই সতর্কতাগুলোও পড়ো।'
+    :'A confidence interval describes uncertainty in the estimated slope under the method’s assumptions. It is not a forecast range or the probability that a particular claim is true.\nThe 95% level describes long-run behavior of the procedure. Serial dependence can affect coverage, so read the method warnings alongside the interval.';
+  if(!record)throw Error('Run an investigation and attach its record before requesting this explanation.');
+  const fixture=record.provenance.mode==='FIXTURE';
+  const intro=bn?`${record.location.label} · ${record.variable.label} · ${record.period.start_year}–${record.period.end_year}। ${fixture?'এটি কৃত্রিম অনুশীলনের তথ্য, NASA পর্যবেক্ষণ নয়।':'সংযুক্ত backend record-এর ভিত্তিতে এই ব্যাখ্যা।'}`:`${record.location.label} · ${record.variable.label} · ${record.period.start_year}–${record.period.end_year}. ${fixture?'This is a synthetic teaching fixture, not NASA observations.':'This explanation uses the attached backend record.'}`;
+  if(topic==='summary')return `${intro}\n${record.interpretation[language]}`;
+  if(topic==='chart')return `${intro}\n${bn?'অনুভূমিক অক্ষ সময়, উল্লম্ব অক্ষ মাপ ও তার একক দেখায়। বিন্দু হলো সমষ্টিকৃত পর্যবেক্ষণ; ফাঁক শূন্য নয়। Theil–Sen রেখা থাকলে তা পরিবর্তনের দিক ও হার বোঝায়, কারণ বা ভবিষ্যৎ আবহাওয়া নয়।':'Read time along the horizontal axis and the measurement/unit on the vertical axis. Points are aggregated observations; gaps are missing, not zero. A Theil–Sen line, where available, summarizes direction and rate rather than cause or future weather.'}\n${record.interpretation[language]}`;
+  if(topic==='limits')return `${intro}\n${bn?'এটি একটি point/source-grid estimate; জেলার গড় নয়। প্রবণতা দিয়ে পরিবর্তনের কারণ, ভবিষ্যৎ বন্যা বা কোনো স্থান নিরাপদ কি না নির্ধারণ করা যায় না। একই স্থান, মাপ, ঋতু ও সময় ধরে তুলনা করো।':'This is a point/source-grid estimate, not a district average. A trend cannot identify its cause, forecast a flood or establish that a place is safe. Compare the same location, measurement, season and period.'}${record.window_sensitive?(bn?'\nনির্বাচিত সময় ও পুরো record-এর সিদ্ধান্তে পার্থক্য আছে; সময়সীমাটি সিদ্ধান্তের সঙ্গে রাখো।':'\nThe selected window and full record differ; keep the analysis period attached to the conclusion.'):''}`;
+  return `${intro}\n${bn?'ঢালের আস্থা ব্যবধান ও p-value সংযুক্ত প্রমাণে দেখো। ব্যবধান না থাকলে তা আটকে রাখা হয়েছে—শূন্য ধরা যাবে না। p-value দাবি সত্য হওয়ার সম্ভাবনা নয়। অনুপস্থিত তথ্য ও ধারাবাহিক নির্ভরতার সতর্কতা সিদ্ধান্তের সঙ্গে পড়ো।':'Inspect the slope interval and p-value in the evidence attachment. A withheld interval is unavailable, not zero. A p-value is not the probability that a claim is true. Read missing-data and serial-dependence warnings alongside the result.'}`;
+}
